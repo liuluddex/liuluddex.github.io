@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Qi Sun
+title: Lu Liu
 
 # Name pronunciation (optional)
 #name_pronunciation: Qi Sun
 
 # Full name (for SEO)
-first_name: Qi
-last_name: Sun
+first_name: Lu
+last_name: Liu
 
 # Status emoji
 status:
