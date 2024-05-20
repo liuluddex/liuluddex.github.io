@@ -3,7 +3,7 @@
 title: Lu Liu
 
 # Name pronunciation (optional)
-#name_pronunciation: Qi Sun
+#name_pronunciation: Lu Liu
 
 # Full name (for SEO)
 first_name: Lu
@@ -38,7 +38,7 @@ education:
 #    - course: PhD in Artificial Intelligence
 #      institution: Stanford University
 #      year: 2012
-    - course: Sc.D in Control Science and Engineering
+    - course: PhD in Control Science and Engineering
       institution: Huazhong University of Science and Technology
       year: 2020
     - course: BSc in Automation
@@ -119,5 +119,5 @@ social:
 highlight_name: true
 ---
 
-Qi Sun is a master of cyberspace security at Huazhong University of Science and Technology. His research interests include natural language processing, time series forecasting and big data analysis.
+Lu Liu is a doctor of control science and engineering at Huazhong University of Science and Technology. Her research interests include formal analysis and reinforcement learning.
 {style="text-align: justify;"}
