@@ -1,8 +1,9 @@
 ---
-title: Capacity Estimation of Lithium-ion Batteries
-summary: Data-Driven hybrid method for capacity estimation of lithium-ion batteries. 
+title: Longitudinal Vehicle Motion Control Based on Deep Reinforcement Learning and Automata
+summary: Longitudinal Vehicle Motion Control Based on Deep Reinforcement Learning and Automata.
 tags:
-  - Time Series
+  - Reinforcement Learning
+  - Formal Analysis
 date: '2024-05-10T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -30,4 +31,4 @@ links:
 #slides: example
 ---
 
-This is a project about capacity estimation of lithium-ion batteries.
+This is a project about longitudinal vehicle motion control based on deep reinforcement learning and automata.
