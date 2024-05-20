@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master of Cyberspace Security
+role: Doctor of Control Science and Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,13 +25,12 @@ organizations:
     url: https://www.hust.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include formal analysis and reinforcement learning.
 
 # Interests to show in About widget
 interests:
-  - Natural Language Processing
-  - Time Series Forecasting
-  - Big Data Analysis
+  - Formal Analysis
+  - Reinforcement Learning
 
 # Education to show in About widget
 education:
@@ -39,12 +38,12 @@ education:
 #    - course: PhD in Artificial Intelligence
 #      institution: Stanford University
 #      year: 2012
-    - course: MEng in Cyberspace Security
+    - course: Sc.D in Control Science and Engineering
       institution: Huazhong University of Science and Technology
-      year: 2022
-    - course: BSc in Data Science
-      institution: North University of China
-      year: 2018
+      year: 2020
+    - course: BSc in Automation
+      institution: Chongqing University
+      year: 2016
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
