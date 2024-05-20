@@ -39,7 +39,7 @@ abstract: Multivariate time series anomaly detection is crucial for ensuring equ
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
