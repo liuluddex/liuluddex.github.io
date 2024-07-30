@@ -1,5 +1,5 @@
 ---
-title: 'Enhanced Verification and Falsification of ADAS Under Cyber Attacks Using Hybrid Automaton Reachability and Heuristic Search'
+title: 'Interpretable Vehicular Safety Control Based on Hybrid Automata and Deep Reinforcement Learning'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -27,10 +27,10 @@ publishDate: '2024-04-06T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2025 IEEE International Conference on Robotics and Automation (ICRA)*
-publication_short: In *Atlant, USA*
+publication: In *2024 China Automation Congress (CAC)*
+publication_short: In *Qingdao, China*
 
-abstract: Advanced driver assistance systems (ADAS) are driving increased levels of vehicle automation, and it is critical to ensure their functional safety. The networking of autonomous vehicles presents a significant cybersecurity risk, which may affect functional safety. However, traditional techniques for system verification do not account for the presence of cyber attacks, rendering them inapplicable to ADAS. To address this issue, attack-guided falsification of ADAS is introduced. First, hybrid automata are used to model the different functions of ADAS to systematically analyze their dynamic behaviors and interactions. Then, Flow* is applied to compute reachable sets given an initial set of states. These reachable sets are compared with reachable sets obtained by cyber attacks, revealing difference sets generated due to cyber attacks. These difference sets are then intersected with the unsafe sets defined by the safety specifications, resulting in the unsafe sets caused by cyber attacks. Finally, three different algorithms for cyber attack path search are used to demonstrate that generating the unsafe set is not an overestimation, thereby falsifying the safety of ADAS under cyber attacks. Experimental results demonstrate that attack-guided falsification can effectively and intuitively falsify the safety of ADAS under cyber attacks.
+abstract: Advanced driving assistance system (ADAS) is an emerging technology in autonomous vehicles. It involves discrete function switches with continuous dynamics, thus sudden changes of different control strategies may lead vehicles to lose stability and safety. While existing analysis mainly focuses on individual functions, and ignores the continuity of control variables when switching between various functions. Meanwhile, interpretable control procedures with safety guarantees are often absent due to the complex vehicular systems. Therefore, verifying ADAS functions with safety guarantees and interpretability is essential, especially for adaptive cruise control which is a main function of ADAS. This paper proposes an approach for safety control based on hybrid automata and deep reinforcement learning. First, hybrid automata are built to describe ADAS functions, and then a deep reinforcement learning model is employed to optimize the strategies for adaptive cruise control. Finally, numerical experiments demonstrate that the proposed approach effectively manipulates vehicle maneuvers across four different scenarios, including acceleration, deceleration, emergency braking and vehicle cut-in. Furthermore, this approach shows strong interpretability, high efficiency, and low resource cost, with an inference requiring 1.08 ms and 456.89 MB of memory on the CPU.
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -77,4 +77,4 @@ projects:
 #slides: example
 ---
 
-This is a paper about enhanced verification and falsification of ADAS under cyber attacks using hybrid automaton reachability and heuristic search.
+This is a paper about interpretable vehicular safety control based on hybrid automata and deep reinforcement learning.
