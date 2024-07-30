@@ -1,9 +1,10 @@
 ---
-title: Longitudinal Vehicle Motion Control Based on Deep Reinforcement Learning and Automata
-summary: Longitudinal Vehicle Motion Control Based on Deep Reinforcement Learning and Automata.
+title: Interpretable Vehicular Safety Control Based on Hybrid Automata and Deep Reinforcement Learning
+summary: Interpretable Vehicular Safety Control Based on Hybrid Automata and Deep Reinforcement Learning.
 tags:
   - Reinforcement Learning
   - Formal Analysis
+  - Advanced Driver Assistance System
 date: '2024-05-10T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
@@ -31,4 +32,4 @@ links:
 #slides: example
 ---
 
-This is a project about longitudinal vehicle motion control based on deep reinforcement learning and automata.
+This is a project about longitudinal vehicle motion control based on deep reinforcement learning and hybrid automata.
