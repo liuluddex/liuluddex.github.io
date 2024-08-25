@@ -1,25 +1,24 @@
 ---
-title: Enhanced Verification and Falsification of ADAS Under Cyber Attacks Using Hybrid Automaton Reachability and Heuristic Search
-summary: Enhanced Verification and Falsification of ADAS Under Cyber Attacks Using Hybrid Automaton Reachability and Heuristic Search.
+title: Enhanced Verification and Falsification of ADAS Using Reachability Analysis and Dynamic Programming
+summary: Enhanced Verification and Falsification of ADAS Under Cybersecurity Threats Using Reachability Analysis and Dynamic Programming.
 tags:
   - Formal Analysis
-  - Advanced Driver Assistance System
-  - Falsification
-date: '2024-07-30T00:00:00Z'
+
+date: '2024-08-25T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://github.com/liuluddex/1D-ADAS-Verification'
 
-image:
-  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
+#image:
+#  caption: Photo by rawpixel on Unsplash
+#  focal_point: Smart
 
 links:
 #  - icon: twitter
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-#url_code: ''
+url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 #url_pdf: ''
 #url_slides: ''
 #url_video: ''
