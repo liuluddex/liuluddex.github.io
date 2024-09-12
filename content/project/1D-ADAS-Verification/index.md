@@ -48,3 +48,9 @@ Ensuring safety of advanced driver assistance systems (ADASs) is crucial to the 
 ### Introduction
 #### Background
 With the development of autonomous driving technology, advanced driver assistance systems (ADAS) play an increasingly important role in intra-vehicle and inter-vehicle communications. However, this connectivity also brings serious cybersecurity threats, which may lead to safety violations and even traffic accidents. Therefore, it is crucial to ensure the safety and reliability of ADAS, especially in the face of potential cyberattacks.
+
+#### Challenge 
+Cyberattacks introduce complex and unpredictable uncertainties, especially in the closed-loop system composed of ADAS and vehicle dynamics. This makes traditional safety verification methods too conservative or difficult to draw clear conclusions, resulting in insufficient guarantee of system safety.
+
+#### Target 
+This project is dedicated to solving the problem of security verification of ADAS under cyber attacks. It proposes a new method that combines verification and falsification to help detect cyberattack strategies that may lead to security violations, thereby enhancing the safety and cyber security of ADAS.
