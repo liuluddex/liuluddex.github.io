@@ -175,6 +175,8 @@ sections:
           tag: Reinforcement Learning
         - name: Formal Analysis
           tag: Formal Analysis
+        - name: Reachability Analysis
+          tag: Reachability Analysis
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
