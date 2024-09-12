@@ -3,11 +3,12 @@ title: Enhanced Verification and Falsification of ADAS Using Reachability Analys
 summary: Enhanced Verification and Falsification of ADAS Under Cybersecurity Threats Using Reachability Analysis and Dynamic Programming.
 tags:
   - Formal Analysis
+  - Reachability Analysis
 
 date: '2024-08-25T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://github.com/liuluddex/1D-ADAS-Verification'
+#external_link: 'https://github.com/liuluddex/1D-ADAS-Verification'
 
 #image:
 #  caption: Photo by rawpixel on Unsplash
@@ -18,7 +19,7 @@ links:
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-#url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
+url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 #url_pdf: ''
 #url_slides: ''
 #url_video: ''
