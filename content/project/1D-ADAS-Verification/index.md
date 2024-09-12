@@ -56,11 +56,11 @@ Cyberattacks introduce complex and unpredictable uncertainties, especially in th
 This project is dedicated to solving the problem of security verification of ADAS under cyber attacks. It proposes a new method that combines verification and falsification to help detect cyberattack strategies that may lead to security violations, thereby enhancing the safety and cyber security of ADAS.
 
 #### Solution
-##### System Modeling
-We first model the dynamics of a vehicle containing ADAS using hybrid automata to evaluate its dynamic behavior.
+  * System Modeling
+  We first model the dynamics of a vehicle containing ADAS using hybrid automata to evaluate its dynamic behavior.
 
-##### Verification Process
-Through reachability analysis, we can verify the system's security under normal conditions.
+  * Verification Process
+  Through reachability analysis, we can verify the system's security under normal conditions.
 
-##### Falsification Process
-Without a clear conclusion, we designed a dynamic programming-based falsification process to explore cyberattack strategies that could lead to security violations.
+  * Falsification Process
+  Without a clear conclusion, we designed a dynamic programming-based falsification process to explore cyberattack strategies that could lead to security violations.
