@@ -18,7 +18,7 @@ links:
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
+#url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 #url_pdf: ''
 #url_slides: ''
 #url_video: ''
