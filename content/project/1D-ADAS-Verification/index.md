@@ -452,6 +452,36 @@ We compared the performance of multiple search algorithms for searching feasible
             <td>596.698</td>
             <td>513.465</td>
         </tr>
+        <tr>
+            <td>SA</td>
+            <td>1.938</td>
+            <td>2.959</td>
+            <td>1.284</td>
+            <td>3.312</td>
+            <td>1.744</td>
+            <td>2.910</td>
+            <td>0.556</td>
+            <td>3.013</td>
+            <td>374.980</td>
+            <td>369.274</td>
+            <td>384.005</td>
+            <td>361.785</td>
+        </tr>
+        <tr>
+            <td>DP</td>
+            <td>2.125</td>
+            <td>3.455</td>
+            <td>1.347</td>
+            <td>3.238</td>
+            <td>1.740</td>
+            <td>2.896</td>
+            <td>0.480</td>
+            <td>2.572</td>
+            <td>2497.692</td>
+            <td>4196.656</td>
+            <td>1775.631</td>
+            <td>3641.464</td>
+        </tr>
     </tbody>
 </table>
 
