@@ -4,7 +4,6 @@ summary: Enhanced Verification and Falsification of Safety and Cybersecurity for
 tags:
   - Formal Analysis
   - Reachability Analysis
-featured: false
 
 date: '2024-08-25T00:00:00Z'
 
@@ -71,6 +70,11 @@ In this section, we present the application validation results of the Flow* mode
     width: 80%;
     border-collapse: collapse;
     text-align: center;
+  }
+
+  .featured-image {
+      width: 60%;   /* 设置宽度为720px */
+      height: auto;   /* 保持图片的纵横比 */
   }
 
   th {
