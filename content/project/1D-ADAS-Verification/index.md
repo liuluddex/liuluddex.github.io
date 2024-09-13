@@ -130,6 +130,7 @@ In this section, we present the functional test results of the Flow* model in mo
           }
           table th, table td {
               border-bottom: 1px solid black;
+              border-top: 1px solid black;
               padding: 8px;
           }
           table tr:last-child td {
