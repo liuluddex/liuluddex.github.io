@@ -52,16 +52,17 @@ In this section, we present the application validation results of the Flow* mode
               width: 100%;
           }
           table th, table td {
-              border-top: 1px solid black;
-              border-bottom: 1px solid black;
               padding: 8px;
+          } 
+          table thead th {
+              border-top: 2px solid black;  /* 顶部粗线 */
+              border-bottom: 1px solid black;  /* 中线 */
           }
-          table tr {
-              border-bottom: 1px solid black;
-              border-top: 1px solid black;
+          table tbody tr:last-child td {
+              border-bottom: 2px solid black;  /* 底部粗线 */
           }
-          table tr:last-child td {
-              border-bottom: 2px solid black;
+          table tbody td {
+              border-bottom: 1px solid black;  /* 默认每行的细底线 */
           }
     </style>
     <caption>Tab. 1. Initial State Sets</caption>
