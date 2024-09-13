@@ -52,17 +52,17 @@ In this section, we present the application validation results of the Flow* mode
   
   .full_table {
     display: table;
-    width: 100%;
+    width: 80%;
   }
   
   .full_table table thead {
     display: table;
-    width: 100%;
+    width: 80%;
   }
   
   .full_table table tbody {
     display: table;
-    width: 100%;
+    width: 80%;
   }
 
   table {
@@ -98,7 +98,7 @@ In this section, we present the application validation results of the Flow* mode
   }
 
   figure img {
-    width: 1000px;
+    width: 80%;
     height: auto;
   }
 </style>
