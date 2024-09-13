@@ -31,7 +31,7 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 - [Experimental Results](#experimental-results)
   - [Application Validation](#application-validation)
   - [Reachable Sets with Cyberattacks](#reachable-sets-with-cyberattacks)
@@ -75,11 +75,15 @@ In this section, we present the application validation results of the Flow* mode
     background-color: black; /* 将表格头部背景颜色设为黑色 */
     color: white; /* 表头文字设为白色 */
     padding: 10px;
+    text-align: center; /* 水平居中 */
+    vertical-align: middle; /* 垂直居中 */
   }
 
   td {
     padding: 10px;
     border: 1px solid #ddd;
+    text-align: center; /* 水平居中 */
+    vertical-align: middle; /* 垂直居中 */
   }
 
   /* 确保跨行的单元格居中 */
