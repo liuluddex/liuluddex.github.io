@@ -45,7 +45,7 @@ In this section, we present the application validation results of the Flow* mode
 
 <style>
   .article-container {
-    max-width: 920px !important;
+    max-width: 1270px !important;
     padding: 0 20px 0 20px;
     margin: 0 auto 0 auto;
   }
