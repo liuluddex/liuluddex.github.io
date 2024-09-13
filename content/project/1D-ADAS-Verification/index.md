@@ -66,7 +66,7 @@ In this section, we present the application validation results of the Flow* mode
   }
 
   table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
     text-align: center;
   }
