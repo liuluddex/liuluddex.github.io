@@ -44,6 +44,27 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 In this section, we present the application validation results of the Flow* model in more detail. First, we give six initial state sets, as shown in Tab. 1.
 
 <style>
+  .article-container {
+    max-width: 920px !important;
+    padding: 0 20px 0 20px;
+    margin: 0 auto 0 auto;
+  }
+  
+  .full_table {
+    display: table;
+    width: 100%;
+  }
+  
+  .full_table table thead {
+    display: table;
+    width: 100%;
+  }
+  
+  .full_table table tbody {
+    display: table;
+    width: 100%;
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
