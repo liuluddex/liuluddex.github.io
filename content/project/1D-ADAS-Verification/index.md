@@ -292,7 +292,7 @@ In this section, we will show more reachable sets corresponding to the initial s
     </tbody>
 </table>
 
-We simulated cyberattacks on perceptions of relative distance and ego vehicle speed, respectively, with Flow* models [abnormal_dr.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/abnormal_dr.model) and [abnormal_v1.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/abnormal_v1.model).
+We simulated cyberattacks on perceptions of relative distance \(d_r\) and ego vehicle speed \(v_1\), respectively, with Flow* models [abnormal_dr.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/abnormal_dr.model) and [abnormal_v1.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/abnormal_v1.model).
 
 {{< figure src="images/reachable_sets.png" title="Fig. 2. Reachable Sets." >}}
 
