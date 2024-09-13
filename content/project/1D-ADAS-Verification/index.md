@@ -433,6 +433,21 @@ We compared the performance of multiple search algorithms for searching feasible
             <td>385.402</td>
             <td>/</td>
         </tr>
+        <tr>
+            <td>CE</td>
+            <td>1.995</td>
+            <td>3.267</td>
+            <td>0.533</td>
+            <td>3.255</td>
+            <td>1.740</td>
+            <td>2.904</td>
+            <td>0.480</td>
+            <td>3.236</td>
+            <td>533.561</td>
+            <td>538.393</td>
+            <td>596.698</td>
+            <td>513.465</td>
+        </tr>
     </tbody>
 </table>
 
