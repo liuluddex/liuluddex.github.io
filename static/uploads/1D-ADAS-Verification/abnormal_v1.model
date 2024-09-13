@@ -1,0 +1,220 @@
+hybrid reachability
+{
+    state var v1, v2, d1, d2, t, dr, q, v1_atk
+
+    setting
+    {
+        fixed steps 0.01
+        time 4
+        remainder estimation 1e-3
+        identity precondition
+        gnuplot interval t, dr
+        adaptive orders { min 1 , max 8 }
+        cutoff 1e-12
+        precision 100
+        output abnormal
+        max jumps 5
+        print on
+    }
+
+    modes
+    {
+        q1
+        {
+            nonpoly ode
+            {
+                v1' = 0
+                v2' = 0
+                d1' = v1
+                d2' = v2
+                t' = 1
+                dr' = v2 - v1
+                q' = 0
+                v1_atk' = 0
+            }
+            inv
+            {
+                v1 >= 0
+                v1_atk >= 0
+                dr >= 75
+            }
+        }
+
+        q2
+        {
+            nonpoly ode
+            {
+                v1' = 0.0125 * ((75 - dr) * (v2 - v1_atk))
+                v2' = 0
+                d1' = v1
+                d2' = v2
+                t' = 1
+                dr' = v2 - v1
+                q' = 0
+                v1_atk' = 0.0125 * ((75 - dr) * (v2 - v1_atk))
+            }
+            inv
+            {
+                v2 - v1_atk <= 0
+                v1 >= 0
+                v1_atk >= 0
+                -(dr - 3) - 1.6 * (v2 - v1_atk) <= 0
+                dr <= 75
+                dr >= 3
+            }
+        }
+
+        q3
+        {
+            nonpoly ode
+            {
+                v1' = -4.9
+                v2' = 0
+                d1' = v1
+                d2' = v2
+                t' = 1
+                dr' = v2 - v1
+                q' = 0
+                v1_atk' = -4.9 + [-4, 0]
+            }
+            inv
+            {
+                v2 - v1_atk <= 0
+                v1 >= 0
+                v1_atk >= 0
+                -(dr - 3) - 1.6 * (v2 - v1_atk) >= 0
+                -(dr - 3) - 0.6 * (v2 - v1_atk) <= 0
+                dr >= 0
+            }
+        }
+
+        q4
+        {
+            nonpoly ode
+            {
+                v1' = -9.8
+                v2' = 0
+                d1' = v1
+                d2' = v2
+                t' = 1
+                dr' = v2 - v1
+                q' = 0
+                v1_atk' = -9.8
+            }
+            inv
+            {
+                v1 >= 0
+                v1_atk >= 0
+                dr >= 0
+            }
+        }
+
+        q5
+        {
+            nonpoly ode
+            {
+                v1' = 0
+                v2' = 0
+                d1' = v1
+                d2' = v2
+                t' = 1
+                dr' = v2 - v1
+                q' = 0
+                v1_atk' = 0
+            }
+            inv
+            {
+                v1 = 0
+                dr >= 0
+            }
+        }
+    }
+
+    jumps
+    {
+        q4 -> q5
+        guard {
+            v1 = 0
+            dr >= 0
+        }
+        reset {
+            q' := 4
+        }
+        interval aggregation
+
+        q1 -> q3
+        guard {
+            v2 - v1_atk <= 0
+            -(dr - 3) - 1.6 * (v2 - v1_atk) >= 0
+            dr <= 75
+            dr >= 0
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q1 -> q2
+        guard {
+            v2 - v1_atk <= 0
+            -(dr - 3) - 1.6 * (v2 - v1_atk) <= 0
+            dr <= 75
+            dr >= 0
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q2 -> q3
+        guard {
+            v2 - v1_atk <= 0
+            -(dr - 3) - 1.6 * (v2 - v1_atk) >= 0
+            dr <= 75
+            dr >= 0
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q3 -> q4
+        guard {
+            v1_atk >= 0
+            -(dr - 3) - 0.6 * (v2 - v1_atk) >= 0
+            dr <= 75
+            dr >= 0
+        }
+        reset {
+            q' := 4
+        }
+        interval aggregation
+
+        q3 -> q2
+        guard {
+            v2 - v1_atk <= 0
+            -(dr - 3) - 1.6 * (v2 - v1_atk) <= 0
+            dr <= 75
+            dr >= 0
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+    }
+
+    init
+    {
+        q1
+        {
+            v1 in [18.4, 18.5]
+            v2 in [5, 5]
+            d1 in [0, 0]
+            d2 in [15.9, 15.9]
+            t in [0, 0]
+            dr in [15.9, 15.9]
+            q in [1, 1]
+            v1_atk in [18.4, 18.5]
+        }
+    }
+}
