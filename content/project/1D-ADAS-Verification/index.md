@@ -383,3 +383,69 @@ We used gymnasium's environment as a template to build a similar ADAS env, and i
 We compared the performance of multiple search algorithms for searching feasible attack strategies, including Random Uniform ([RAND](https://liuluddex.github.io/uploads/1D-ADAS-Verification/random_uniform.py)), Cross Entropy (CE), Simulated Annealing (SA), and Dynamic Programming ([DP](https://liuluddex.github.io/uploads/1D-ADAS-Verification/dynamic_programming.py)).
 
 ![Motion Simulation.](images/1D-ADAS-Verification-motion_simulation.gif)
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  th {
+    background-color: black; /* 将表格头部背景颜色设为黑色 */
+    color: white; /* 表头文字设为白色 */
+    padding: 10px;
+  }
+
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>Set</th>
+      <th>Route</th>
+      <th>Bound</th>
+      <th>v<sub>1</sub></th>
+      <th>v<sub>2</sub></th>
+      <th>d<sub>1</sub></th>
+      <th>d<sub>2</sub></th>
+      <th>t</th>
+      <th>d<sub>r</sub></th>
+      <th>&omega;<sub>d</sub></th>
+      <th>&omega;<sub>v1</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S<sub>1</sub></td>
+      <td>q<sub>1</sub></td>
+      <td>min</td>
+      <td>17.0</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>15.9</td>
+      <td>0.0</td>
+      <td>15.9</td>
+      <td>0.0</td>
+      <td>-4.0</td>
+    </tr>
+    <tr>
+      <td>S<sub>1</sub></td>
+      <td>q<sub>1</sub></td>
+      <td>max</td>
+      <td>18.5</td>
+      <td>5.0</td>
+      <td>0.0</td>
+      <td>15.9</td>
+      <td>0.0</td>
+      <td>15.9</td>
+      <td>4.0</td>
+      <td>0.0</td>
+    </tr>
+    <!-- 继续添加表格行 -->
+  </tbody>
+</table>
