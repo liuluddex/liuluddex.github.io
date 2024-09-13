@@ -263,7 +263,7 @@ In this section, we present the application validation results of the Flow* mode
         <tr>
             <td rowspan="2">\(S_7\)</td>
             <td rowspan="2"></td>
-            <td></td>
+            <td>min</td>
             <td></td>
             <td></td>
             <td></td>
@@ -285,7 +285,7 @@ In this section, we present the application validation results of the Flow* mode
         <tr>
             <td rowspan="2">\(S_8\)</td>
             <td rowspan="2"></td>
-            <td></td>
+            <td>min</td>
             <td></td>
             <td></td>
             <td></td>
@@ -307,7 +307,7 @@ In this section, we present the application validation results of the Flow* mode
         <tr>
             <td rowspan="2">\(S_9\)</td>
             <td rowspan="2"></td>
-            <td></td>
+            <td>min</td>
             <td></td>
             <td></td>
             <td></td>
@@ -329,7 +329,7 @@ In this section, we present the application validation results of the Flow* mode
         <tr>
             <td rowspan="2">\(S_10\)</td>
             <td rowspan="2"></td>
-            <td></td>
+            <td>min</td>
             <td></td>
             <td></td>
             <td></td>
@@ -351,7 +351,7 @@ In this section, we present the application validation results of the Flow* mode
         <tr>
             <td rowspan="2">\(S_11\)</td>
             <td rowspan="2"></td>
-            <td></td>
+            <td>min</td>
             <td></td>
             <td></td>
             <td></td>
@@ -373,7 +373,7 @@ In this section, we present the application validation results of the Flow* mode
         <tr>
             <td rowspan="2">\(S_12\)</td>
             <td rowspan="2"></td>
-            <td></td>
+            <td>min</td>
             <td></td>
             <td></td>
             <td></td>
