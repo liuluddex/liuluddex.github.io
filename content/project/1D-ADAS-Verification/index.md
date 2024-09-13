@@ -98,7 +98,7 @@ In this section, we present the application validation results of the Flow* mode
   }
 
   figure img {
-    max-width: 1000px;
+    width: 1000px;
     height: auto;
   }
 </style>
