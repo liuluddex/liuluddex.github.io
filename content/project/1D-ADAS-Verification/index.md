@@ -43,29 +43,35 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 #### Application Validation
 In this section, we present the application validation results of the Flow* model in more detail. First, we give six initial state sets, as shown in Tab. 1.
 
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  th {
+    background-color: black; /* 将表格头部背景颜色设为黑色 */
+    color: white; /* 表头文字设为白色 */
+    padding: 10px;
+  }
+
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  /* 确保跨行的单元格居中 */
+  td[rowspan] {
+    text-align: center;        /* 水平居中 */
+    vertical-align: middle;    /* 垂直居中 */
+  }
+</style>
+
 <table>
     <script type="text/javascript" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
-    <style>
-          table {
-              border-collapse: collapse;
-              width: 100%;
-          }
-          table th, table td {
-              padding: 8px;
-          } 
-          table thead th {
-              border-top: 2px solid black;  /* 顶部粗线 */
-              border-bottom: 1px solid black;  /* 中线 */
-          }
-          table tbody tr:last-child td {
-              border-bottom: 2px solid black;  /* 底部粗线 */
-          }
-          table tbody td {
-              border-bottom: 1px solid black;  /* 默认每行的细底线 */
-          }
-    </style>
     <caption>Tab. 1. Initial State Sets of Application Validation</caption>
     <thead>
         <tr>
@@ -229,29 +235,6 @@ In this section, we will show more reachable sets corresponding to the initial s
 
 <table>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <style>
-          table {
-              border-collapse: collapse;
-              width: 100%;
-          }
-          table th, table td {
-              padding: 8px;
-          } 
-          table thead th {
-              border-top: 2px solid black;  /* 顶部粗线 */
-              border-bottom: 1px solid black;  /* 中线 */
-          }
-          table thead tr {
-            border-top: 2px solid black;
-            border-bottom: 2px solid black;  
-          }
-          table tbody tr:last-child td {
-              border-bottom: 2px solid black;  /* 底部粗线 */
-          }
-          table tbody td {
-              border-bottom: 1px solid black;  /* 默认每行的细底线 */
-          }
-    </style>
     <caption>Tab. 2. Initial State Sets of Reachable Sets</caption>
     <thead>
         <tr>
@@ -383,31 +366,6 @@ We used gymnasium's environment as a template to build a similar ADAS env, and i
 We compared the performance of multiple search algorithms for searching feasible attack strategies, including Random Uniform ([RAND](https://liuluddex.github.io/uploads/1D-ADAS-Verification/random_uniform.py)), Cross Entropy (CE), Simulated Annealing (SA), and Dynamic Programming ([DP](https://liuluddex.github.io/uploads/1D-ADAS-Verification/dynamic_programming.py)).
 
 ![Motion Simulation.](images/1D-ADAS-Verification-motion_simulation.gif)
-
-<style>
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-  }
-
-  th {
-    background-color: black; /* 将表格头部背景颜色设为黑色 */
-    color: white; /* 表头文字设为白色 */
-    padding: 10px;
-  }
-
-  td {
-    padding: 10px;
-    border: 1px solid #ddd;
-  }
-
-  /* 确保跨行的单元格居中 */
-  td[rowspan] {
-    text-align: center;        /* 水平居中 */
-    vertical-align: middle;    /* 垂直居中 */
-  }
-</style>
 
 <table>
   <thead>
