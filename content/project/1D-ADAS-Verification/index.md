@@ -485,4 +485,6 @@ We compared the performance of multiple search algorithms for searching feasible
     </tbody>
 </table>
 
+Fig. 4 shows a scenario where an unsafe state is entered when the perception of relative distance is incorrect.
+
 {{< figure src="images/1D-ADAS-Verification-motion_simulation.gif" title="Fig. 4. Motion Simulation." >}}
