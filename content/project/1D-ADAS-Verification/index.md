@@ -66,7 +66,7 @@ In this section, we present the application validation results of the Flow* mode
               border-bottom: 1px solid black;  /* 默认每行的细底线 */
           }
     </style>
-    <caption>Tab. 1. Initial State Sets</caption>
+    <caption>Tab. 1. Initial State Sets of Application Validation</caption>
     <thead>
         <tr>
             <th>Set</th>
@@ -219,16 +219,80 @@ In this section, we present the application validation results of the Flow* mode
 
 Furthermore, based on the constructed Flow* model [normal.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/normal.model), the reachable sets under given initial state sets are solved, as shown in Fig. 1.
 
-[//]: # (![Application Validation.]&#40;images/application_validation.png&#41;)
+{{< figure src="images/application_validation.png" title="Fig. 1. Application Validation." >}}
 
-{{< figure src="images/application_validation.png" title="Fig. 1. Application Validation" >}}
 
-![Motion Simulation.](images/1D-ADAS-Verification-motion_simulation.gif)
 
 #### Reachable Sets with Cyberattacks
 
-What
+In this section, we will show more reachable sets corresponding to the initial state sets in Tab. 1, as shown in Fig. 2. 
+
+<table>
+    <script type="text/javascript" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <style>
+          table {
+              border-collapse: collapse;
+              width: 100%;
+          }
+          table th, table td {
+              padding: 8px;
+          } 
+          table thead th {
+              border-top: 2px solid black;  /* 顶部粗线 */
+              border-bottom: 1px solid black;  /* 中线 */
+          }
+          table tbody tr:last-child td {
+              border-bottom: 2px solid black;  /* 底部粗线 */
+          }
+          table tbody td {
+              border-bottom: 1px solid black;  /* 默认每行的细底线 */
+          }
+    </style>
+    <caption>Tab. 2. Initial State Sets of Reachable Sets</caption>
+    <thead>
+        <tr>
+            <th>Set</th>
+            <th>Route</th>
+            <th>Bound</th>
+            <th>$v_1$</th>
+            <th>$v_2$</th>
+            <th>$d_1$</th>
+            <th>$d_2$</th>
+            <th>$t$</th>
+            <th>$d_r$</th>
+            <th>$q$</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">$S_1$</td>
+            <td rowspan="2">$q_1$</td>            
+            <td>min</td>
+            <td>17.0</td>
+            <td>15.0</td>
+            <td>0.0</td>
+            <td>120.0</td>
+            <td>0.0</td>
+            <td>120.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>17.01</td>
+            <td>15.0</td>
+            <td>0.0</td>
+            <td>120.0</td>
+            <td>0.0</td>
+            <td>120.0</td>
+            <td>1</td>
+        </tr>
+    </tbody>
+</table>
 
 #### Tool Error Comparisons
 
 #### Performance Comparison of Attack Strategy Search Algorithms
+
+![Motion Simulation.](images/1D-ADAS-Verification-motion_simulation.gif)
