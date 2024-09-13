@@ -4,6 +4,7 @@ summary: Enhanced Verification and Falsification of Safety and Cybersecurity for
 tags:
   - Formal Analysis
   - Reachability Analysis
+featured: false
 
 date: '2024-08-25T00:00:00Z'
 
@@ -31,6 +32,7 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 #   Otherwise, set `slides = ""`.
 #slides: example
 ---
+
 <br><br><br><br><br><br><br>
 - [Experimental Results](#experimental-results)
   - [Application Validation](#application-validation)
