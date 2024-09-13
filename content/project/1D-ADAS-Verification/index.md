@@ -87,6 +87,12 @@ In this section, we present the application validation results of the Flow* mode
     text-align: center;        /* 水平居中 */
     vertical-align: middle;    /* 垂直居中 */
   }
+  
+  th[rowspan] {
+    text-align: center;        /* 水平居中 */
+    vertical-align: middle;    /* 垂直居中 */
+  }
+
 </style>
 
 <table>
