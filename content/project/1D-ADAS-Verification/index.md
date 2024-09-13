@@ -123,6 +123,19 @@ In this section, we present the functional test results of the Flow* model in mo
 [//]: # (| Set | Bound | $v_1$ | $v_2$ | $d_1$ | $d_2$ | $t$ | $d_r$ | $q$ |)
 
 <table>
+    <style>
+          table {
+              border-collapse: collapse;
+              width: 100%;
+          }
+          table th, table td {
+              border-bottom: 1px solid black;
+              padding: 8px;
+          }
+          table tr:last-child td {
+              border-bottom: 2px solid black;
+          }
+    </style>
     <caption>Initial State Sets</caption>
     <thead>
         <tr>
