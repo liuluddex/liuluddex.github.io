@@ -261,6 +261,8 @@ In this section, we will show more reachable sets corresponding to the initial s
             <th>\(t\)</th>
             <th>\(d_r\)</th>
             <th>\(q\)</th>
+            <th>\(\omega_{v_1}\)</th>
+            <th>\(\omega_{d_r}\)</th>
         </tr>
     </thead>
     <tbody>
@@ -275,6 +277,8 @@ In this section, we will show more reachable sets corresponding to the initial s
             <td>0.0</td>
             <td>120.0</td>
             <td>1</td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>max</td>
@@ -285,6 +289,8 @@ In this section, we will show more reachable sets corresponding to the initial s
             <td>0.0</td>
             <td>120.0</td>
             <td>1</td>
+            <td></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
