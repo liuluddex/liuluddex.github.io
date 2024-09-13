@@ -363,7 +363,50 @@ We used gymnasium's environment as a template to build a similar ADAS env, and i
 
 #### Performance Comparison of Attack Strategy Search Algorithms
 
-We compared the performance of multiple search algorithms for searching feasible attack strategies, including Random Uniform ([RAND](https://liuluddex.github.io/uploads/1D-ADAS-Verification/random_uniform.py)), Cross Entropy (CE), Simulated Annealing (SA), and Dynamic Programming ([DP](https://liuluddex.github.io/uploads/1D-ADAS-Verification/dynamic_programming.py)).
+We compared the performance of multiple search algorithms for searching feasible attack strategies, including Random Uniform ([RAND](https://liuluddex.github.io/uploads/1D-ADAS-Verification/random_uniform.py)), Cross Entropy (CE), Simulated Annealing (SA), and Dynamic Programming ([DP](https://liuluddex.github.io/uploads/1D-ADAS-Verification/dynamic_programming.py)). The results are shown in Tab. 4.
 
-![Motion Simulation.](images/1D-ADAS-Verification-motion_simulation.gif)
+<table>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <caption>Tab. 4. Performance Comparison of Attack Strategy Search Algorithms</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Algorithm</th>
+            <th colspan="4">Average Cost</th>
+            <th colspan="4">Minimum Cost</th>
+            <th colspan="4">Time Cost</th>
+        </tr>
+        <tr>
+            <th>\(S_1\) - \(d_r\)</th>
+            <th>\(S_1\) - \(v_1\)</th>
+            <th>\(S_2\) - \(d_r\)</th>
+            <th>\(S_2\) - \(v_1\)</th>
+            <th>\(S_1\) - \(d_r\)</th>
+            <th>\(S_1\) - \(v_1\)</th>
+            <th>\(S_2\) - \(d_r\)</th>
+            <th>\(S_2\) - \(v_1\)</th>
+            <th>\(S_1\) - \(d_r\)</th>
+            <th>\(S_1\) - \(v_1\)</th>
+            <th>\(S_2\) - \(d_r\)</th>
+            <th>\(S_2\) - \(v_1\)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>RAND</td>
+            <td>2.257</td>
+            <td>2.975</td>
+            <td>1.893</td>
+            <td>/</td>
+            <td>1.984</td>
+            <td>2.916</td>
+            <td>1.496</td>
+            <td>/</td>
+            <td>387.918</td>
+            <td>375.986</td>
+            <td>385.402</td>
+            <td>/</td>
+        </tr>
+    </tbody>
+</table>
 
+{{< figure src="images/1D-ADAS-Verification-motion_simulation.gif" title="Fig. 4. Motion Simulation." >}}
