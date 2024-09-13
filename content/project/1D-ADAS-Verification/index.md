@@ -139,7 +139,7 @@ In this section, we present the functional test results of the Flow* model in mo
     </thead>
     <tbody>
         <tr>
-            <td rowspan="2">S_1</td>
+            <td rowspan="2">$S_1$</td>
             <td>min</td>
             <td>17.0</td>
             <td>15.0</td>
