@@ -118,8 +118,9 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 ### Experimental Results
 
 #### Application Validation
-In this section, we present the functional test results of the Flow* model in more detail.
+In this section, we present the functional test results of the Flow* model in more detail. First, we give 20 initial state sets, as shown in Table 1.
 
+[![Motion Simulation.](https://cichengzi.github.io/uploads/projects/1D-ADAS-Verification/motion_simulation.gif)(https://liuluddex.github.io/project/1d-adas-verification)]
 
 #### Reachable Sets with Cyberattacks
 
