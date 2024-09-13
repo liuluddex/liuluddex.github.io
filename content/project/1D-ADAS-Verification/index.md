@@ -241,6 +241,10 @@ In this section, we will show more reachable sets corresponding to the initial s
               border-top: 2px solid black;  /* 顶部粗线 */
               border-bottom: 1px solid black;  /* 中线 */
           }
+          table tr {
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;  
+          }
           table tbody tr:last-child td {
               border-bottom: 2px solid black;  /* 底部粗线 */
           }
