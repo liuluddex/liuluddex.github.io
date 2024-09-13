@@ -304,6 +304,6 @@ We used gymnasium's environment as a template to build a similar ADAS env, and i
 
 #### Performance Comparison of Attack Strategy Search Algorithms
 
-We compared the performance of multiple search algorithms for searching feasible attack strategies, including Random Uniform ([RAND](https://liuluddex.github.io/uploads/1D-ADAS-Verification/random_uniform.py)), Cross Entropy (CE), Simulated Annealing (SA), and Dynamic Programming (DP).
+We compared the performance of multiple search algorithms for searching feasible attack strategies, including Random Uniform ([RAND](https://liuluddex.github.io/uploads/1D-ADAS-Verification/random_uniform.py)), Cross Entropy (CE), Simulated Annealing (SA), and Dynamic Programming ([DP](https://liuluddex.github.io/uploads/1D-ADAS-Verification/dynamic_programming.py)).
 
 ![Motion Simulation.](images/1D-ADAS-Verification-motion_simulation.gif)
