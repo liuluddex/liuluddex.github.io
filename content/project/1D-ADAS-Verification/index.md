@@ -97,6 +97,10 @@ In this section, we present the application validation results of the Flow* mode
     vertical-align: middle;    /* 垂直居中 */
   }
 
+  figure img {
+    max-width: 1000px;
+    height: auto;
+  }
 </style>
 
 <table>
