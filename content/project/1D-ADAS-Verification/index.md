@@ -289,6 +289,8 @@ In this section, we will show more reachable sets corresponding to the initial s
     </tbody>
 </table>
 
+{{< figure src="images/reachable_sets.png" title="Fig. 2. Reachable Sets." >}}
+
 #### Tool Error Comparisons
 
 #### Performance Comparison of Attack Strategy Search Algorithms
