@@ -205,6 +205,72 @@ In this section, we present the functional test results of the Flow* model in mo
             <td>80.0</td>
             <td>1</td>
         </tr>
+        <tr>
+            <td rowspan="2">$S_4$</td>
+            <td rowspan="2">q_3 -> q_4</td>
+            <td>min</td>
+            <td>17.0</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>15.0</td>
+            <td>0.0</td>
+            <td>15.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>17.01</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>15.0</td>
+            <td>0.0</td>
+            <td>15.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td rowspan="2">$S_5$</td>
+            <td rowspan="2">q_3 -> q_2</td>
+            <td>min</td>
+            <td>17.0</td>
+            <td>6.8</td>
+            <td>0.0</td>
+            <td>19.0</td>
+            <td>0.0</td>
+            <td>19.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>17.01</td>
+            <td>6.8</td>
+            <td>0.0</td>
+            <td>19.0</td>
+            <td>0.0</td>
+            <td>19.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td rowspan="2">$S_6$</td>
+            <td rowspan="2">q_2 -> q_3</td>
+            <td>min</td>
+            <td>17.0</td>
+            <td>12.0</td>
+            <td>0.0</td>
+            <td>11.0</td>
+            <td>0.0</td>
+            <td>11.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>17.01</td>
+            <td>12.0</td>
+            <td>0.0</td>
+            <td>11.0</td>
+            <td>0.0</td>
+            <td>11.0</td>
+            <td>1</td>
+        </tr>
     </tbody>
 </table>
 
