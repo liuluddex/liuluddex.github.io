@@ -254,7 +254,7 @@ In this section, we will show more reachable sets corresponding to the initial s
             <th>Set</th>
             <th>Route</th>
             <th>Bound</th>
-            <th>$v_1$</th>
+            <th>$$v_1$$</th>
             <th>$v_2$</th>
             <th>$d_1$</th>
             <th>$d_2$</th>
@@ -292,6 +292,8 @@ In this section, we will show more reachable sets corresponding to the initial s
 {{< figure src="images/reachable_sets.png" title="Fig. 2. Reachable Sets." >}}
 
 #### Tool Error Comparisons
+
+
 
 #### Performance Comparison of Attack Strategy Search Algorithms
 
