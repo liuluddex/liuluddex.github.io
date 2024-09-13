@@ -41,9 +41,7 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 ### Experimental Results
 
 #### Application Validation
-In this section, we present the application validation results of the Flow* model in more detail. First, we give six initial state sets, as shown in Table 1.
-
-[//]: # (| Set | Bound | $v_1$ | $v_2$ | $d_1$ | $d_2$ | $t$ | $d_r$ | $q$ |)
+In this section, we present the application validation results of the Flow* model in more detail. First, we give six initial state sets, as shown in Tab. 1.
 
 <table>
     <script type="text/javascript" async
@@ -219,7 +217,7 @@ In this section, we present the application validation results of the Flow* mode
     </tbody>
 </table>
 
-
+Furthermore, based on the constructed Flow* model [normal.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/normal.model), the reachable sets under given initial state sets are solved, as shown in Fig. 1.
 
 ![Motion Simulation.](images/1D-ADAS-Verification-motion_simulation.gif)
 
