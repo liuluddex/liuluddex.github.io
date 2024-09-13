@@ -219,6 +219,8 @@ In this section, we present the application validation results of the Flow* mode
 
 Furthermore, based on the constructed Flow* model [normal.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/normal.model), the reachable sets under given initial state sets are solved, as shown in Fig. 1.
 
+![Reachable Sets.](images/reachable_sets.pdf)
+
 ![Motion Simulation.](images/1D-ADAS-Verification-motion_simulation.gif)
 
 #### Reachable Sets with Cyberattacks
