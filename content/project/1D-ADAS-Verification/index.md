@@ -83,8 +83,8 @@ In this section, we present the application validation results of the Flow* mode
     </thead>
     <tbody>
         <tr>
-            <td rowspan="2">$S_1$</td>
-            <td rowspan="2">$q_1$</td>            
+            <td rowspan="2">\(S_1\)</td>
+            <td rowspan="2">\(q_1\)</td>            
             <td>min</td>
             <td>17.0</td>
             <td>15.0</td>
@@ -105,8 +105,8 @@ In this section, we present the application validation results of the Flow* mode
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">$S_2$</td>
-            <td rowspan="2">$q_2$</td>            
+            <td rowspan="2">\(S_2\)</td>
+            <td rowspan="2">\(q_2\)</td>            
             <td>min</td>
             <td>17.0</td>
             <td>10.0</td>
@@ -127,8 +127,8 @@ In this section, we present the application validation results of the Flow* mode
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">$S_3$</td>
-            <td rowspan="2">$q_1$ -> $q_2$</td>
+            <td rowspan="2">\(S_3\)</td>
+            <td rowspan="2">\(q_1\) -> \(q_2\)</td>
             <td>min</td>
             <td>17.0</td>
             <td>5.0</td>
@@ -149,8 +149,8 @@ In this section, we present the application validation results of the Flow* mode
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">$S_4$</td>
-            <td rowspan="2">$q_3$ -> $q_4$</td>
+            <td rowspan="2">\(S_4\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>
             <td>min</td>
             <td>17.0</td>
             <td>5.0</td>
@@ -171,8 +171,8 @@ In this section, we present the application validation results of the Flow* mode
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">$S_5$</td>
-            <td rowspan="2">$q_3$ -> $q_2$</td>
+            <td rowspan="2">\(S_5\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_2\)</td>
             <td>min</td>
             <td>17.0</td>
             <td>6.8</td>
@@ -193,8 +193,8 @@ In this section, we present the application validation results of the Flow* mode
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">$S_6$</td>
-            <td rowspan="2">$q_2$ -> $q_3$</td>
+            <td rowspan="2">\(S_6\)</td>
+            <td rowspan="2">\(q_2\) -> \(q_3\)</td>
             <td>min</td>
             <td>17.0</td>
             <td>12.0</td>
@@ -254,19 +254,19 @@ In this section, we will show more reachable sets corresponding to the initial s
             <th>Set</th>
             <th>Route</th>
             <th>Bound</th>
-            <th>$$v_1$$</th>
-            <th>$v_2$</th>
-            <th>$d_1$</th>
-            <th>$d_2$</th>
-            <th>$t$</th>
-            <th>$d_r$</th>
-            <th>$q$</th>
+            <th>\(v_1\)</th>
+            <th>\(v_2\)</th>
+            <th>\(d_1\)</th>
+            <th>\(d_2\)</th>
+            <th>\(t\)</th>
+            <th>\(d_r\)</th>
+            <th>\(q\)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan="2">$S_1$</td>
-            <td rowspan="2">$q_1$</td>            
+            <td rowspan="2">\(S_1\)</td>
+            <td rowspan="2">\(q_1\)</td>            
             <td>min</td>
             <td>17.0</td>
             <td>15.0</td>
@@ -288,6 +288,8 @@ In this section, we will show more reachable sets corresponding to the initial s
         </tr>
     </tbody>
 </table>
+
+We simulated cyberattacks on perceptions of relative distance and ego vehicle speed, respectively, with Flow* models 1.model and 2.model.
 
 {{< figure src="images/reachable_sets.png" title="Fig. 2. Reachable Sets." >}}
 
