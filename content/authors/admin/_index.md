@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Doctor of Control Science and Engineering
+role: Student of Control Science and Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -30,6 +30,7 @@ bio: My research interests include formal analysis and reinforcement learning.
 # Interests to show in About widget
 interests:
   - Formal Analysis
+  - Reachability Analysis
   - Reinforcement Learning
 
 # Education to show in About widget
