@@ -128,6 +128,7 @@ In this section, we present the functional test results of the Flow* model in mo
         <tr>
             <th>Set</th>
             <th>Bound</th>
+            <th>Route</th>
             <th>v_1</th>
             <th>v_2</th>
             <th>d_1</th>
@@ -141,6 +142,7 @@ In this section, we present the functional test results of the Flow* model in mo
         <tr>
             <td rowspan="2">$S_1$</td>
             <td>min</td>
+            <td rowspan="2">q_1</td>
             <td>17.0</td>
             <td>15.0</td>
             <td>0.0</td>
@@ -160,8 +162,9 @@ In this section, we present the functional test results of the Flow* model in mo
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">$S_2$</td>
+            <td rowspan="2">$S_3$</td>
             <td>min</td>
+            <td rowspan="2">q_1 -> q_2</td>
             <td>17.0</td>
             <td>5.0</td>
             <td>0.0</td>
