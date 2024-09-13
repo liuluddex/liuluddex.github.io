@@ -118,7 +118,7 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 ### Experimental Results
 
 #### Application Validation
-In this section, we present the functional test results of the Flow* model in more detail. First, we give 20 initial state sets, as shown in Table 1.
+In this section, we present the functional test results of the Flow* model in more detail. First, we give six initial state sets, as shown in Table 1.
 
 [//]: # (| Set | Bound | $v_1$ | $v_2$ | $d_1$ | $d_2$ | $t$ | $d_r$ | $q$ |)
 
@@ -159,6 +159,28 @@ In this section, we present the functional test results of the Flow* model in mo
             <td>120.0</td>
             <td>0.0</td>
             <td>120.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td rowspan="2">$S_2$</td>
+            <td rowspan="2">q_2</td>            
+            <td>min</td>
+            <td>17.0</td>
+            <td>10.0</td>
+            <td>0.0</td>
+            <td>50.0</td>
+            <td>0.0</td>
+            <td>50.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>17.01</td>
+            <td>10.0</td>
+            <td>0.0</td>
+            <td>50.0</td>
+            <td>0.0</td>
+            <td>50.0</td>
             <td>1</td>
         </tr>
         <tr>
