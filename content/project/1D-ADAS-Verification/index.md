@@ -225,12 +225,10 @@ Furthermore, based on the constructed Flow* model [normal.model](https://liuludd
 
 #### Reachable Sets with Cyberattacks
 
-In this section, we will show more reachable sets corresponding to the initial state sets in Tab. 1, as shown in Fig. 2. 
+In this section, we will show more reachable sets corresponding to the initial state sets in Tab. 2, as shown in Fig. 2. 
 
 <table>
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <style>
           table {
               border-collapse: collapse;
