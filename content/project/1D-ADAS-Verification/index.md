@@ -72,13 +72,13 @@ In this section, we present the application validation results of the Flow* mode
             <th>Set</th>
             <th>Route</th>
             <th>Bound</th>
-            <th><strong>$$v_1$$</strong></th>
-            <th><strong>$$v_2$$</strong></th>
-            <th>$d_1$</th>
-            <th>$d_2$</th>
-            <th>$t$</th>
-            <th>$d_r$</th>
-            <th>$q$</th>
+            <th>$$v_1$$</th>
+            <th>$$v_2$$</th>
+            <th>$$d_1$$</th>
+            <th>$$d_2$$</th>
+            <th>$$t$$</th>
+            <th>$$d_r$$</th>
+            <th>$$q$$</th>
         </tr>
     </thead>
     <tbody>
