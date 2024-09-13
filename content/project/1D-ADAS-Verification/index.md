@@ -298,7 +298,7 @@ We simulated cyberattacks on perceptions of relative distance $d_r$ and ego vehi
 
 #### Tool Error Comparisons
 
-
+{{< figure src="images/tool_errors.png" title="Fig. 3. Tool Error Comparisons." >}}
 
 #### Performance Comparison of Attack Strategy Search Algorithms
 
