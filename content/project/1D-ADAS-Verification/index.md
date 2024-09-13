@@ -128,95 +128,36 @@ In this section, we present the functional test results of the Flow* model in mo
         <tr>
             <th>Set</th>
             <th>Bound</th>
-            <th>v₁</th>
-            <th>v₂</th>
-            <th>ω<sub>d_r</sub></th>
-            <th>ω<sub>v₁</sub></th>
-            <th>d<sub>r</sub></th>
-            <th>d<sub>r</sub>'</th>
-            <th>v₁'</th>
-            <th>Set</th>
-            <th>Bound</th>
-            <th>v₁</th>
-            <th>v₂</th>
-            <th>ω<sub>d_r</sub></th>
-            <th>d<sub>r</sub></th>
-            <th>d<sub>r</sub>'</th>
-            <th>v₁'</th>
+            <th>v_1</th>
+            <th>v_2</th>
+            <th>d_1</th>
+            <th>d_2</th>
+            <th>t</th>
+            <th>d_r</th>
+            <th>q</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan="2">S₁</td>
+            <td rowspan="2">S_1</td>
             <td>min</td>
             <td>17.0</td>
-            <td>5.0</td>
+            <td>15.0</td>
             <td>0.0</td>
-            <td>-4.0</td>
-            <td>15.9</td>
-            <td>15.9</td>
-            <td>17.0</td>
-            <td rowspan="2">S₃</td>
-            <td>min</td>
-            <td>17.0</td>
-            <td>5.0</td>
+            <td>120.0</td>
             <td>0.0</td>
-            <td>30.0</td>
-            <td>30.0</td>
-            <td>17.0</td>
+            <td>120.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>max</td>
-            <td>18.5</td>
-            <td>5.0</td>
-            <td>4.0</td>
+            <td>17.01</td>
+            <td>15.0</td>
             <td>0.0</td>
-            <td>15.9</td>
-            <td>15.9</td>
-            <td>18.5</td>
-            <td>max</td>
-            <td>18.5</td>
-            <td>5.0</td>
-            <td>4.0</td>
-            <td>30.0</td>
-            <td>30.0</td>
-            <td>18.5</td>
-        </tr>
-        <tr>
-            <td rowspan="2">S₂</td>
-            <td>min</td>
-            <td>9.5</td>
-            <td>3.0</td>
+            <td>120.0</td>
             <td>0.0</td>
-            <td>-4.0</td>
-            <td>8.0</td>
-            <td>8.0</td>
-            <td>9.5</td>
-            <td rowspan="2">S₄</td>
-            <td>min</td>
-            <td>9.5</td>
-            <td>3.0</td>
-            <td>0.0</td>
-            <td>16.0</td>
-            <td>16.0</td>
-            <td>9.5</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>11.0</td>
-            <td>3.0</td>
-            <td>4.0</td>
-            <td>0.0</td>
-            <td>8.0</td>
-            <td>8.0</td>
-            <td>11.0</td>
-            <td>max</td>
-            <td>11.0</td>
-            <td>3.0</td>
-            <td>4.0</td>
-            <td>16.0</td>
-            <td>16.0</td>
-            <td>11.0</td>
+            <td>120.0</td>
+            <td>1</td>
         </tr>
     </tbody>
 </table>
