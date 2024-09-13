@@ -254,7 +254,7 @@ In this section, we will show more reachable sets corresponding to the initial s
     <tbody>
         <tr>
             <td rowspan="2">\(S_1\)</td>
-            <td rowspan="2">\(q_1\)</td>            
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
             <td>17.0</td>
             <td>5.0</td>
@@ -278,7 +278,7 @@ In this section, we will show more reachable sets corresponding to the initial s
         </tr>
         <tr>
             <td rowspan="2">\(S_2\)</td>
-            <td rowspan="2">\(q_1\)</td>            
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
             <td>9.5</td>
             <td>3.0</td>
@@ -302,7 +302,7 @@ In this section, we will show more reachable sets corresponding to the initial s
         </tr>
         <tr>
             <td rowspan="2">\(S_3\)</td>
-            <td rowspan="2">\(q_1\)</td>            
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
             <td>17.0</td>
             <td>5.0</td>
@@ -326,7 +326,7 @@ In this section, we will show more reachable sets corresponding to the initial s
         </tr>
         <tr>
             <td rowspan="2">\(S_4\)</td>
-            <td rowspan="2">\(q_1\)</td>            
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
             <td>9.5</td>
             <td>3.0</td>
