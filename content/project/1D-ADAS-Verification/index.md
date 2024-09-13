@@ -159,6 +159,27 @@ In this section, we present the functional test results of the Flow* model in mo
             <td>120.0</td>
             <td>1</td>
         </tr>
+        <tr>
+            <td rowspan="2">$S_2$</td>
+            <td>min</td>
+            <td>17.0</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>80.0</td>
+            <td>0.0</td>
+            <td>80.0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>17.01</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>80.0</td>
+            <td>0.0</td>
+            <td>80.0</td>
+            <td>1</td>
+        </tr>
     </tbody>
 </table>
 
