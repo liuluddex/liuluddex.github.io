@@ -34,9 +34,9 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 
 - [Experimental Results](#experimental-results)
   - [Application Validation](#application-validation)
-  - [Reachable Sets with Cyberattacks](#reachable-sets)
-  - [Tool Error Comparisons](#tool-error-comparison)
-  - [Performance Comparison of Attack Strategy Search Algorithms](#performance-comparison)
+  - [Reachable Sets with Cyberattacks](#reachable-sets-with-cyberattacks)
+  - [Tool Error Comparisons](#tool-error-comparisons)
+  - [Performance Comparison of Attack Strategy Search Algorithms](#performance-comparison-of-attack-strategy-search-algorithms)
 
 ### Experimental Results
 
