@@ -337,6 +337,30 @@ In this section, we will show more reachable sets corresponding to the initial s
             <td>4.0</td>
             <td>/</td>
         </tr>
+        <tr>
+            <td rowspan="2">\(S_4\)</td>
+            <td rowspan="2">\(q_1\)</td>            
+            <td>min</td>
+            <td>9.5</td>
+            <td>3.0</td>
+            <td>0.0</td>
+            <td>16.0</td>
+            <td>0.0</td>
+            <td>16.0</td>
+            <td>0.0</td>
+            <td>/</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>11.0</td>
+            <td>3.0</td>
+            <td>0.0</td>
+            <td>16.0</td>
+            <td>0.0</td>
+            <td>16.0</td>
+            <td>4.0</td>
+            <td>/</td>
+        </tr>
     </tbody>
 </table>
 
