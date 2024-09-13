@@ -401,6 +401,12 @@ We compared the performance of multiple search algorithms for searching feasible
     padding: 10px;
     border: 1px solid #ddd;
   }
+
+  /* 确保跨行的单元格居中 */
+  td[rowspan] {
+    text-align: center;        /* 水平居中 */
+    vertical-align: middle;    /* 垂直居中 */
+  }
 </style>
 
 <table>
@@ -421,8 +427,8 @@ We compared the performance of multiple search algorithms for searching feasible
   </thead>
   <tbody>
     <tr>
-      <td>S<sub>1</sub></td>
-      <td>q<sub>1</sub></td>
+      <td rowspan="2">S<sub>1</sub></td> <!-- S1 跨两行并局中 -->
+      <td rowspan="2">q<sub>1</sub></td> <!-- q1 跨两行 -->
       <td>min</td>
       <td>17.0</td>
       <td>5.0</td>
@@ -434,8 +440,6 @@ We compared the performance of multiple search algorithms for searching feasible
       <td>-4.0</td>
     </tr>
     <tr>
-      <td>S<sub>1</sub></td>
-      <td>q<sub>1</sub></td>
       <td>max</td>
       <td>18.5</td>
       <td>5.0</td>
@@ -449,3 +453,4 @@ We compared the performance of multiple search algorithms for searching feasible
     <!-- 继续添加表格行 -->
   </tbody>
 </table>
+
