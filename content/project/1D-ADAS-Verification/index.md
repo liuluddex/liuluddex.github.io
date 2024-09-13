@@ -141,7 +141,7 @@ In this section, we present the functional test results of the Flow* model in mo
               border-bottom: 2px solid black;
           }
     </style>
-    <caption>Initial State Sets</caption>
+    <caption>Tab. 1. Initial State Sets</caption>
     <thead>
         <tr>
             <th>Set</th>
