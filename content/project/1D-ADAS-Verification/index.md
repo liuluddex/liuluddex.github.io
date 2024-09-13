@@ -46,6 +46,9 @@ In this section, we present the application validation results of the Flow* mode
 [//]: # (| Set | Bound | $v_1$ | $v_2$ | $d_1$ | $d_2$ | $t$ | $d_r$ | $q$ |)
 
 <table>
+    <script type="text/javascript" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
     <style>
           table {
               border-collapse: collapse;
