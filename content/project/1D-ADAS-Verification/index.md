@@ -520,6 +520,102 @@ In this section, we will show more reachable sets corresponding to the initial s
             <td>4.0</td>
             <td>/</td>
         </tr>
+        <tr>
+            <td rowspan="2">\(S_5\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td>min</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(S_6\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td>min</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(S_7\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td>min</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(S_8\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td>min</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
@@ -529,9 +625,32 @@ We simulated cyberattacks on perceptions of relative distance $d_r$ and ego vehi
 
 #### Tool Error Comparisons
 
+Since there are many tools for reachability analysis of hybrid systems, we compare the two representative tools, [Flow*](https://flowstar.org/) and [CORA](https://tumcps.github.io/CORA/), as shown in Fig. 3. In the figure, the dark blue color represents the results obtained using CORA, while the light blue color indicates the results obtained using Flow*.
+
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 15px;">
+    <div style="flex: 0 1 20%;">
+        <img src="images/tool1_cora.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="flex: 0 1 20%;">
+        <img src="images/tool2_flowstar.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="flex: 0 1 20%;">
+        <img src="images/tool1_cora2.png" style="width: 100%; height: auto;">
+    </div>
+    <div style="flex: 0 1 20%;">
+        <img src="images/tool2_flowstar2.png" style="width: 100%; height: auto;">
+    </div>
+</div>
+<p style="text-align: center; font-size: medium">
+    Fig. 3. Comparison of Different Reachability Analysis Tools.
+</p>
+
+
+[//]: # ({{< figure src="images/tool_errors.png" title="Fig. 4. Tool Error Comparisons." >}})
+
 We used gymnasium's environment as a template to build a similar ADAS env, and its core code is [here](https://liuluddex.github.io/uploads/1D-ADAS-Verification/adas_env.py).
 
-{{< figure src="images/tool_errors.png" title="Fig. 3. Tool Error Comparisons." >}}
+{{< figure src="images/tool_errors.png" title="Fig. 4. Tool Error Comparisons." >}}
 
 #### Performance Comparison of Attack Strategy Search Algorithms
 
@@ -626,6 +745,6 @@ We compared the performance of multiple search algorithms for searching feasible
     </tbody>
 </table>
 
-Fig. 4 shows a scenario where an unsafe state is entered when the perception of relative distance is incorrect.
+Fig. 5 shows a scenario where an unsafe state is entered when the perception of relative distance is incorrect.
 
-{{< figure src="images/1D-ADAS-Verification-motion_simulation.gif" title="Fig. 4. Motion Simulation." >}}
+{{< figure src="images/1D-ADAS-Verification-motion_simulation.gif" title="Fig. 5. Motion Simulation." >}}
