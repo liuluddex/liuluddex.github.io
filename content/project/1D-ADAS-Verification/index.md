@@ -548,23 +548,23 @@ In this section, we will show more reachable sets corresponding to the initial s
             <td rowspan="2">\(S_6\)</td>
             <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
-            <td>8.0</td>
+            <td>9.0</td>
             <td>3.0</td>
             <td>0.0</td>
-            <td>8.0</td>
+            <td>7.5</td>
             <td>0.0</td>
-            <td>8.0</td>
+            <td>7.5</td>
             <td>0.0</td>
             <td>-4.0</td>
         </tr>
         <tr>
             <td>max</td>
-            <td>9.5</td>
+            <td>10.0</td>
             <td>3.0</td>
             <td>0.0</td>
-            <td>8.0</td>
+            <td>7.5</td>
             <td>0.0</td>
-            <td>8.0</td>
+            <td>7.5</td>
             <td>4.0</td>
             <td>0.0</td>
         </tr>
