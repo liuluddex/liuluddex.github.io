@@ -41,7 +41,7 @@ url_code: 'https://github.com/liuluddex/1D-ADAS-Verification'
 ### Experimental Results
 
 #### Application Validation
-In this section, we present the application validation results of the Flow* model in more detail. First, we give six initial state sets, as shown in Tab. 1.
+In this section, we present the application validation results of the Flow* model in more detail. First, we give twelve initial state sets, as shown in Tab. 1.
 
 <style>
   .article-container {
@@ -395,7 +395,7 @@ In this section, we present the application validation results of the Flow* mode
     </tbody>
 </table>
 
-Furthermore, based on the constructed Flow* model [normal.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/normal.model), the reachable sets under given initial state sets are solved, as shown in Fig. 1.
+Furthermore, based on the constructed Flow* model [normal.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/normal.model), the reachable sets under given initial state sets are calculated, as shown in Fig. 1.
 
 {{< figure src="images/application_validation_9_15.png" title="Fig. 1. Application Validation." >}}
 
@@ -648,7 +648,7 @@ Since there are many tools for reachability analysis of hybrid systems, we compa
 
 [//]: # ({{< figure src="images/tool_errors.png" title="Fig. 4. Tool Error Comparisons." >}})
 
-We used gymnasium's environment as a template to build a similar ADAS env, and its core code is [here](https://liuluddex.github.io/uploads/1D-ADAS-Verification/adas_env.py).
+We used gymnasium's environment as a template to build a similar ADAS env, and its core code is [here](https://liuluddex.github.io/uploads/1D-ADAS-Verification/adas_env.py). We compared the errors of the reachable sets calculated by Flow* and Python under 27 random initial state sets, as shown in Fig. 4.
 
 {{< figure src="images/tool_errors.png" title="Fig. 4. Tool Error Comparisons." >}}
 
