@@ -284,113 +284,113 @@ In this section, we present the application validation results of the Flow* mode
         </tr>
         <tr>
             <td rowspan="2">\(S_8\)</td>
-            <td rowspan="2"></td>
+            <td rowspan="2">\(q_2\)</td>
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>15.0</td>
+            <td>10.0</td>
+            <td>0.0</td>
+            <td>40.0</td>
+            <td>0.0</td>
+            <td>40.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>15.01</td>
+            <td>10.0</td>
+            <td>0.0</td>
+            <td>40.0</td>
+            <td>0.0</td>
+            <td>40.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td rowspan="2">\(S_9\)</td>
-            <td rowspan="2"></td>
+            <td rowspan="2">\(q_1\) -> \(q_2\)</td>
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>7.0</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>80.0</td>
+            <td>0.0</td>
+            <td>80.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>7.01</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>80.0</td>
+            <td>0.0</td>
+            <td>80.0</td>
+            <td>1</td>
         </tr> 
         <tr>
             <td rowspan="2">\(S_{10}\)</td>
-            <td rowspan="2"></td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>17.0</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>15.0</td>
+            <td>0.0</td>
+            <td>15.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>17.01</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>15.0</td>
+            <td>0.0</td>
+            <td>15.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td rowspan="2">\(S_{11}\)</td>
-            <td rowspan="2"></td>
+            <td rowspan="2">\(q_3\) -> \(q_2\)</td>
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>16.5</td>
+            <td>6.8</td>
+            <td>0.0</td>
+            <td>17.0</td>
+            <td>0.0</td>
+            <td>17.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>16.51</td>
+            <td>6.8</td>
+            <td>0.0</td>
+            <td>17.0</td>
+            <td>0.0</td>
+            <td>17.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td rowspan="2">\(S_{12}\)</td>
-            <td rowspan="2"></td>
+            <td rowspan="2">\(q_2\) -> \(q_3\)</td>
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>15.0</td>
+            <td>10.0</td>
+            <td>0.0</td>
+            <td>11.0</td>
+            <td>0.0</td>
+            <td>11.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>15.01</td>
+            <td>10.0</td>
+            <td>0.0</td>
+            <td>11.0</td>
+            <td>0.0</td>
+            <td>11.0</td>
+            <td>1</td>
         </tr>
     </tbody>
 </table>
