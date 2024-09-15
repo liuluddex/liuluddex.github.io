@@ -524,7 +524,7 @@ In this section, we will show more reachable sets corresponding to the initial s
             <td rowspan="2">\(S_5\)</td>
             <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
-            <td>15.5</td>
+            <td>16.0</td>
             <td>5.0</td>
             <td>0.0</td>
             <td>15.9</td>
