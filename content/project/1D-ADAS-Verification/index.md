@@ -589,7 +589,7 @@ In this section, we will show more reachable sets corresponding to the initial s
             <td>30.0</td>
             <td>0.0</td>
             <td>30.0</td>
-            <td>0.0</td>
+            <td>4.0</td>
             <td>/</td>
         </tr>
         <tr>
