@@ -397,7 +397,7 @@ In this section, we present the application validation results of the Flow* mode
 
 Furthermore, based on the constructed Flow* model [normal.model](https://liuluddex.github.io/uploads/1D-ADAS-Verification/normal.model), the reachable sets under given initial state sets are solved, as shown in Fig. 1.
 
-{{< figure src="images/application_validation.png" title="Fig. 1. Application Validation." >}}
+{{< figure src="images/application_validation_9_15.png" title="Fig. 1. Application Validation." >}}
 
 
 
