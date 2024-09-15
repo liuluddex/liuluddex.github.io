@@ -474,7 +474,7 @@ In this section, we will show more reachable sets corresponding to the initial s
         </tr>
         <tr>
             <td rowspan="2">\(S_3\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td rowspan="2">\(q_2\)</td>            
             <td>min</td>
             <td>17.0</td>
             <td>5.0</td>
@@ -498,7 +498,7 @@ In this section, we will show more reachable sets corresponding to the initial s
         </tr>
         <tr>
             <td rowspan="2">\(S_4\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td rowspan="2">\(q_2\)</td>            
             <td>min</td>
             <td>9.5</td>
             <td>3.0</td>
@@ -524,97 +524,97 @@ In this section, we will show more reachable sets corresponding to the initial s
             <td rowspan="2">\(S_5\)</td>
             <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>15.5</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>15.9</td>
+            <td>0.0</td>
+            <td>15.9</td>
+            <td>0.0</td>
+            <td>-4.0</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>17.0</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>15.9</td>
+            <td>0.0</td>
+            <td>15.9</td>
+            <td>4.0</td>
+            <td>0.0</td>
         </tr>
         <tr>
             <td rowspan="2">\(S_6\)</td>
             <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>8.0</td>
+            <td>3.0</td>
+            <td>0.0</td>
+            <td>8.0</td>
+            <td>0.0</td>
+            <td>8.0</td>
+            <td>0.0</td>
+            <td>-4.0</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>9.5</td>
+            <td>3.0</td>
+            <td>0.0</td>
+            <td>8.0</td>
+            <td>0.0</td>
+            <td>8.0</td>
+            <td>4.0</td>
+            <td>0.0</td>
         </tr>
         <tr>
             <td rowspan="2">\(S_7\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td rowspan="2">\(q_2\)</td>            
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>15.5</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>30.0</td>
+            <td>0.0</td>
+            <td>30.0</td>
+            <td>0.0</td>
+            <td>/</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>17.0</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>30.0</td>
+            <td>0.0</td>
+            <td>30.0</td>
+            <td>0.0</td>
+            <td>/</td>
         </tr>
         <tr>
             <td rowspan="2">\(S_8\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td rowspan="2">\(q_2\)</td>            
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>8.0</td>
+            <td>3.0</td>
+            <td>0.0</td>
+            <td>16.0</td>
+            <td>0.0</td>
+            <td>16.0</td>
+            <td>0.0</td>
+            <td>/</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>9.5</td>
+            <td>3.0</td>
+            <td>0.0</td>
+            <td>16.0</td>
+            <td>0.0</td>
+            <td>16.0</td>
+            <td>4.0</td>
+            <td>/</td>
         </tr>
     </tbody>
 </table>
