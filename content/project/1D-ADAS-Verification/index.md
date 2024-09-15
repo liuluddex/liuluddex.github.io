@@ -262,25 +262,25 @@ In this section, we present the application validation results of the Flow* mode
         </tr>
         <tr>
             <td rowspan="2">\(S_7\)</td>
-            <td rowspan="2"></td>
+            <td rowspan="2">\(q_1\)</td>
             <td>min</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>7.0</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>130.0</td>
+            <td>0.0</td>
+            <td>130.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td>max</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>7.01</td>
+            <td>5.0</td>
+            <td>0.0</td>
+            <td>130.0</td>
+            <td>0.0</td>
+            <td>130.0</td>
+            <td>1</td>
         </tr>
         <tr>
             <td rowspan="2">\(S_8\)</td>
