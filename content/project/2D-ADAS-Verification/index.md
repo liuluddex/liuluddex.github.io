@@ -129,7 +129,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <th>\(v_{y_2}\)</th>
             <th>\(L_{x_2}\)</th>
             <th>\(L_{y_2}\)</th>
-            <th>\(theta_2\)</th>
+            <th>\(\theta_2\)</th>
             <th>\(r_2\)</th>
             <th>\(\delta_2\)</th>
             <th>\(t\)</th>
