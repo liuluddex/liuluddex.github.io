@@ -1,11 +1,11 @@
 from pdf2image import convert_from_path
 
 # Path to the PDF file
-pdf_path = 'featured.pdf'
+pdf_path = 'images/application_validation.pdf'
 
 # Convert PDF to a list of PIL images
-images = convert_from_path(pdf_path)
+images = convert_from_path(pdf_path, dpi=512)
 
 # Save each page as a PNG file
 for i, image in enumerate(images):
-    image.save(f'featured.png', 'PNG')
+    image.save(f'images/application_validation.png', 'PNG')

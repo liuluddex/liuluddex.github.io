@@ -350,7 +350,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
         </tr>
         <tr>
             <td rowspan="2">\(S_6\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_2\)</td>            
+            <td>\(q_3\) -> \(q_2\) -> \(q_3\)</td>            
             <td>min</td>
             <td>0.00</td>
             <td>17.00</td>
@@ -371,6 +371,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>1</td>
         </tr>
         <tr>
+            <td>\(q_3\) -> \(q_2\)</td>
             <td>max</td>
             <td>0.00</td>
             <td>17.01</td>
@@ -392,6 +393,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
         </tr>
     </tbody>  
 </table>
+
+{{< figure src="images/application_validation.png" title="Fig. 1. Application Validation." >}}
 
 #### Reachable Sets with Cyberattacks
 
