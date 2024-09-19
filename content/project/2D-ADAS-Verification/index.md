@@ -398,6 +398,89 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 
 #### Reachable Sets with Cyberattacks
 
+<table>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <caption>Tab. 2. Initial State Sets of Reachable Sets</caption>
+    <thead>
+        <tr>
+            <th>Set</th>
+            <th>Route</th>
+            <th>Bound</th>
+            <th>\(v_{x_1}\)</th>
+            <th>\(v_{y_1}\)</th>
+            <th>\(L_{x_1}\)</th>
+            <th>\(L_{y_1}\)</th>
+            <th>\(\theta_1\)</th>
+            <th>\(r_1\)</th>
+            <th>\(\delta_1\)</th>
+            <th>\(v_{x_2}\)</th>
+            <th>\(v_{y_2}\)</th>
+            <th>\(L_{x_2}\)</th>
+            <th>\(L_{y_2}\)</th>
+            <th>\(\theta_2\)</th>
+            <th>\(r_2\)</th>
+            <th>\(\delta_2\)</th>
+            <th>\(d_r\)</th>
+            <th>\(\omega_{d_r}\)</th>
+            <th>\(\omega_{v_{y_1}}\)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">\(S_1\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td>min</td>
+            <td>0.00</td>
+            <td>19.79</td>
+            <td>0.00</td>
+            <td>84.10</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>-1e-19</td>
+            <td>0.00</td>
+            <td>5.00</td>
+            <td>0.00</td>
+            <td>98.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>-1e-19</td>
+            <td>13.90</td>
+            <td>0.00</td>
+            <td>-4.00</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0.00</td>
+            <td>19.80</td>
+            <td>0.00</td>
+            <td>84.10</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>1e-19</td>
+            <td>0.00</td>
+            <td>5.00</td>
+            <td>0.00</td>
+            <td>98.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>1e-19</td>
+            <td>13.90</td>
+            <td>4.00</td>
+            <td>0.00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(S_2\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td>min</td>
+        </tr>
+        <tr>
+            <td>max</td>
+        </tr>
+    </tbody>
+</table>
+
+{{< figure src="images/reachable_sets.png" title="Fig. 2. Reachable Sets." >}}
+
 #### Tool Error Comparisons
 
 #### Performance Comparison of Attack Strategy Search Algorithms
