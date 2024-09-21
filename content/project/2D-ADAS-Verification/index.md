@@ -510,6 +510,48 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>2.50</td>
             <td>\</td>
         </tr>
+        <tr>
+            <td rowspan="2">\(S_3\)</td>
+            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td>min</td>
+            <td>0.00</td>
+            <td>16.00</td>
+            <td>0.00</td>
+            <td>88.10</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>-1e-19</td>
+            <td>0.00</td>
+            <td>5.00</td>
+            <td>0.00</td>
+            <td>98.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>-1e-19</td>
+            <td>9.90</td>
+            <td>0.00</td>
+            <td>\</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0.00</td>
+            <td>16.01</td>
+            <td>0.00</td>
+            <td>88.10</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>1e-19</td>
+            <td>0.00</td>
+            <td>5.00</td>
+            <td>0.00</td>
+            <td>98.00</td>
+            <td>0.00</td>
+            <td>0.00</td>
+            <td>1e-19</td>
+            <td>9.90</td>
+            <td>2.50</td>
+            <td>\</td>
+        </tr>
     </tbody>
 </table>
 
