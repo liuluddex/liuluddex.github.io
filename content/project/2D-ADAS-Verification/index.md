@@ -507,7 +507,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>0.00</td>
             <td>1e-19</td>
             <td>10.00</td>
-            <td>0.00</td>
+            <td>2.50</td>
             <td>\</td>
         </tr>
     </tbody>
