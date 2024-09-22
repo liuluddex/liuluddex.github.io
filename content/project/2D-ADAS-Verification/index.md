@@ -601,4 +601,112 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 
 #### Tool Error Comparisons
 
+<table>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <caption>Tab. 3. Initial State Sets of Tool Error Comparisons</caption>
+    <thead>
+        <tr>
+            <th>Set</th>
+            <th>Bound</th>
+            <th>\(v_{x_1}\)</th>
+            <th>\(v_{y_1}\)</th>
+            <th>\(L_{x_1}\)</th>
+            <th>\(L_{y_1}\)</th>
+            <th>\(\theta_1\)</th>
+            <th>\(r_1\)</th>
+            <th>\(\delta_1\)</th>
+            <th>\(v_{x_2}\)</th>
+            <th>\(v_{y_2}\)</th>
+            <th>\(L_{x_2}\)</th>
+            <th>\(L_{y_2}\)</th>
+            <th>\(\theta_2\)</th>
+            <th>\(r_2\)</th>
+            <th>\(\delta_2\)</th>
+            <th>\(d_r\)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">\(S_1\)</td> 
+            <td>min</td>
+            <td>-0.01</td>
+            <td>10.57</td>
+            <td>0.00</td>
+            <td>81.31</td>
+            <td>-1e-3</td>
+            <td>-1e-3</td>
+            <td>-1e-19</td>
+            <td>-0.01</td>
+            <td>4.23</td>
+            <td>0.00</td>
+            <td>98.76</td>
+            <td>-1e-3</td>
+            <td>-1e-3</td>
+            <td>-1e-19</td>
+            <td>17.45</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0.01</td>
+            <td>10.58</td>
+            <td>0.00</td>
+            <td>81.32</td>
+            <td>1e-3</td>
+            <td>1e-3</td>
+            <td>1e-19</td>
+            <td>0.01</td>
+            <td>4.23</td>
+            <td>0.00</td>
+            <td>98.76</td>
+            <td>1e-3</td>
+            <td>1e-3</td>
+            <td>1e-19</td>
+            <td>17.45</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(S_2\)</td> 
+            <td>min</td>
+            <td>-0.01</td>
+            <td>13.32</td>
+            <td>0.00</td>
+            <td>86.12</td>
+            <td>-1e-3</td>
+            <td>-1e-3</td>
+            <td>-1e-19</td>
+            <td>-0.01</td>
+            <td>10.68</td>
+            <td>0.00</td>
+            <td>98.11</td>
+            <td>-1e-3</td>
+            <td>-1e-3</td>
+            <td>-1e-19</td>
+            <td>11.99</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0.01</td>
+            <td>13.33</td>
+            <td>0.00</td>
+            <td>86.13</td>
+            <td>1e-3</td>
+            <td>1e-3</td>
+            <td>1e-19</td>
+            <td>0.01</td>
+            <td>10.68</td>
+            <td>0.00</td>
+            <td>98.11</td>
+            <td>1e-3</td>
+            <td>1e-3</td>
+            <td>1e-19</td>
+            <td>11.99</td>
+        </tr>
+    </tbody>
+</table>
+
+{{< figure src="images/tool_errors.png" title="Fig. 3. Tool Errors." >}}
+
+Plots of tool error tests.
+
+{{< figure src="images/tool_errors_comparison.png" title="Fig. 4. Tool Error Tests." >}}
+
 #### Performance Comparison of Attack Strategy Search Algorithms
