@@ -633,6 +633,54 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(vy_2 - vy_1 \leq 0 \& -d_r - 1.6 * (vy_2 - vy_1) \geq 0 \& d_r \geq 3\)</td>
             <td>\(q' := 3\)</td>
         </tr>
+        <tr>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_1\)</td>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_1\)</td>
+            <td>\(-d_r - 1.6 * (vy_2 - vy_1) \leq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 2\)</td>
+        </tr>
+        <tr>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_2\)</td>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_2\)</td>
+            <td>\(-d_r - 1.6 * (vy_2 - vy_1) \leq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 2\)</td>
+        </tr>
+        <tr>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_3\)</td>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_3\)</td>
+            <td>\(-d_r - 1.6 * (vy_2 - vy_1) \leq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 2\)</td>
+        </tr>
+        <tr>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_4\)</td>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_4\)</td>
+            <td>\(-d_r - 1.6 * (vy_2 - vy_1) \leq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 2\)</td>
+        </tr>
+        <tr>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_5\)</td>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_5\)</td>
+            <td>\(-d_r - 1.6 * (vy_2 - vy_1) \leq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 2\)</td>
+        </tr>
+        <tr>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_6\)</td>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_6\)</td>
+            <td>\(-d_r - 1.6 * (vy_2 - vy_1) \leq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 2\)</td>
+        </tr>
     </tbody>
 </table>
 
