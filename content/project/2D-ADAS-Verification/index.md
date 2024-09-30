@@ -254,27 +254,27 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
         <tr>
             <td rowspan="6">\(q_4\) (STOP)</td>
             <td>\(S_1\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0\)</td>
+            <td>\(vy_1 \geq 1 \& d_r \geq 3 \& Ly_1 \leq d_1 \& Ly_2 \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0\)</td>
         </tr>
         <tr>
             <td>\(S_2\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>\(vy_1 \geq 1 \& d_r \geq 3 \& Ly_1 \leq d_1 \& Ly_2 \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}\)</td>
         </tr>
         <tr>
             <td>\(S_3\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>\(vy_1 \geq 1 \& d_r \geq 3 \& Ly_1 \leq d_1 \& Ly_2 \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}\)</td>
         </tr>
         <tr>
             <td>\(S_4\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>\(vy_1 \geq 1 \& d_r \geq 3 \& Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
         </tr>
         <tr>
             <td>\(S_5\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>\(vy_1 \geq 1 \& d_r \geq 3 \& Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
         </tr>
         <tr>
             <td>\(S_6\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>\(vy_1 \geq 1 \& d_r \geq 3 \& Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
         </tr>
     </tbody>
 </table>
@@ -584,6 +584,54 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(S_6\)</td>
             <td>\(vy_2 - vy_1 \leq 0 \& -d_r - 1.6 \cdot (vy_2 - vy_1) \leq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
             <td>\(q' := 2\)</td>
+        </tr>
+        <tr>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_1\)</td>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_1\)</td>
+            <td>\(vy_2 - vy_1 \leq 0 \& -d_r - 1.6 * (vy_2 - vy_1) \geq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 3\)</td>
+        </tr>
+        <tr>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_2\)</td>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_2\)</td>
+            <td>\(vy_2 - vy_1 \leq 0 \& -d_r - 1.6 * (vy_2 - vy_1) \geq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 3\)</td>
+        </tr>
+        <tr>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_3\)</td>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_3\)</td>
+            <td>\(vy_2 - vy_1 \leq 0 \& -d_r - 1.6 * (vy_2 - vy_1) \geq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 3\)</td>
+        </tr>
+        <tr>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_4\)</td>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_4\)</td>
+            <td>\(vy_2 - vy_1 \leq 0 \& -d_r - 1.6 * (vy_2 - vy_1) \geq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 3\)</td>
+        </tr>
+        <tr>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_5\)</td>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_5\)</td>
+            <td>\(vy_2 - vy_1 \leq 0 \& -d_r - 1.6 * (vy_2 - vy_1) \geq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 3\)</td>
+        </tr>
+        <tr>
+            <td>\(q_2\) (ACC)</td>
+            <td>\(S_6\)</td>
+            <td>\(q_3\) (AEB)</td>
+            <td>\(S_6\)</td>
+            <td>\(vy_2 - vy_1 \leq 0 \& -d_r - 1.6 * (vy_2 - vy_1) \geq 0 \& d_r \geq 3\)</td>
+            <td>\(q' := 3\)</td>
         </tr>
     </tbody>
 </table>
