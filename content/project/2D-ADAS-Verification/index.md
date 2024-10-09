@@ -897,14 +897,14 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
             <td>0.00</td>
-            <td>19.09</td>
+            <td>19.99</td>
             <td>0.00</td>
             <td>84.10</td>
             <td>0.00</td>
             <td>0.00</td>
             <td>-1e-9</td>
             <td>0.00</td>
-            <td>5.00</td>
+            <td>7.00</td>
             <td>0.00</td>
             <td>98.00</td>
             <td>0.00</td>
@@ -917,14 +917,14 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
         <tr>
             <td>max</td>
             <td>0.00</td>
-            <td>19.10</td>
+            <td>20.00</td>
             <td>0.00</td>
             <td>84.10</td>
             <td>0.00</td>
             <td>0.00</td>
             <td>1e-9</td>
             <td>0.00</td>
-            <td>5.00</td>
+            <td>7.00</td>
             <td>0.00</td>
             <td>98.00</td>
             <td>0.00</td>
