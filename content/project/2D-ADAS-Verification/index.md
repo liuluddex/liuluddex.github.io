@@ -98,18 +98,17 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   }
 </style>
 
-- [Hybrid Automaton Modeling](#hybrid-automaton-modeling)
+- [Verification with Hybrid Automaton Reachability](#verification)
   - [Vehicle Parameters](#vehicle-parameters)
   - [Invariance of Discrete Modes](#invariance-of-discrete-modes)
   - [Transition Relation](#transition-relation)
-
-- [Experimental Results](#experimental-results)
   - [Application Validation](#application-validation)
   - [Reachable Sets with Cyberattacks](#reachable-sets-with-cyberattacks)
+- [Falsification with Deep Reinforcement Learning](#falsification)
   - [Tool Error Comparisons](#tool-error-comparisons)
   - [Performance Comparison of Attack Strategy Search Algorithms](#performance-comparison-of-attack-strategy-search-algorithms)
 
-### Hybrid Automaton Modeling
+### Verification with Hybrid Automaton Reachability
 
 #### Vehicle Parameters
 
@@ -159,7 +158,6 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
         </tr>
     </tbody>
 </table>
-
 
 #### Invariance of Discrete Modes
 
@@ -732,8 +730,6 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
     </tbody>
 </table>
 
-### Experimental Results
-
 #### Application Validation
 
 <table>
@@ -1226,6 +1222,9 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 </table>
 
 {{< figure src="images/reachable_sets.png" title="Fig. 2. Reachable Sets." >}}
+
+
+### Falsification with Deep Reinforcement Learning
 
 #### Tool Error Comparisons
 
