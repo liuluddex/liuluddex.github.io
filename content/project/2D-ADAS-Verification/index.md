@@ -1025,7 +1025,7 @@ Tab. 4 shows the six initial state sets used for application validation. These s
     </tbody>  
 </table>
 
-Fig. 1 shows the reachable sets under six different state transition routes. As can be seen from the figure, the functions of the four discrete modes are all normal. The ego vehicle can maintain a safe relative distance from the front vehicle and no collision will occur. In addition, the nonlinearity of the system can be observed, which illustrates the complexity of the system. It can also be found that there is an over-estimation problem in the reachable sets, and some areas suddenly expand.
+Fig. 1 shows the reachable sets under six different state transition routes. As can be seen from the figure, the functions of the four discrete modes are all normal. The ego vehicle can maintain a safe relative distance from the front vehicle and no collision will occur. In addition, the nonlinearity of the system can be observed, which illustrates the complexity of the system. It can also be found that there is an over-estimation problem in the reachable sets, and some areas suddenly expand. This also reflects the necessity of the subsequent falsification process.
 
 {{< figure src="images/application_validation.svg" title="Fig. 1. Application Validation." >}}
 
