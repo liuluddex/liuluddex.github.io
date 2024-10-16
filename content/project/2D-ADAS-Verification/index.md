@@ -108,9 +108,13 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   - [Tool Error Comparisons](#tool-error-comparisons)
   - [Performance Comparison of Attack Strategy Search Algorithms](#performance-comparison-of-attack-strategy-search-algorithms)
 
+<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 ### Verification with Hybrid Automaton Reachability
 
 #### Vehicle Parameters
+
+We use the Audi A7 as the subject of our study, with its key vehicle parameters listed in Tab. 1. For example, its weight is 1945 kg.
 
 <table>
     <script type="text/javascript" async
@@ -161,10 +165,9 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 
 #### Invariance of Discrete Modes
 
+We study the relative motion between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$(CC), $q_2$(ACC), $q_3$(AEB), and $q_4$(STOP). Each discrete mode has 6 clones $S_1$-$S_6$, corresponding to different states of the two cars turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton.
+
 <table>
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
     <caption>Tab. 2. Invariance of Discrete Modes</caption>
     <thead>
         <tr>
@@ -278,6 +281,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 </table>
 
 #### Transition Relation
+
+Tab. 3 shows the transition relation between different discrete modes of the hybrid automaton. Some are mode switches, others are state switches, and their corresponding conditions and resets are shown.
 
 <table>
     <script type="text/javascript" async
@@ -732,6 +737,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 
 #### Application Validation
 
+Tab. 4 shows the six initial state sets used for application validation. These six initial state sets contain six different state transition routes. The corresponding reachable sets are shown in Fig. 1.
+
 <table>
     <script type="text/javascript" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -1017,6 +1024,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
         </tr>
     </tbody>  
 </table>
+
+Fig. 1 shows the reachable sets under six different state transition routes. As can be seen from the figure, the functions of the four discrete modes are all normal. The ego vehicle can maintain a safe relative distance from the front vehicle and no collision will occur. In addition, the nonlinearity of the system can be observed, which illustrates the complexity of the system. It can also be found that there is an over-estimation problem in the reachable sets, and some areas suddenly expand.
 
 {{< figure src="images/application_validation.svg" title="Fig. 1. Application Validation." >}}
 
@@ -2340,10 +2349,10 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
     </tbody>
 </table>
 
-{{< figure src="images/tool_errors.png" title="Fig. 3. Tool Errors." >}}
+{{< figure src="images/tool_errors.svg" title="Fig. 3. Tool Errors." >}}
 
 Plots of tool error tests.
 
-{{< figure src="images/tool_errors_comparison.png" title="Fig. 4. Tool Error Tests." >}}
+{{< figure src="images/tool_errors_comparison.svg" title="Fig. 4. Tool Error Tests." >}}
 
 #### Performance Comparison of Attack Strategy Search Algorithms
