@@ -1032,9 +1032,11 @@ Fig. 1 shows the reachable sets under six different state transition routes. As 
 
 #### Reachable Sets with Cyberattacks
 
+Tab. 5 shows four different initial state sets and the range of attack intensity per unit time under the two attack strategies.
+
 <table>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <caption>Tab. 2. Initial State Sets of Reachable Sets</caption>
+    <caption>Tab. 5. Initial State Sets of Reachable Sets</caption>
     <thead>
         <tr>
             <th>Set</th>
@@ -1230,6 +1232,8 @@ Fig. 1 shows the reachable sets under six different state transition routes. As 
         </tr>
     </tbody>
 </table>
+
+Fig. 2 shows the reachable sets of four different initial state sets under two attack strategies.
 
 {{< figure src="images/reachable_sets.svg" title="Fig. 2. Reachable Sets." >}}
 
