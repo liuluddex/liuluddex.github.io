@@ -301,7 +301,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_1\) (CC)</td>
             <td>\(S_2\)</td>
             <td>\(Ly_1 \leq d_1 \& Ly_2 \geq d_1\)</td>
-            <td>\(\delta_2' := 0.5, r_2' := 0\)</td>
+            <td>\(\delta_2' := 0.07, r_2' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_2\) (ACC)</td>
@@ -309,7 +309,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_2\) (ACC)</td>
             <td>\(S_2\)</td>
             <td>\(Ly_1 \leq d_1 \& Ly_2 \geq d_1\)</td>
-            <td>\(\delta_2' := 0.5, r_2' := 0\)</td>
+            <td>\(\delta_2' := 0.07, r_2' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_3\) (AEB)</td>
@@ -317,7 +317,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_3\) (AEB)</td>
             <td>\(S_2\)</td>
             <td>\(Ly_1 \leq d_1 \& Ly_2 \geq d_1\)</td>
-            <td>\(\delta_2' := 0.5, r_2' := 0\)</td>
+            <td>\(\delta_2' := 0.07, r_2' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_4\) (STOP)</td>
@@ -325,7 +325,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_4\) (STOP)</td>
             <td>\(S_2\)</td>
             <td>\(Ly_1 \leq d_1 \& Ly_2 \geq d_1\)</td>
-            <td>\(\delta_2' := 0.5, r_2' := 0\)</td>
+            <td>\(\delta_2' := 0.07, r_2' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_1\) (CC)</td>
@@ -365,7 +365,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_1\) (CC)</td>
             <td>\(S_4\)</td>
             <td>\(Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.5, r_1' := 0\)</td>
+            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_2\) (ACC)</td>
@@ -373,7 +373,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_2\) (ACC)</td>
             <td>\(S_4\)</td>
             <td>\(Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.5, r_1' := 0\)</td>
+            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_3\) (AEB)</td>
@@ -381,7 +381,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_3\) (AEB)</td>
             <td>\(S_4\)</td>
             <td>\(Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.5, r_1' := 0\)</td>
+            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_4\) (STOP)</td>
@@ -389,7 +389,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_4\) (STOP)</td>
             <td>\(S_4\)</td>
             <td>\(Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.5, r_1' := 0\)</td>
+            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_1\) (CC)</td>
@@ -397,7 +397,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_1\) (CC)</td>
             <td>\(S_5\)</td>
             <td>\(Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.5, r_1' := 0\)</td>
+            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_2\) (ACC)</td>
@@ -405,7 +405,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_2\) (ACC)</td>
             <td>\(S_5\)</td>
             <td>\(Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.5, r_1' := 0\)</td>
+            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_3\) (AEB)</td>
@@ -413,7 +413,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_3\) (AEB)</td>
             <td>\(S_5\)</td>
             <td>\(Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.5, r_1' := 0\)</td>
+            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_4\) (STOP)</td>
@@ -421,7 +421,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>\(q_4\) (STOP)</td>
             <td>\(S_5\)</td>
             <td>\(Ly_1 \geq d_1 \& Ly_2 \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.5, r_1' := 0\)</td>
+            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
         </tr>
         <tr>
             <td>\(q_1\) (CC)</td>
@@ -1018,7 +1018,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
     </tbody>  
 </table>
 
-{{< figure src="images/application_validation.png" title="Fig. 1. Application Validation." >}}
+{{< figure src="images/application_validation.svg" title="Fig. 1. Application Validation." >}}
+
 
 #### Reachable Sets with Cyberattacks
 
@@ -1055,14 +1056,14 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
             <td>0.00</td>
-            <td>19.79</td>
+            <td>19.50</td>
             <td>0.00</td>
             <td>84.10</td>
             <td>0.00</td>
             <td>0.00</td>
             <td>-1e-9</td>
             <td>0.00</td>
-            <td>5.00</td>
+            <td>7.00</td>
             <td>0.00</td>
             <td>98.00</td>
             <td>0.00</td>
@@ -1070,69 +1071,69 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
             <td>-1e-9</td>
             <td>13.90</td>
             <td>0.00</td>
-            <td>\</td>
+            <td>-1.60</td>
         </tr>
         <tr>
             <td>max</td>
             <td>0.00</td>
-            <td>19.80</td>
+            <td>20.00</td>
             <td>0.00</td>
             <td>84.10</td>
             <td>0.00</td>
             <td>0.00</td>
             <td>1e-9</td>
             <td>0.00</td>
-            <td>5.00</td>
+            <td>7.00</td>
             <td>0.00</td>
             <td>98.00</td>
             <td>0.00</td>
             <td>0.00</td>
             <td>1e-9</td>
             <td>13.90</td>
-            <td>2.50</td>
-            <td>\</td>
+            <td>1.20</td>
+            <td>0.00</td>
         </tr>
         <tr>
             <td rowspan="2">\(In_2\)</td>
             <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
             <td>min</td>
             <td>-0.01</td>
-            <td>10.99</td>
+            <td>17.50</td>
             <td>0.00</td>
-            <td>90.99</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
+            <td>85.10</td>
+            <td>0.00</td>
+            <td>0.00</td>
             <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>3.00</td>
+            <td>0.00</td>
+            <td>5.00</td>
             <td>0.00</td>
             <td>99.00</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>8.00</td>
             <td>0.00</td>
-            <td>\</td>
+            <td>0.00</td>
+            <td>-1e-9</td>
+            <td>13.90</td>
+            <td>0.00</td>
+            <td>-1.60</td>
         </tr>
         <tr>
             <td>max</td>
             <td>0.01</td>
-            <td>11.00</td>
+            <td>18.00</td>
             <td>0.00</td>
-            <td>91.00</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
+            <td>85.10</td>
+            <td>0.00</td>
+            <td>0.00</td>
             <td>1e-9</td>
-            <td>0.01</td>
-            <td>3.00</td>
+            <td>0.00</td>
+            <td>5.00</td>
             <td>0.00</td>
             <td>99.00</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
+            <td>0.00</td>
+            <td>0.00</td>
             <td>1e-9</td>
-            <td>8.00</td>
-            <td>4.00</td>
-            <td>\</td>
+            <td>13.90</td>
+            <td>1.20</td>
+            <td>0.00</td>
         </tr>
         <tr>
             <td rowspan="2">\(In_3\)</td>
@@ -1221,7 +1222,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
     </tbody>
 </table>
 
-{{< figure src="images/reachable_sets.png" title="Fig. 2. Reachable Sets." >}}
+{{< figure src="images/reachable_sets.svg" title="Fig. 2. Reachable Sets." >}}
 
 
 ### Falsification with Deep Reinforcement Learning
