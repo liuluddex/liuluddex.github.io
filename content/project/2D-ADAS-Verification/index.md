@@ -2408,3 +2408,10 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
         </tr>
     </tbody>
 </table>
+
+#### Analysis of Energy Consumption
+
+We compare the energy consumption of different algorithms, including running time, memory usage and CPU usage, as shown in Fig. 5. It can be found that deep reinforcement learning, especially PPO, has the highest efficiency and can quickly find low-cost feasible attack strategies. In addition, its memory and CPU usage are relatively low, showing the advantages of falsification based on deep reinforcement learning.
+
+{{< figure src="images/energy_consumption.svg" title="Fig. 5. Energy Consumption Comparison." >}}
+
