@@ -1082,7 +1082,7 @@ Tab. 5 shows four different initial state sets and the range of attack intensity
             <td>-1e-9</td>
             <td>13.90</td>
             <td>0.00</td>
-            <td>-1.60</td>
+            <td>-2.40</td>
         </tr>
         <tr>
             <td>max</td>
@@ -1101,7 +1101,7 @@ Tab. 5 shows four different initial state sets and the range of attack intensity
             <td>0.00</td>
             <td>1e-9</td>
             <td>13.90</td>
-            <td>1.20</td>
+            <td>1.80</td>
             <td>0.00</td>
         </tr>
         <tr>
@@ -1124,7 +1124,7 @@ Tab. 5 shows four different initial state sets and the range of attack intensity
             <td>-1e-9</td>
             <td>13.90</td>
             <td>0.00</td>
-            <td>-1.60</td>
+            <td>-2.40</td>
         </tr>
         <tr>
             <td>max</td>
@@ -1143,7 +1143,7 @@ Tab. 5 shows four different initial state sets and the range of attack intensity
             <td>0.00</td>
             <td>1e-9</td>
             <td>13.90</td>
-            <td>1.20</td>
+            <td>1.80</td>
             <td>0.00</td>
         </tr>
         <tr>
@@ -1166,7 +1166,7 @@ Tab. 5 shows four different initial state sets and the range of attack intensity
             <td>-1e-9</td>
             <td>9.90</td>
             <td>0.00</td>
-            <td>\</td>
+            <td>-1.00</td>
         </tr>
         <tr>
             <td>max</td>
@@ -1185,8 +1185,8 @@ Tab. 5 shows four different initial state sets and the range of attack intensity
             <td>0.00</td>
             <td>1e-9</td>
             <td>9.90</td>
-            <td>2.50</td>
-            <td>\</td>
+            <td>1.00</td>
+            <td>0.00</td>
         </tr>
         <tr>
             <td rowspan="2">\(In_4\)</td>
@@ -1208,7 +1208,7 @@ Tab. 5 shows four different initial state sets and the range of attack intensity
             <td>-1e-9</td>
             <td>10.40</td>
             <td>0.00</td>
-            <td>\</td>
+            <td>-1.00</td>
         </tr>
         <tr>
             <td>max</td>
@@ -1227,13 +1227,13 @@ Tab. 5 shows four different initial state sets and the range of attack intensity
             <td>0.00</td>
             <td>1e-9</td>
             <td>10.40</td>
-            <td>2.50</td>
-            <td>\</td>
+            <td>1.00</td>
+            <td>0.00</td>
         </tr>
     </tbody>
 </table>
 
-Fig. 2 shows the reachable sets of four different initial state sets under two attack strategies.
+Fig. 2 shows the reachable sets of four different initial state sets under two attack strategies. It can be seen that when there is no cyberattack, the reachable sets do not intersect with the unsafe set. However, when the state quantity is disturbed by the cyberattack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
 
 {{< figure src="images/reachable_sets.svg" title="Fig. 2. Reachable Sets." >}}
 
@@ -1241,6 +1241,8 @@ Fig. 2 shows the reachable sets of four different initial state sets under two a
 ### Falsification with Deep Reinforcement Learning
 
 #### Tool Error Comparisons
+
+Due to the falsification part, we use Python to implement a method based on deep reinforcement learning to solve feasible attack strategies, so we need to compare the error between the Python code implementation and flow*. We compared the errors between the two code solutions under 27 different initial state sets, including root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and mean square error (MSE). Tab. 3 shows 27 initial state sets and the corresponding errors between tools.
 
 <table>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -2353,10 +2355,56 @@ Fig. 2 shows the reachable sets of four different initial state sets under two a
     </tbody>
 </table>
 
+Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range.
+
 {{< figure src="images/tool_errors.svg" title="Fig. 3. Tool Errors." >}}
 
-Plots of tool error tests.
+In more detail, Fig. 4 shows the variation of relative distance over time for 27 initial state sets. It can be seen that the results obtained by the two tools are highly consistent.
 
 {{< figure src="images/tool_errors_comparison.svg" title="Fig. 4. Tool Error Tests." >}}
 
 #### Performance Comparison of Attack Strategy Search Algorithms
+
+<table>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <caption>Tab. 4. Performance Comparison of Attack Strategy Search Algorithms</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Algorithm</th>
+            <th colspan="4">Minimum Cost</th>
+            <th colspan="4">Successful Rate</th>
+            <th colspan="4">Time Cost</th>
+        </tr>
+        <tr>
+            <th>\(In_1\) - \(d_r\)</th>
+            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_2\) - \(d_r\)</th>
+            <th>\(In_2\) - \(v_1\)</th>
+            <th>\(In_1\) - \(d_r\)</th>
+            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_2\) - \(d_r\)</th>
+            <th>\(In_2\) - \(v_1\)</th>
+            <th>\(In_1\) - \(d_r\)</th>
+            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_2\) - \(d_r\)</th>
+            <th>\(In_2\) - \(v_1\)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>CE</td>
+            <td>0.409</td>
+            <td>0.682</td>
+            <td>0.408</td>
+            <td>0.680</td>
+            <td>66.172%</td>
+            <td>71.860%</td>
+            <td>70.540%</td>
+            <td>65.882%</td>
+            <td>530.298</td>
+            <td>530.367</td>
+            <td>530.781</td>
+            <td>543.308</td>
+        </tr>
+    </tbody>
+</table>
