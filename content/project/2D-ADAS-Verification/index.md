@@ -107,6 +107,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 - [Falsification with Deep Reinforcement Learning](#falsification)
   - [Tool Error Comparisons](#tool-error-comparisons)
   - [Performance Comparison of Attack Strategy Search Algorithms](#performance-comparison-of-attack-strategy-search-algorithms)
+  - [Training of Deep Reinforcement Learning Models](#training-of-deep-reinforcement-learning-models)
+  - [Analysis of Energy Consumption](#analysis-of-energy-consumption)
 
 <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -2406,12 +2408,151 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
             <td>530.781</td>
             <td>543.308</td>
         </tr>
+        <tr>
+            <td>SA</td>
+            <td>0.412</td>
+            <td>0.680</td>
+            <td>0.410</td>
+            <td>0.676</td>
+            <td>89.649%</td>
+            <td>87.963%</td>
+            <td>89.769%</td>
+            <td>89.192%</td>
+            <td>116.361</td>
+            <td>116.419</td>
+            <td>115.903</td>
+            <td>115.419</td>
+        </tr>
+        <tr>
+            <td>WC</td>
+            <td>0.402</td>
+            <td>0.675</td>
+            <td>0.402</td>
+            <td>0.666</td>
+            <td>4.512%</td>
+            <td>1.216%</td>
+            <td>4.182%</td>
+            <td>1.623%</td>
+            <td>4573.060</td>
+            <td>4499.111</td>
+            <td>4675.637</td>
+            <td>4628.965</td>
+        </tr>
+        <tr>
+            <td>DP</td>
+            <td>0.400</td>
+            <td>0.667</td>
+            <td>0.400</td>
+            <td>0.665</td>
+            <td>13.947%</td>
+            <td>14.194%</td>
+            <td>12.938%</td>
+            <td>14.762%</td>
+            <td>11748.529</td>
+            <td>9949.106</td>
+            <td>12013.184</td>
+            <td>10234.273</td>
+        </tr>
+        <tr>
+            <td>A2C</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DQN</td>
+            <td>0.406</td>
+            <td>0.674</td>
+            <td>0.404</td>
+            <td>0.670</td>
+            <td>40.673%</td>
+            <td>6.216%</td>
+            <td>32.662%</td>
+            <td>7.294%</td>
+            <td>494.224</td>
+            <td>484.012</td>
+            <td>643.709</td>
+            <td>513.895</td>
+        </tr>
+        <tr>
+            <td>PPO</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>A2C_Veri</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DQN_Veri</td>
+            <td>0.402</td>
+            <td>0.672</td>
+            <td>0.400</td>
+            <td>0.671</td>
+            <td>27.311%</td>
+            <td>6.454%</td>
+            <td>28.444%</td>
+            <td>5.546%</td>
+            <td>469.901</td>
+            <td>488.809</td>
+            <td>556.677</td>
+            <td>558.064</td>
+        </tr>
+        <tr>
+            <td>PPO_Veri</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
     </tbody>
 </table>
 
+#### Training of Deep Reinforcement Learning Models
+
+We recorded all the deep reinforcement learning training processes, as shown in Fig. 5.
+
 #### Analysis of Energy Consumption
 
-We compare the energy consumption of different algorithms, including running time, memory usage and CPU usage, as shown in Fig. 5. It can be found that deep reinforcement learning, especially PPO, has the highest efficiency and can quickly find low-cost feasible attack strategies. In addition, its memory and CPU usage are relatively low, showing the advantages of falsification based on deep reinforcement learning.
+We compare the energy consumption of different algorithms, including running time, memory usage and CPU usage, as shown in Fig. 6. It can be found that deep reinforcement learning, especially PPO, has the highest efficiency and can quickly find low-cost feasible attack strategies. In addition, its memory and CPU usage are relatively low, showing the advantages of falsification based on deep reinforcement learning.
 
-{{< figure src="images/energy_consumption.svg" title="Fig. 5. Energy Consumption Comparison." >}}
+{{< figure src="images/energy_consumption.svg" title="Fig. 6. Energy Consumption Comparison." >}}
 
