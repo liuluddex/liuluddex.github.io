@@ -2455,18 +2455,18 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
         </tr>
         <tr>
             <td>A2C</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>0.408</td>
+            <td>0.678</td>
+            <td>0.405</td>
+            <td>0.682</td>
+            <td>1.456%</td>
+            <td>1.456%</td>
+            <td>2.427%</td>
+            <td>1.456%</td>
+            <td>179.092</td>
+            <td>175.254</td>
+            <td>174.752</td>
+            <td>185.398</td>
         </tr>
         <tr>
             <td>DQN</td>
@@ -2485,33 +2485,33 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
         </tr>
         <tr>
             <td>PPO</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>0.403</td>
+            <td>0.671</td>
+            <td>0.402</td>
+            <td>0.669</td>
+            <td>11.111%</td>
+            <td>15.375%</td>
+            <td>36.190%</td>
+            <td>24.671%</td>
+            <td>386.462</td>
+            <td>389.381</td>
+            <td>387.235</td>
+            <td>385.952</td>
         </tr>
         <tr>
             <td>A2C_Veri</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>0.406</td>
+            <td>0.678</td>
+            <td>0.407</td>
+            <td>0.675</td>
+            <td>13.967%</td>
+            <td>14.843%</td>
+            <td>18.932%</td>
+            <td>16.536%</td>
+            <td>412.093</td>
+            <td>392.047</td>
+            <td>397.103</td>
+            <td>403.572</td>
         </tr>
         <tr>
             <td>DQN_Veri</td>
@@ -2530,18 +2530,18 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
         </tr>
         <tr>
             <td>PPO_Veri</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>0.400</td>
+            <td>0.668</td>
+            <td>0.401</td>
+            <td>0.665</td>
+            <td>25.163%</td>
+            <td>23.197%</td>
+            <td>21.075%</td>
+            <td>27.693%</td>
+            <td>371.192</td>
+            <td>381.942</td>
+            <td>375.038</td>
+            <td>369.173</td>
         </tr>
     </tbody>
 </table>
@@ -2549,6 +2549,8 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
 #### Training of Deep Reinforcement Learning Models
 
 We recorded all the deep reinforcement learning training processes, as shown in Fig. 5.
+
+{{< figure src="images/drl_model_training.svg" title="Fig. 5. DRL Models Training Comparison." >}}
 
 #### Analysis of Energy Consumption
 
