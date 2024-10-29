@@ -318,7 +318,7 @@ where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longit
 
 #### Transition Relation
 
-Tab. 3 shows the transition relation between different discrete modes of the hybrid automaton. Some are mode switches, others are state switches, and their corresponding conditions and resets are shown. Since mode clones exist, it is necessary to specify both the source mode and state and the target mode and state. The core of the transition relation lies in condition and reset, one is the condition of transition, and the other is to set certain state quantities during the transfer.
+Tab. 3 shows the transition relation between different discrete modes of the hybrid automaton. Some are mode switches, others are state switches, and their corresponding conditions and resets are shown. Since mode clones exist, it is necessary to specify both the source mode and state and the target mode and state. The core of the transition relation lies in condition and reset, one is the condition of transition, and the other is to reset certain state quantities during the transfer. Here, we study the relative motion of two vehicles on a single lane in a 90-degree turn scenario. Both vehicles have three different steering states, which together give a total of six different states.
 
 <table>
     <caption>Tab. 3. Transition Relation</caption>
