@@ -34,7 +34,12 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 ---
 
 <style>
+  article {
+    width: 90%;
+  }
+
   .article-container {
+    width: 90%;
     max-width: 1270px !important;
     padding: 0 20px 0 20px;
     margin: 0 auto 0 auto;
@@ -42,21 +47,21 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   
   .full_table {
     display: table;
-    width: 80%;
+    width: 90%;
   }
   
   .full_table table thead {
     display: table;
-    width: 80%;
+    width: 90%;
   }
   
   .full_table table tbody {
     display: table;
-    width: 80%;
+    width: 90%;
   }
 
   table {
-    width: 80%;
+    width: 90%;
     border-collapse: collapse;
     margin: 20px 0;
     text-align: center;
@@ -103,7 +108,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   }
 
   figure img {
-    width: 80%;
+    width: 90%;
     height: auto;
   }
 </style>
