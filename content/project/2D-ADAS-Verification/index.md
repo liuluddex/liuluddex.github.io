@@ -67,8 +67,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   }
 
   th {
-    background-color: black; /* 将表格头部背景颜色设为黑色 */
-    color: white; /* 表头文字设为白色 */
+    background-color: skyblue; /* 将表格头部背景颜色设为黑色 */
+    color: black; /* 表头文字设为白色 */
     padding: 10px;
     text-align: center; /* 水平居中 */
     vertical-align: middle; /* 垂直居中 */
