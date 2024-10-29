@@ -314,6 +314,8 @@ There are a lot of symbolic indicators in the invariance, such as $L_{y_1}$ and 
 
 $$ TTC = \frac{d_r - d_0}{v_{y_1} - v_{y_2}} $$
 
+where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles.
+
 #### Transition Relation
 
 Tab. 3 shows the transition relation between different discrete modes of the hybrid automaton. Some are mode switches, others are state switches, and their corresponding conditions and resets are shown.
