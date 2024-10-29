@@ -84,7 +84,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
     text-align: center; /* 水平居中 */
     vertical-align: middle; /* 垂直居中 */
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   td {
