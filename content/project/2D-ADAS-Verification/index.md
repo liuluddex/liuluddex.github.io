@@ -181,7 +181,7 @@ We use the Audi A8 as the subject of our study, with its key vehicle parameters 
     </tbody>
 </table>
 
-To explain in more detail, we show the ODEs of vehicle motion as follows.
+To explain in more detail, we show the ODEs of vehicle motion as follows:
 
 $$ \dot{L_x}= v_{y}\sin\theta + v_{x}\cos\theta $$
 $$ \dot{L_y}= v_{y}\cos\theta + v_{x}\sin\theta $$ 
@@ -189,6 +189,8 @@ $$ \dot{v_x}=-\frac{C_{f}+C_{r}}{m v_{y}} v_{x} + \left(\frac{C_{r}l_{r}-C_{f}l_
 $$ \dot{v_y}= v_{x} r + \frac{F_y}{m} $$
 $$ \dot{\theta}=r $$ 
 $$ \dot{r}= \frac{C_{r}l_{r}-C_{f}l_{f}}{I_{Z} v_{y}} v_{x}- \frac{l_{r}^2 C_{r}+l_{f}^2 C_{f}}{I_{Z} v_{y}} r + \frac{C_{f} l_{f}}{I_{Z}} \delta $$
+
+where the positive direction of the y-axis is the current direction of the vehicle head, and the positive direction of the x-axis is the direction rotated 90 degrees clockwise from the positive direction of the y-axis. For example, a larger mass will result in a larger \( F_y \) when the same \( \dot{v_y} \) is desired. But similarly, \( \dot{v_x} \) is also related to \(m\) and will indirectly affect \( \dot{v_y} \).
 
 #### Invariance of Discrete Modes
 
