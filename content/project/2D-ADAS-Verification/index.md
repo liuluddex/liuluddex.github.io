@@ -314,7 +314,7 @@ There are a lot of symbolic indicators in the invariance, such as $L_{y_1}$ and 
 
 $$ TTC = \frac{d_r - d_0}{v_{y_1} - v_{y_2}} $$
 
-where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles.
+where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles. The larger the TTC, the safer the current situation is and the more time there is to control the speed. In contrast, if the TTC is smaller, the speed needs to be regulated drastically and quickly to avoid a collision.
 
 #### Transition Relation
 
