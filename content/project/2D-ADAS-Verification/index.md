@@ -309,9 +309,12 @@ We study the relative motion between two vehicles and model it using a hybrid au
 Tab. 3 shows the transition relation between different discrete modes of the hybrid automaton. Some are mode switches, others are state switches, and their corresponding conditions and resets are shown.
 
 <table>
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+
+[//]: # (    <script type="text/javascript" async)
+
+[//]: # (      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">)
+
+[//]: # (    </script>)
     <caption>Tab. 3. Transition Relation</caption>
     <thead>
         <tr>
@@ -764,9 +767,12 @@ Tab. 3 shows the transition relation between different discrete modes of the hyb
 Tab. 4 shows the six initial state sets used for application validation. These six initial state sets contain six different state transition routes. The corresponding reachable sets are shown in Fig. 1.
 
 <table>
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+
+[//]: # (    <script type="text/javascript" async)
+
+[//]: # (      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">)
+
+[//]: # (    </script>)
     <caption>Tab. 4. Initial State Sets of Application Validation</caption>
     <thead>
         <tr>
@@ -1059,7 +1065,8 @@ Fig. 1 shows the reachable sets under six different state transition routes. As 
 Tab. 5 shows four different initial state sets and the range of attack intensity per unit time under the two attack strategies.
 
 <table>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+[//]: # (    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>)
     <caption>Tab. 5. Initial State Sets of Reachable Sets</caption>
     <thead>
         <tr>
@@ -1269,7 +1276,8 @@ Fig. 2 shows the reachable sets of four different initial state sets under two a
 Due to the falsification part, we use Python to implement a method based on deep reinforcement learning to solve feasible attack strategies, so we need to compare the error between the Python code implementation and flow*. We compared the errors between the two code solutions under 27 different initial state sets, including root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and mean square error (MSE). Tab. 3 shows 27 initial state sets and the corresponding errors between tools.
 
 <table>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+[//]: # (    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>)
     <caption>Tab. 3. Initial State Sets of Tool Error Comparisons</caption>
     <thead>
         <tr>
@@ -2390,7 +2398,8 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
 #### Performance Comparison of Attack Strategy Search Algorithms
 
 <table>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+[//]: # (    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>)
     <caption>Tab. 4. Performance Comparison of Attack Strategy Search Algorithms</caption>
     <thead>
         <tr>
