@@ -321,9 +321,6 @@ where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longit
 Tab. 3 shows the transition relation between different discrete modes of the hybrid automaton. Some are mode switches, others are state switches, and their corresponding conditions and resets are shown.
 
 <table>
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
     <caption>Tab. 3. Transition Relation</caption>
     <thead>
         <tr>
@@ -776,9 +773,6 @@ Tab. 3 shows the transition relation between different discrete modes of the hyb
 Tab. 4 shows the six initial state sets used for application validation. These six initial state sets contain six different state transition routes. The corresponding reachable sets are shown in Fig. 1.
 
 <table>
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
     <caption>Tab. 4. Initial State Sets of Application Validation</caption>
     <thead>
         <tr>
