@@ -183,14 +183,12 @@ We use the Audi A8 as the subject of our study, with its key vehicle parameters 
 
 To explain in more detail, we show the ODEs of vehicle motion as follows.
 
-$$
-	\dot{L_x}= v_{y}\sin\theta + v_{x}\cos\theta \\ 
-	\dot{L_y}= v_{y}\cos\theta + v_{x}\sin\theta  \\ 
-	\dot{v_x}=-\frac{C_{f}+C_{r}}{m v_{y}} v_{x} + \left(\frac{C_{r}l_{r}-C_{f}l_{f}}{m v_{y}}-v_{y}\right) r +\frac{C_{f}}{m}\delta \\ 
-	\dot{v_y}= v_{x} r + \frac{F_y}{m} \\ 
-	\dot{\theta}=r \\ 
-	\dot{r}= \frac{C_{r}l_{r}-C_{f}l_{f}}{I_{Z} v_{y}} v_{x}- \frac{l_{r}^2 C_{r}+l_{f}^2 C_{f}}{I_{Z} v_{y}} r + \frac{C_{f} l_{f}}{I_{Z}} \delta
-$$
+$$ \dot{L_x}= v_{y}\sin\theta + v_{x}\cos\theta $$
+$$ \dot{L_y}= v_{y}\cos\theta + v_{x}\sin\theta $$ 
+$$ \dot{v_x}=-\frac{C_{f}+C_{r}}{m v_{y}} v_{x} + \left(\frac{C_{r}l_{r}-C_{f}l_{f}}{m v_{y}}-v_{y}\right) r +\frac{C_{f}}{m}\delta $$ 
+$$ \dot{v_y}= v_{x} r + \frac{F_y}{m} $$
+$$ \dot{\theta}=r $$ 
+$$ \dot{r}= \frac{C_{r}l_{r}-C_{f}l_{f}}{I_{Z} v_{y}} v_{x}- \frac{l_{r}^2 C_{r}+l_{f}^2 C_{f}}{I_{Z} v_{y}} r + \frac{C_{f} l_{f}}{I_{Z}} \delta $$
 
 #### Invariance of Discrete Modes
 
