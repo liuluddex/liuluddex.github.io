@@ -181,6 +181,19 @@ We use the Audi A8 as the subject of our study, with its key vehicle parameters 
     </tbody>
 </table>
 
+To explain in more detail, we show the ODEs of vehicle motion as follows.
+
+$$
+\begin{aligned} 
+	& \dot{L_x}= v_{y}\sin\theta + v_{x}\cos\theta \\ 
+	& \dot{L_y}= v_{y}\cos\theta + v_{x}\sin\theta  \\ 
+	& \dot{v_x}=-\frac{C_{f}+C_{r}}{m v_{y}} v_{x} + \left(\frac{C_{r}l_{r}-C_{f}l_{f}}{m v_{y}}-v_{y}\right) r +\frac{C_{f}}{m}\delta \\ 
+	& \dot{v_y}= v_{x} r + \frac{F_y}{m} \\ 
+	& \dot{\theta}=r \\ 
+	& \dot{r}= \frac{C_{r}l_{r}-C_{f}l_{f}}{I_{Z} v_{y}} v_{x}- \frac{l_{r}^2 C_{r}+l_{f}^2 C_{f}}{I_{Z} v_{y}} r + \frac{C_{f} l_{f}}{I_{Z}} \delta 	
+\end{aligned}
+$$
+
 #### Invariance of Discrete Modes
 
 We study the relative motion between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$(CC), $q_2$(ACC), $q_3$(AEB), and $q_4$(STOP). Each discrete mode has 6 clones $S_1$-$S_6$, corresponding to different states of the two cars turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton.
