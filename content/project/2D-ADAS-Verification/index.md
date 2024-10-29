@@ -42,7 +42,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 
   .article-container {
     width: 90%;
-    max-width: 1270px !important;
+    
     padding: 0 20px 0 20px;
     margin: 0 auto 0 auto;
   }
