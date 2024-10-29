@@ -195,7 +195,7 @@ where the positive direction of the y-axis is the current direction of the vehic
 
 #### Invariance of Discrete Modes
 
-We study the relative motion between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 clones $S_1 - S_6$, corresponding to different states of the two cars turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton. In fact, it is a fusion of the invariance of each mode and the invariance of the state. Invariance is a key point of hybrid automata, which defines whether a discrete mode should be maintained. If the current mode cannot be maintained, you need to consider transitioning to other modes through transition conditions.
+We study the relative motion between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 clones $S_1 - S_6$, corresponding to different states of the two vehicles turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton. In fact, it is a fusion of the invariance of each mode and the invariance of the state. Invariance is a key point of hybrid automata, which defines whether a discrete mode should be maintained. If the current mode cannot be maintained, you need to consider transitioning to other modes through transition conditions.
 
 <table>
     <caption>Tab. 2. Invariance of Discrete Modes</caption>
@@ -310,7 +310,9 @@ We study the relative motion between two vehicles and model it using a hybrid au
     </tbody>
 </table>
 
+There are a lot of symbolic indicators in the invariance, such as $L_{y_1}$ and $L_{y_2}$ are the positions of the two vehicles in the two-dimensional coordinate system, and $d_r$ is the relative distance. In the judgment of invariance, TTC is the key indicator, which refers to the remaining adjustable time to avoid a collision under the current conditions. The calculation of TTC is as follows:
 
+$$ TTC = \frac{d_r - d_0}{v_{y_1} - v_{y_2}} $$
 
 #### Transition Relation
 
