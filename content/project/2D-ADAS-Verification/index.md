@@ -129,7 +129,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   - [Training of Deep Reinforcement Learning Models](#training-of-deep-reinforcement-learning-models)
   - [Analysis of Energy Consumption](#analysis-of-energy-consumption)
 
-<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+[//]: # (<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>)
 
 ### Verification with Hybrid Automaton Reachability
 
@@ -138,9 +138,12 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 We use the Audi A7 as the subject of our study, with its key vehicle parameters listed in Tab. 1. For example, its weight is 1945 kg.
 
 <table>
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+
+[//]: # (    <script type="text/javascript" async)
+
+[//]: # (      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">)
+
+[//]: # (    </script>)
     <caption>Tab. 1. Parameters of Vehicles</caption>
     <thead>
         <tr>
