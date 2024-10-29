@@ -58,7 +58,9 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   table {
     width: 80%;
     border-collapse: collapse;
+    margin: 20px 0;
     text-align: center;
+    font-family: Arial, sans-serif;
   }
 
   .featured-image {
@@ -67,16 +69,20 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   }
 
   th {
-    background-color: skyblue; /* 将表格头部背景颜色设为黑色 */
-    color: black; /* 表头文字设为白色 */
-    padding: 10px;
+    background-color: #6C7AE0; /* 将表格头部背景颜色设为 */
+    color: #ffffff; /* 表头文字设为白色 */
+    padding: 12px;
     text-align: center; /* 水平居中 */
     vertical-align: middle; /* 垂直居中 */
+    font-weight: bold;
+    font-size: 1rem;
   }
 
   td {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #e0e0e0;
+    color: #333333;
+    background-color: #f7f7fb;
     text-align: center; /* 水平居中 */
     vertical-align: middle; /* 垂直居中 */
   }
@@ -90,6 +96,10 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   th[rowspan] {
     text-align: center;        /* 水平居中 */
     vertical-align: middle;    /* 垂直居中 */
+  }
+
+  tbody tr:hover {
+    background-color: #eaf0ff;
   }
 
   figure img {
