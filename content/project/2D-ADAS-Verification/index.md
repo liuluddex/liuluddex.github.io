@@ -135,7 +135,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 
 #### Vehicle Parameters
 
-We use the Audi A7 as the subject of our study, with its key vehicle parameters listed in Tab. 1. For example, its weight is 1945 kg.
+We use the Audi A8 as the subject of our study, with its key vehicle parameters listed in Tab. 1. For example, its weight is 1945 kg. These parameters are related to the motion of the vehicle and will be used in the ordinary differential equations (ODEs) that describe the vehicle's motion. For example, when a vehicle is turning, both longitudinal and lateral accelerations are related to the vehicle mass. In addition, the other four parameters are also related to the vehicle's steering movement and vary from vehicle to vehicle.
 
 <table>
     <script type="text/javascript" async
