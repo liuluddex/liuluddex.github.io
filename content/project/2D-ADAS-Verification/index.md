@@ -2389,14 +2389,13 @@ Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be 
 
 {{< figure src="images/tool_errors.svg" title="Fig. 3. Tool Errors." >}}
 
-In more detail, Fig. 4 shows the variation of relative distance over time for 27 initial state sets. It can be seen that the results obtained by the two tools are highly consistent.
+In more detail, Fig. 4 shows the variation of relative distance over time for 27 initial state sets. It can be seen that the results obtained by the two tools are highly consistent. It can be found that all images are very similar, but their descending slopes and values are different. In some of these scenarios, the minimum relative distance is very close to 3, which shows its riskiness. Therefore, it is necessary to verify and analyze its functional safety under the threat of cyberattacks.
 
 {{< figure src="images/tool_errors_comparison.svg" title="Fig. 4. Tool Error Tests." >}}
 
 #### Performance Comparison of Attack Strategy Search Algorithms
 
 <table>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <caption>Tab. 4. Performance Comparison of Attack Strategy Search Algorithms</caption>
     <thead>
         <tr>
