@@ -772,7 +772,7 @@ So far, we have introduced and listed the core of hybrid automata in detail. Par
 
 #### Application Validation
 
-Tab. 4 shows the six initial state sets used for application validation. These six initial state sets contain six different state transition routes. By setting the initial value of the state quantity, we can put the system in different modes at the beginning and control its mode transfer path to study whether the vehicle will collide in different scenarios. But in fact, only the transfer path $q_3 -> q_4$ is most likely to cause vehicle collision, which is due to the high relative speed and short braking time. The corresponding reachable sets are shown in Fig. 1.
+Tab. 4 shows the six initial state sets used for application validation. These six initial state sets contain six different state transition routes. By setting the initial value of the state quantity, we can put the system in different modes at the beginning and control its mode transfer path to study whether the vehicle will collide in different scenarios. But in fact, only the transfer path $q_3$ -> $q_4$ is most likely to cause vehicle collision, which is due to the high relative speed and short braking time. The corresponding reachable sets are shown in Fig. 1.
 
 <table>
     <caption>Tab. 4. Initial State Sets of Application Validation</caption>
