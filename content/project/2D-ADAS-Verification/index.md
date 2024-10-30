@@ -2579,7 +2579,7 @@ It can be seen that DP can achieve the minimum attack cost, but it is very time-
 
 #### Training of Deep Reinforcement Learning Models
 
-We recorded all the deep reinforcement learning training processes, as shown in Fig. 5.
+We recorded all the deep reinforcement learning training processes, as shown in Fig. 5. Since smaller attack costs cannot cause the system to be in an unsafe state, the change in reward is not stable (the reward for failed exploration is smaller).
 
 {{< figure src="images/drl_model_training.svg" title="Fig. 5. DRL Models Training Comparison." >}}
 
