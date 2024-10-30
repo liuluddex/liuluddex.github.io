@@ -1264,7 +1264,7 @@ In order to further study the impact of cyberattacks under this high-risk situat
     </tbody>
 </table>
 
-Fig. 2 shows the reachable sets of four different initial state sets under two attack strategies. It can be seen that when there is no cyberattack, the reachable sets do not intersect with the unsafe set. However, when the state quantity is disturbed by the cyberattack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
+Fig. 2 shows the reachable sets of four different initial state sets under two attack strategies. It can be seen that when there is no cyberattack, the reachable sets do not intersect with the unsafe set. When the state quantity is disturbed by the cyberattack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
 
 {{< figure src="images/reachable_sets.svg" title="Fig. 2. Reachable Sets." >}}
 
@@ -1273,10 +1273,9 @@ Fig. 2 shows the reachable sets of four different initial state sets under two a
 
 #### Tool Error Comparisons
 
-Due to the falsification part, we use Python to implement a method based on deep reinforcement learning to solve feasible attack strategies, so we need to compare the error between the Python code implementation and flow*. We compared the errors between the two code solutions under 27 different initial state sets, including root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and mean square error (MSE). Tab. 3 shows 27 initial state sets and the corresponding errors between tools.
+Due to the falsification part, we use Python to implement a method based on deep reinforcement learning to solve feasible attack strategies, so we need to compare the error between the Python code implementation and flow*. We compared the errors between the two code solutions under 27 different initial state sets, including root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and mean square error (MSE). Tab. 3 shows 27 initial state sets and the corresponding errors between tools. 
 
 <table>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <caption>Tab. 3. Initial State Sets of Tool Error Comparisons</caption>
     <thead>
         <tr>
@@ -2386,7 +2385,7 @@ Due to the falsification part, we use Python to implement a method based on deep
     </tbody>
 </table>
 
-Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range.
+Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range. It shows that the subsequent falsification step can be supported by a high-precision hybrid automaton, thus maintaining the consistency of the two parts.
 
 {{< figure src="images/tool_errors.svg" title="Fig. 3. Tool Errors." >}}
 
