@@ -2385,7 +2385,7 @@ Due to the falsification part, we use Python to implement a method based on deep
     </tbody>
 </table>
 
-Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range. It shows that the subsequent falsification step can be supported by a high-precision hybrid automaton, thus maintaining the consistency of the two parts. In addition, it is found that a larger error exists when the minimum relative distance is small. This is because during emergency braking (including q3 and q4), the system accumulates a large amount of errors due to a large number of nonlinear operations. However, the error is still within an acceptable range and is at a relatively small value.
+Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range. It shows that the subsequent falsification step can be supported by a high-precision hybrid automaton, thus maintaining the consistency of the two parts. In addition, it is found that a larger error exists when the minimum relative distance is small. This is because during emergency braking (including $q_3$ and $q_4$), the system accumulates a large amount of errors due to a large number of nonlinear operations. However, the error is still within an acceptable range and is at a relatively small value.
 
 {{< figure src="images/tool_errors.svg" title="Fig. 3. Tool Errors." >}}
 
@@ -2394,6 +2394,8 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
 {{< figure src="images/tool_errors_comparison.svg" title="Fig. 4. Tool Error Tests." >}}
 
 #### Performance Comparison of Attack Strategy Search Algorithms
+
+We applied some traditional search algorithms as well as deep reinforcement learning algorithms to search for feasible attack strategies. Among them, we have set limits on the maximum attack intensity per unit time and the total attack cost. Tab. 4 shows the performance comparison of attack strategy search algorithms. 
 
 <table>
     <caption>Tab. 4. Performance Comparison of Attack Strategy Search Algorithms</caption>
@@ -2572,6 +2574,8 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
         </tr>
     </tbody>
 </table>
+
+It can be seen that DP can achieve the minimum attack cost, but it is very time-consuming. In comparison, PPO achieves an attack cost very close to DP, but takes much less time. This illustrates the superiority of deep reinforcement learning.
 
 #### Training of Deep Reinforcement Learning Models
 
