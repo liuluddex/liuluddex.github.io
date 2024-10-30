@@ -1064,10 +1064,9 @@ Fig. 1 shows the reachable sets under six different state transition routes. As 
 
 #### Reachable Sets with Cyberattacks
 
-Tab. 5 shows four different initial state sets and the range of attack intensity per unit time under the two attack strategies.
+In order to further study the impact of cyberattacks under this high-risk situation, we selected four different sets of initial states. To create this scenario, the initial TTC needs to be less than 1.6 and close to 0.6. Tab. 5 shows four different initial state sets and the range of attack intensity per unit time under the two attack strategies.
 
 <table>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <caption>Tab. 5. Initial State Sets of Reachable Sets</caption>
     <thead>
         <tr>
