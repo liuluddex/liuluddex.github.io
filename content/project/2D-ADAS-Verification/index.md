@@ -2385,7 +2385,7 @@ Due to the falsification part, we use Python to implement a method based on deep
     </tbody>
 </table>
 
-Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range. It shows that the subsequent falsification step can be supported by a high-precision hybrid automaton, thus maintaining the consistency of the two parts.
+Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range. It shows that the subsequent falsification step can be supported by a high-precision hybrid automaton, thus maintaining the consistency of the two parts. In addition, it is found that a larger error exists when the minimum relative distance is small. This is because during emergency braking (including q3 and q4), the system accumulates a large amount of errors due to a large number of nonlinear operations. However, the error is still within an acceptable range and is at a relatively small value.
 
 {{< figure src="images/tool_errors.svg" title="Fig. 3. Tool Errors." >}}
 
