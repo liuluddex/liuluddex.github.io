@@ -768,6 +768,8 @@ Tab. 3 shows the transition relation between different discrete modes of the hyb
     </tbody>
 </table>
 
+So far, we have introduced and listed the core of hybrid automata in detail. Parameter values, invariance, and transition relations are crucial to hybrid automata. With these, we can build a hybrid automaton and conduct subsequent experimental analysis. The Flow* model under normal conditions is shown in [normal.model](https://liuluddex.github.io/uploads/2D-ADAS-Verification/normal.model). With Flow*, we can solve the reachable sets under a specified initial state set.
+
 #### Application Validation
 
 Tab. 4 shows the six initial state sets used for application validation. These six initial state sets contain six different state transition routes. The corresponding reachable sets are shown in Fig. 1.

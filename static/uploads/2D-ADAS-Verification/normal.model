@@ -1,0 +1,1677 @@
+hybrid reachability
+{
+    state var Lx1, Ly1, vx1, vy1, theta1, delta1, r1, Lx2, Ly2, vx2, vy2, theta2, delta2, r2, t, dr, q
+
+    setting
+    {
+        fixed steps 0.005
+        time 2
+        remainder estimation 1e-4
+        identity precondition
+        gnuplot interval Lx2, Ly2
+        adaptive orders {min 1, max 6}
+        cutoff 1e-7
+        precision 100
+        output normal
+        max jumps 7
+        print on
+    }
+
+    modes
+    {
+        q1_1
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                dr >= 75
+                Ly1 <= 100
+                Ly2 <= 100
+                theta1 = 0
+                theta2 = 0
+
+                vy1 >= 1
+            }
+        }
+
+        q1_2
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                dr >= 75
+                Ly1 <= 100
+                Ly2 >= 100
+                theta1 = 0
+                theta2 <= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q1_3
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                dr >= 75
+                Ly1 <= 100
+                Ly2 >= 100
+                theta1 = 0
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q1_4
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                dr >= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 <= 1.5707
+                theta2 <= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q1_5
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                dr >= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 <= 1.5707
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q1_6
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                dr >= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 >= 1.5707
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+
+
+
+
+
+        q2_1
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 + 0.0125 * (75 - dr) * (vy2 - vy1)
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 <= 100
+                Ly2 <= 100
+                theta1 = 0
+                theta2 = 0
+
+                vy1 >= 1
+            }
+        }
+
+        q2_2
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 + 0.0125 * (75 - dr) * (vy2 - vy1)
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 <= 100
+                Ly2 >= 100
+                theta1 = 0
+                theta2 <= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q2_3
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 + 0.0125 * (75 - dr) * (vy2 - vy1)
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 <= 100
+                Ly2 >= 100
+                theta1 = 0
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q2_4
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 + 0.0125 * (75 - dr) * (vy2 - vy1)
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 <= 1.5707
+                theta2 <= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q2_5
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 + 0.0125 * (75 - dr) * (vy2 - vy1)
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 <= 1.5707
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q2_6
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 + 0.0125 * (75 - dr) * (vy2 - vy1)
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 >= 1.5707
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+
+
+
+
+
+        q3_1
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 4.9
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+                -(dr - 3) - 0.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 <= 100
+                Ly2 <= 100
+                theta1 = 0
+                theta2 = 0
+
+                vy1 >= 1
+            }
+        }
+
+        q3_2
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 4.9
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+                -(dr - 3) - 0.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 <= 100
+                Ly2 >= 100
+                theta1 = 0
+                theta2 <= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q3_3
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 4.9
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+                -(dr - 3) - 0.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 <= 100
+                Ly2 >= 100
+                theta1 = 0
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q3_4
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 4.9
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+                -(dr - 3) - 0.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 <= 1.5707
+                theta2 <= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q3_5
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 4.9
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+                -(dr - 3) - 0.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 <= 1.5707
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q3_6
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 4.9
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy2 - vy1 <= 0
+                -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+                -(dr - 3) - 0.6 * (vy2 - vy1) <= 0
+                dr >= 3
+                dr <= 75
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 >= 1.5707
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+
+
+
+
+
+        q4_1
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 9.8
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy1 >= 1
+                dr >= 3
+                Ly1 <= 100
+                Ly2 <= 100
+                theta1 = 0
+                theta2 = 0
+
+                vy1 >= 1
+            }
+        }
+
+        q4_2
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 9.8
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy1 >= 1
+                dr >= 3
+                Ly1 <= 100
+                Ly2 >= 100
+                theta1 = 0
+                theta2 <= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q4_3
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 9.8
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy1 >= 1
+                dr >= 3
+                Ly1 <= 100
+                Ly2 >= 100
+                theta1 = 0
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q4_4
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 9.8
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy1 >= 1
+                dr >= 3
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 <= 1.5707
+                theta2 <= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q4_5
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 9.8
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy1 >= 1
+                dr >= 3
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 <= 1.5707
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+
+        q4_6
+        {
+            nonpoly ode
+            {
+                Lx1' = vy1 * sin(theta1) + vx1 * cos(theta1)
+                Ly1' = vy1 * cos(theta1) + vx1 * sin(theta1)
+                vx1' = -99.795 * vx1 / vy1 + (8.203 / vy1 - vy1) * r1 + 37.354 * delta1
+                vy1' = vx1 * r1 - 9.8
+                theta1' = r1
+                r1' = 3.896 * vx1 / vy1 - 111.171 * r1 / vy1 + 33.621 * delta1
+                delta1' = 0
+
+                Lx2' = vy2 * sin(theta2) + vx2 * cos(theta2)
+                Ly2' = vy2 * cos(theta2) + vx2 * sin(theta2)
+                vx2' = -99.795 * vx2 / vy2 + (8.203 / vy2 - vy2) * r2 + 37.354 * delta2
+                vy2' = vx2 * r2
+                theta2' = r2
+                r2' = 3.896 * vx2 / vy2 - 111.171 * r2 / vy2 + 33.621 * delta2
+                delta2' = 0
+
+                t' = 1
+                dr' = ((Lx1 - Lx2) * (vy1 * sin(theta1) + vx1 * cos(theta1) - vy2 * sin(theta2) - vx2 * cos(theta2)) + (Ly1 - Ly2) * (vy1 * cos(theta1) + vx1 * sin(theta1) - vy2 * cos(theta2) - vx2 * sin(theta2))) / sqrt((Lx1 - Lx2) ^ 2 + (Ly1 - Ly2) ^ 2)
+                q' = 0
+            }
+            inv
+            {
+                vy1 >= 1
+                dr >= 3
+                Ly1 >= 100
+                Ly2 >= 100
+                theta1 >= 1.5707
+                theta2 >= 1.5707
+
+                vy1 >= 1
+            }
+        }
+    }
+
+    jumps
+    {
+        q1_1 -> q1_2
+        guard {
+            Ly2 >= 100
+            Ly1 <= 100
+            theta1 = 0
+            theta2 = 0
+        }
+        reset {
+            delta2' := 0.07
+            r2' := 0
+        }
+        interval aggregation
+
+        q2_1 -> q2_2
+        guard {
+            Ly2 >= 100
+            Ly1 <= 100
+            theta1 = 0
+            theta2 = 0
+        }
+        reset {
+            delta2' := 0.07
+            r2' := 0
+        }
+        interval aggregation
+
+        q3_1 -> q3_2
+        guard {
+            Ly2 >= 100
+            Ly1 <= 100
+            theta1 = 0
+            theta2 = 0
+        }
+        reset {
+            delta2' := 0.07
+            r2' := 0
+        }
+        interval aggregation
+
+        q4_1 -> q4_2
+        guard {
+            Ly2 >= 100
+            Ly1 <= 100
+            theta1 = 0
+            theta2 = 0
+        }
+        reset {
+            delta2' := 0.07
+            r2' := 0
+        }
+        interval aggregation
+
+
+
+
+        q1_2 -> q1_3
+        guard {
+            Ly2 >= 100
+            Ly1 <= 100
+            theta1 = 0
+            theta2 >= 1.5707
+        }
+        reset {
+            delta2' := 0
+            r2' := 0
+        }
+        interval aggregation
+
+        q2_2 -> q2_3
+        guard {
+            Ly2 >= 100
+            Ly1 <= 100
+            theta1 = 0
+            theta2 >= 1.5707
+        }
+        reset {
+            delta2' := 0
+            r2' := 0
+        }
+        interval aggregation
+
+        q3_2 -> q3_3
+        guard {
+            Ly2 >= 100
+            Ly1 <= 100
+            theta1 = 0
+            theta2 >= 1.5707
+        }
+        reset {
+            delta2' := 0
+            r2' := 0
+        }
+        interval aggregation
+
+        q4_2 -> q4_3
+        guard {
+            Ly2 >= 100
+            Ly1 <= 100
+            theta1 = 0
+            theta2 >= 1.5707
+        }
+        reset {
+            delta2' := 0
+            r2' := 0
+        }
+        interval aggregation
+
+
+
+        q1_2 -> q1_4
+        guard {
+            Ly2 >= 100
+            Ly1 >= 100
+            theta1 <= 1.5707
+            theta2 <= 1.5707
+        }
+        reset {
+            delta1' := 0.07
+            r1' := 0
+        }
+        interval aggregation
+
+        q2_2 -> q2_4
+        guard {
+            Ly2 >= 100
+            Ly1 >= 100
+            theta1 <= 1.5707
+            theta2 <= 1.5707
+        }
+        reset {
+            delta1' := 0.07
+            r1' := 0
+        }
+        interval aggregation
+
+        q3_2 -> q3_4
+        guard {
+            Ly2 >= 100
+            Ly1 >= 100
+            theta1 <= 1.5707
+            theta2 <= 1.5707
+        }
+        reset {
+            delta1' := 0.07
+            r1' := 0
+        }
+        interval aggregation
+
+        q4_2 -> q4_4
+        guard {
+            Ly2 >= 100
+            Ly1 >= 100
+            theta1 <= 1.5707
+            theta2 <= 1.5707
+        }
+        reset {
+            delta1' := 0.07
+            r1' := 0
+        }
+        interval aggregation
+
+
+
+
+        q1_3 -> q1_5
+        guard {
+            Ly2 >= 100
+            Ly1 >= 100
+            theta1 <= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta1' := 0.07
+            r1' := 0
+        }
+        interval aggregation
+
+        q2_3 -> q2_5
+        guard {
+            Ly2 >= 100
+            Ly1 >= 100
+            theta1 <= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta1' := 0.07
+            r1' := 0
+        }
+        interval aggregation
+
+        q3_3 -> q3_5
+        guard {
+            Ly2 >= 100
+            Ly1 >= 100
+            theta1 <= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta1' := 0.07
+            r1' := 0
+        }
+        interval aggregation
+
+        q4_3 -> q4_5
+        guard {
+            Ly2 >= 100
+            Ly1 >= 100
+            theta1 <= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta1' := 0.07
+            r1' := 0
+        }
+        interval aggregation
+
+
+
+
+        q1_4 -> q1_5
+        guard {
+            Ly1 >= 100
+            Ly2 >= 100
+            theta1 <= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta2' := 0
+            r2' := 0
+        }
+        interval aggregation
+
+        q2_4 -> q2_5
+        guard {
+            Ly1 >= 100
+            Ly2 >= 100
+            theta1 <= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta2' := 0
+            r2' := 0
+        }
+        interval aggregation
+
+        q3_4 -> q3_5
+        guard {
+            Ly1 >= 100
+            Ly2 >= 100
+            theta1 <= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta2' := 0
+            r2' := 0
+        }
+        interval aggregation
+
+        q4_4 -> q4_5
+        guard {
+            Ly1 >= 100
+            Ly2 >= 100
+            theta1 <= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta2' := 0
+            r2' := 0
+        }
+        interval aggregation
+
+
+
+
+        q1_5 -> q1_6
+        guard {
+            Ly1 >= 100
+            Ly2 >= 100
+            theta1 >= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta1' := 0
+            r1' := 0
+        }
+        interval aggregation
+
+        q2_5 -> q2_6
+        guard {
+            Ly1 >= 100
+            Ly2 >= 100
+            theta1 >= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta1' := 0
+            r1' := 0
+        }
+        interval aggregation
+
+        q3_5 -> q3_6
+        guard {
+            Ly1 >= 100
+            Ly2 >= 100
+            theta1 >= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta1' := 0
+            r1' := 0
+        }
+        interval aggregation
+
+        q4_5 -> q4_6
+        guard {
+            Ly1 >= 100
+            Ly2 >= 100
+            theta1 >= 1.5707
+            theta2 >= 1.5707
+        }
+        reset {
+            delta1' := 0
+            r1' := 0
+        }
+        interval aggregation
+
+
+
+
+
+
+        q1_1 -> q3_1
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q1_2 -> q3_2
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q1_3 -> q3_3
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q1_4 -> q3_4
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q1_5 -> q3_5
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q1_6 -> q3_6
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+
+
+        q1_1 -> q2_1
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q1_2 -> q2_2
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q1_3 -> q2_3
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q1_4 -> q2_4
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q1_5 -> q2_5
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q1_6 -> q2_6
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+
+
+        q2_1 -> q3_1
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q2_2 -> q3_2
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q2_3 -> q3_3
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q2_4 -> q3_4
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q2_5 -> q3_5
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+        q2_6 -> q3_6
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 3
+        }
+        interval aggregation
+
+
+
+        q3_1 -> q2_1
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q3_2 -> q2_2
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q3_3 -> q2_3
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q3_4 -> q2_4
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q3_5 -> q2_5
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+        q3_6 -> q2_6
+        guard {
+            vy2 - vy1 <= 0
+            -(dr - 3) - 1.6 * (vy2 - vy1) <= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 2
+        }
+        interval aggregation
+
+
+
+        q3_1 -> q4_1
+        guard {
+            vy1 >= 0
+            -(dr - 3) - 0.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 4
+        }
+        interval aggregation
+
+        q3_2 -> q4_2
+        guard {
+            vy1 >= 0
+            -(dr - 3) - 0.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 4
+        }
+        interval aggregation
+
+        q3_3 -> q4_3
+        guard {
+            vy1 >= 0
+            -(dr - 3) - 0.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 4
+        }
+        interval aggregation
+
+        q3_4 -> q4_4
+        guard {
+            vy1 >= 0
+            -(dr - 3) - 0.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 4
+        }
+        interval aggregation
+
+        q3_5 -> q4_5
+        guard {
+            vy1 >= 0
+            -(dr - 3) - 0.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 4
+        }
+        interval aggregation
+
+        q3_6 -> q4_6
+        guard {
+            vy1 >= 0
+            -(dr - 3) - 0.6 * (vy2 - vy1) >= 0
+            dr >= 3
+            dr <= 75
+        }
+        reset {
+            q' := 4
+        }
+        interval aggregation
+    }
+
+    init
+    {
+        q1_1
+        {
+            vx1 in [0, 0]
+            vy1 in [19.966666666666665, 20.0]
+            Lx1 in [0, 0]
+            Ly1 in [84.1, 84.1]
+            theta1 in [0, 0]
+            r1 in [0, 0]
+            delta1 in [-1e-19, 1e-19]
+
+            vx2 in [0, 0]
+            vy2 in [7, 7]
+            Lx2 in [0, 0]
+            Ly2 in [98, 98]
+            theta2 in [0, 0]
+            r2 in [0, 0]
+            delta2 in [-1e-19, 1e-19]
+
+            t in [0, 0]
+            dr in [13.9, 13.9]
+            q in [1, 1]
+        }
+    }
+}
