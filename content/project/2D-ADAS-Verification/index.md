@@ -1221,24 +1221,24 @@ Due to the falsification part, we use Python to implement a method based on deep
         <tr>
             <td rowspan="2">\(In_1\)</td> 
             <td>min</td>
-            <td>-0.01</td>
-            <td>10.57</td>
             <td>0</td>
-            <td>81.31</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>4.23</td>
+            <td>16.36</td>
             <td>0</td>
-            <td>98.76</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>17.45</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.10</td>
+            <td>88.21</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-09</td>
+            <td>0</td>
+            <td>13.97</td>
+            <td>0</td>
+            <td>98.8</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-09</td>
+            <td>10.59</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.00</td>
+            <td rowspan="2">0.05</td>
         </tr>
         <tr>
             <td>max</td>
