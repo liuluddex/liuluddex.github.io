@@ -1180,7 +1180,7 @@ In order to further study the impact of cyberattacks under this high-risk situat
     </tbody>
 </table>
 
-Fig. 2 shows the reachable sets of four different initial state sets under two attack strategies. It can be seen that when there is no cyberattack, the reachable sets do not intersect with the unsafe set. When the state quantity is disturbed by the cyberattack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
+Fig. 2 shows the reachable sets of two different initial state sets under two attack strategies. It can be seen that when there is no cyberattack, the reachable sets do not intersect with the unsafe set. When the state quantity is disturbed by the cyberattack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
 
 {{< figure src="images/reachable_sets.svg" title="Fig. 2. Reachable Sets." >}}
 
