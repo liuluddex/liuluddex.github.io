@@ -1248,14 +1248,14 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>88.21</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>0</td>
             <td>13.97</td>
             <td>0</td>
             <td>98.8</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>10.59</td>
         </tr>
         <tr>
@@ -1267,14 +1267,14 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>84.63</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>0</td>
             <td>3.62</td>
             <td>0</td>
             <td>99.0</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>14.37</td>
             <td rowspan="2">0.05</td>
             <td rowspan="2">0.04</td>
@@ -1288,14 +1288,14 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>84.63</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>0</td>
             <td>3.62</td>
             <td>0</td>
             <td>99.0</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>14.37</td>
         </tr>
         <tr>
@@ -1304,17 +1304,17 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>0</td>
             <td>11.29</td>
             <td>0</td>
-            <td>86.58000000000001</td>
+            <td>86.58</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>0</td>
             <td>6.79</td>
             <td>0</td>
             <td>98.4</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>11.82</td>
             <td rowspan="2">0.01</td>
             <td rowspan="2">0.01</td>
@@ -1325,17 +1325,17 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>0</td>
             <td>11.29</td>
             <td>0</td>
-            <td>86.58000000000001</td>
+            <td>86.58</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>0</td>
             <td>6.79</td>
             <td>0</td>
             <td>98.4</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>11.82</td>
         </tr>
         <tr>
@@ -1347,14 +1347,14 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>87.66</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>0</td>
             <td>13.23</td>
             <td>0</td>
             <td>98.85</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>11.19</td>
             <td rowspan="2">0.01</td>
             <td rowspan="2">0.01</td>
@@ -1368,14 +1368,14 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>87.66</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>0</td>
             <td>13.23</td>
             <td>0</td>
             <td>98.85</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>11.19</td>
         </tr>
         <tr>
@@ -1387,14 +1387,14 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>80.88</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>0</td>
             <td>11.97</td>
             <td>0</td>
             <td>98.42</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>17.54</td>
             <td rowspan="2">0.01</td>
             <td rowspan="2">0.00</td>
@@ -1408,14 +1408,14 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>80.88</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>0</td>
             <td>11.97</td>
             <td>0</td>
             <td>98.42</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>17.54</td>
         </tr>
         <tr>
@@ -1424,17 +1424,17 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>0</td>
             <td>11.88</td>
             <td>0</td>
-            <td>82.61000000000001</td>
+            <td>82.61</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>0</td>
             <td>4.35</td>
             <td>0</td>
             <td>98.9</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>16.29</td>
             <td rowspan="2">0.02</td>
             <td rowspan="2">0.01</td>
@@ -1445,17 +1445,17 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>0</td>
             <td>11.88</td>
             <td>0</td>
-            <td>82.61000000000001</td>
+            <td>82.61</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>0</td>
             <td>4.35</td>
             <td>0</td>
             <td>98.9</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>16.29</td>
         </tr>
         <tr>
@@ -1467,14 +1467,14 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>82.61</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>0</td>
             <td>3.05</td>
             <td>0</td>
             <td>98.03</td>
             <td>0</td>
             <td>0</td>
-            <td>-1e-09</td>
+            <td>-1e-9</td>
             <td>15.42</td>
             <td rowspan="2">0.07</td>
             <td rowspan="2">0.06</td>
@@ -1488,815 +1488,815 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>82.61</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>0</td>
             <td>3.05</td>
             <td>0</td>
             <td>98.03</td>
             <td>0</td>
             <td>0</td>
-            <td>1e-09</td>
+            <td>1e-9</td>
             <td>15.42</td>
         </tr>
         <tr>
             <td rowspan="2">\(In_8\)</td>
             <td>min</td>
-            <td>-0.01</td>
-            <td>17.5</td>
             <td>0</td>
-            <td>84.72</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>3.52</td>
+            <td>18.57</td>
             <td>0</td>
-            <td>98.03</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
+            <td>81.16</td>
+            <td>0</td>
+            <td>0</td>
             <td>-1e-9</td>
-            <td>13.31</td>
-            <td rowspan="2">0.05</td>
-            <td rowspan="2">0.04</td>
-            <td rowspan="2">0.61</td>
+            <td>0</td>
+            <td>13.06</td>
+            <td>0</td>
+            <td>98.79</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>17.63</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.07</td>
         </tr>
         <tr>
             <td>max</td>
-            <td>0.01</td>
-            <td>17.51</td>
             <td>0</td>
-            <td>84.73</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>3.52</td>
+            <td>18.57</td>
             <td>0</td>
-            <td>98.03</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
+            <td>81.16</td>
+            <td>0</td>
+            <td>0</td>
             <td>1e-9</td>
-            <td>13.31</td>
+            <td>0</td>
+            <td>13.06</td>
+            <td>0</td>
+            <td>98.79</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>17.63</td>
         </tr>
         <tr>
             <td rowspan="2">\(In_9\)</td>
             <td>min</td>
-            <td>-0.01</td>
-            <td>15.77</td>
             <td>0</td>
-            <td>80.76</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
+            <td>17.16</td>
+            <td>0</td>
+            <td>79.95</td>
+            <td>0</td>
+            <td>0</td>
             <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>5.31</td>
             <td>0</td>
-            <td>98.94</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
+            <td>10.18</td>
+            <td>0</td>
+            <td>98.09</td>
+            <td>0</td>
+            <td>0</td>
             <td>-1e-9</td>
-            <td>18.18</td>
-            <td rowspan="2">0.28</td>
-            <td rowspan="2">0.19</td>
-            <td rowspan="2">1.93</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>15.78</td>
-            <td>0</td>
-            <td>80.77</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>5.31</td>
-            <td>0</td>
-            <td>98.94</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>18.18</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{10}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>13.21</td>
-            <td>0</td>
-            <td>81.04</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>10.69</td>
-            <td>0</td>
-            <td>98.58</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>17.54</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.11</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>13.22</td>
-            <td>0</td>
-            <td>81.05</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>10.69</td>
-            <td>0</td>
-            <td>98.58</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>17.54</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{11}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>19.29</td>
-            <td>0</td>
-            <td>81.36</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>4.25</td>
-            <td>0</td>
-            <td>98.9</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>17.54</td>
-            <td rowspan="2">0.04</td>
-            <td rowspan="2">0.03</td>
-            <td rowspan="2">0.32</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>19.3</td>
-            <td>0</td>
-            <td>81.37</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>4.25</td>
-            <td>0</td>
-            <td>98.9</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>17.54</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{12}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>12.87</td>
-            <td>0</td>
-            <td>80.53</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>4.85</td>
-            <td>0</td>
-            <td>98.47</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>17.94</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.11</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>12.88</td>
-            <td>0</td>
-            <td>80.54</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>4.85</td>
-            <td>0</td>
-            <td>98.47</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>17.94</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{13}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>18.23</td>
-            <td>0</td>
-            <td>79.73</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>9.76</td>
-            <td>0</td>
-            <td>98.48</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>18.75</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.11</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>18.24</td>
-            <td>0</td>
-            <td>79.74</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>9.76</td>
-            <td>0</td>
-            <td>98.48</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>18.75</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{14}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
             <td>18.14</td>
-            <td>0</td>
-            <td>83.6</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>10.1</td>
-            <td>0</td>
-            <td>98.72</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>15.12</td>
-            <td rowspan="2">0.04</td>
-            <td rowspan="2">0.03</td>
-            <td rowspan="2">0.27</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>18.15</td>
-            <td>0</td>
-            <td>83.61</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>10.1</td>
-            <td>0</td>
-            <td>98.72</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>15.12</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{15}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>13.24</td>
-            <td>0</td>
-            <td>84.86</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>5.96</td>
-            <td>0</td>
-            <td>98.5</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>13.64</td>
-            <td rowspan="2">0.04</td>
-            <td rowspan="2">0.03</td>
-            <td rowspan="2">0.29</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>13.25</td>
-            <td>0</td>
-            <td>84.87</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>5.96</td>
-            <td>0</td>
-            <td>98.5</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>13.64</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{16}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>12.1</td>
-            <td>0</td>
-            <td>79.79</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>6.5</td>
-            <td>0</td>
-            <td>98.11</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>18.32</td>
-            <td rowspan="2">0.01</td>
-            <td rowspan="2">0.01</td>
-            <td rowspan="2">0.07</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>12.11</td>
-            <td>0</td>
-            <td>79.8</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>6.5</td>
-            <td>0</td>
-            <td>98.11</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>18.32</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{17}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>13.54</td>
-            <td>0</td>
-            <td>86.98</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>6.51</td>
-            <td>0</td>
-            <td>98.58</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>11.6</td>
-            <td rowspan="2">0.05</td>
-            <td rowspan="2">0.04</td>
-            <td rowspan="2">0.46</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>13.55</td>
-            <td>0</td>
-            <td>86.99</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>6.51</td>
-            <td>0</td>
-            <td>98.58</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>11.6</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{18}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>17.84</td>
-            <td>0</td>
-            <td>79.67</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>7.6</td>
-            <td>0</td>
-            <td>98.81</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>19.14</td>
-            <td rowspan="2">0.18</td>
-            <td rowspan="2">0.12</td>
-            <td rowspan="2">0.90</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>17.85</td>
-            <td>0</td>
-            <td>79.68</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>7.6</td>
-            <td>0</td>
-            <td>98.81</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>19.14</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{19}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>19.32</td>
-            <td>0</td>
-            <td>87.87</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>17.08</td>
-            <td>0</td>
-            <td>98.65</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>10.78</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.19</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>19.33</td>
-            <td>0</td>
-            <td>87.88</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>17.08</td>
-            <td>0</td>
-            <td>98.65</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>10.78</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{20}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>11.73</td>
-            <td>0</td>
-            <td>80.27</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>3.01</td>
-            <td>0</td>
-            <td>98.93</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>18.66</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.12</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>11.74</td>
-            <td>0</td>
-            <td>80.28</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>3.01</td>
-            <td>0</td>
-            <td>98.93</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>18.66</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{21}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>10.69</td>
-            <td>0</td>
-            <td>78.99</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>5.67</td>
-            <td>0</td>
-            <td>98.84</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>19.85</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.01</td>
-            <td rowspan="2">0.07</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>10.7</td>
-            <td>0</td>
-            <td>79.00</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>5.67</td>
-            <td>0</td>
-            <td>98.84</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>19.85</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{22}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>11.98</td>
-            <td>0</td>
-            <td>79.04</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>6.11</td>
-            <td>0</td>
-            <td>98.62</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>19.58</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.10</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>11.99</td>
-            <td>0</td>
-            <td>79.05</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>6.11</td>
-            <td>0</td>
-            <td>98.62</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>19.58</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{23}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>14.4</td>
-            <td>0</td>
-            <td>80.56</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>7.37</td>
-            <td>0</td>
-            <td>98.6</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>18.04</td>
-            <td rowspan="2">0.03</td>
-            <td rowspan="2">0.03</td>
-            <td rowspan="2">0.18</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>14.41</td>
-            <td>0</td>
-            <td>80.57</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>7.37</td>
-            <td>0</td>
-            <td>98.6</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>18.04</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{24}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>15.59</td>
-            <td>0</td>
-            <td>79.4</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>4.45</td>
-            <td>0</td>
-            <td>98.79</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>19.39</td>
-            <td rowspan="2">0.23</td>
-            <td rowspan="2">0.16</td>
-            <td rowspan="2">1.48</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>15.6</td>
-            <td>0</td>
-            <td>79.41</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>4.45</td>
-            <td>0</td>
-            <td>98.79</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>19.39</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{25}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>11.42</td>
-            <td>0</td>
-            <td>78.22</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>3.99</td>
-            <td>0</td>
-            <td>98.11</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>19.89</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.09</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>11.43</td>
-            <td>0</td>
-            <td>78.23</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>3.99</td>
-            <td>0</td>
-            <td>98.11</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>19.89</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{26}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>13.34</td>
-            <td>0</td>
-            <td>79.99</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>8.75</td>
-            <td>0</td>
-            <td>98.44</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>18.45</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.02</td>
-            <td rowspan="2">0.09</td>
-        </tr>
-        <tr>
-            <td>max</td>
-            <td>0.01</td>
-            <td>13.35</td>
-            <td>0</td>
-            <td>80.0</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>0.01</td>
-            <td>8.75</td>
-            <td>0</td>
-            <td>98.44</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
-            <td>1e-9</td>
-            <td>18.45</td>
-        </tr>
-        <tr>
-            <td rowspan="2">\(In_{27}\)</td>
-            <td>min</td>
-            <td>-0.01</td>
-            <td>12.19</td>
-            <td>0</td>
-            <td>80.47</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>-0.01</td>
-            <td>7.5</td>
-            <td>0</td>
-            <td>98.42</td>
-            <td>-1e-3</td>
-            <td>-1e-3</td>
-            <td>-1e-9</td>
-            <td>17.95</td>
             <td rowspan="2">0.02</td>
             <td rowspan="2">0.01</td>
             <td rowspan="2">0.08</td>
         </tr>
         <tr>
             <td>max</td>
-            <td>0.01</td>
-            <td>12.2</td>
             <td>0</td>
-            <td>80.48</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
+            <td>17.16</td>
+            <td>0</td>
+            <td>79.95</td>
+            <td>0</td>
+            <td>0</td>
             <td>1e-9</td>
-            <td>0.01</td>
-            <td>7.5</td>
+            <td>0</td>
+            <td>10.18</td>
+            <td>0</td>
+            <td>98.09</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>18.14</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{10}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>19.1</td>
+            <td>0</td>
+            <td>86.96</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>14.3</td>
+            <td>0</td>
+            <td>98.45</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>11.49</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.10</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>19.1</td>
+            <td>0</td>
+            <td>86.96</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>14.3</td>
+            <td>0</td>
+            <td>98.45</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>11.49</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{11}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>15.1</td>
+            <td>0</td>
+            <td>79.5</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>10.08</td>
+            <td>0</td>
+            <td>98.02</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>18.52</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.06</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>15.1</td>
+            <td>0</td>
+            <td>79.5</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>10.08</td>
+            <td>0</td>
+            <td>98.02</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>18.52</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{12}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>11.41</td>
+            <td>0</td>
+            <td>83.66</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>6.32</td>
+            <td>0</td>
+            <td>99.0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>15.34</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.06</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>11.41</td>
+            <td>0</td>
+            <td>83.66</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>6.32</td>
+            <td>0</td>
+            <td>99.0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>15.34</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{13}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>15.07</td>
+            <td>0</td>
+            <td>78.85</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>3.85</td>
+            <td>0</td>
+            <td>98.54</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>19.69</td>
+            <td rowspan="2">0.02</td>
+            <td rowspan="2">0.02</td>
+            <td rowspan="2">0.16</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>15.07</td>
+            <td>0</td>
+            <td>78.85</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>3.85</td>
+            <td>0</td>
+            <td>98.54</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>19.69</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{14}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>18.86</td>
+            <td>0</td>
+            <td>85.23</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>4.24</td>
+            <td>0</td>
+            <td>98.48</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>13.25</td>
+            <td rowspan="2">0.07</td>
+            <td rowspan="2">0.06</td>
+            <td rowspan="2">0.91</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>18.86</td>
+            <td>0</td>
+            <td>85.23</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>4.24</td>
+            <td>0</td>
+            <td>98.48</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>13.25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{15}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>11.93</td>
+            <td>0</td>
+            <td>81.99</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>7.4</td>
+            <td>0</td>
+            <td>98.9</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>16.91</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.04</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>11.93</td>
+            <td>0</td>
+            <td>81.99</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>7.4</td>
+            <td>0</td>
+            <td>98.9</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>16.91</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{16}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>17.32</td>
+            <td>0</td>
+            <td>84.21</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>9.88</td>
+            <td>0</td>
+            <td>98.48</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>14.27</td>
+            <td rowspan="2">0.02</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.13</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>17.32</td>
+            <td>0</td>
+            <td>84.21</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>9.88</td>
+            <td>0</td>
+            <td>98.48</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>14.27</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{17}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>16.89</td>
+            <td>0</td>
+            <td>78.55</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>8.51</td>
+            <td>0</td>
+            <td>98.28</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>19.73</td>
+            <td rowspan="2">0.02</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.10</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>16.89</td>
+            <td>0</td>
+            <td>78.55</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>8.51</td>
+            <td>0</td>
+            <td>98.28</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>19.73</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{18}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>17.03</td>
+            <td>0</td>
+            <td>85.57</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>13.5</td>
+            <td>0</td>
+            <td>98.82</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>13.25</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.07</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>17.03</td>
+            <td>0</td>
+            <td>85.57</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>13.5</td>
+            <td>0</td>
+            <td>98.82</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>13.25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{19}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>13.44</td>
+            <td>0</td>
+            <td>81.57</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>9.27</td>
+            <td>0</td>
+            <td>98.24</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>16.67</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.00</td>
+            <td rowspan="2">0.03</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>13.44</td>
+            <td>0</td>
+            <td>81.57</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>9.27</td>
+            <td>0</td>
+            <td>98.24</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>16.67</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{20}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>17.46</td>
+            <td>0</td>
+            <td>86.59</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>3.93</td>
+            <td>0</td>
+            <td>98.7</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>12.11</td>
+            <td rowspan="2">0.07</td>
+            <td rowspan="2">0.07</td>
+            <td rowspan="2">1.10</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>17.46</td>
+            <td>0</td>
+            <td>86.59</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>3.93</td>
+            <td>0</td>
+            <td>98.7</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>12.11</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{21}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>16.16</td>
+            <td>0</td>
+            <td>83.6</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>8.27</td>
+            <td>0</td>
+            <td>98.33</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>14.73</td>
+            <td rowspan="2">0.02</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.14</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>16.16</td>
+            <td>0</td>
+            <td>83.6</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>8.27</td>
+            <td>0</td>
+            <td>98.33</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>14.73</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{22}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>15.89</td>
+            <td>0</td>
+            <td>87.0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>12.46</td>
+            <td>0</td>
+            <td>98.33</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>11.33</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.07</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>15.89</td>
+            <td>0</td>
+            <td>87.0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>12.46</td>
+            <td>0</td>
+            <td>98.33</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>11.33</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{23}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>11.74</td>
+            <td>0</td>
+            <td>87.97</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>7.49</td>
+            <td>0</td>
+            <td>98.78</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>10.81</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.08</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>11.74</td>
+            <td>0</td>
+            <td>87.97</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>7.49</td>
+            <td>0</td>
+            <td>98.78</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>10.81</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{24}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>16.45</td>
+            <td>0</td>
+            <td>86.26</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>3.28</td>
+            <td>0</td>
+            <td>98.82</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>12.56</td>
+            <td rowspan="2">0.04</td>
+            <td rowspan="2">0.03</td>
+            <td rowspan="2">0.45</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>16.45</td>
+            <td>0</td>
+            <td>86.26</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>3.28</td>
+            <td>0</td>
+            <td>98.82</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>12.56</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{25}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>13.35</td>
+            <td>0</td>
+            <td>83.94</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>5.87</td>
+            <td>0</td>
+            <td>98.34</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>14.4</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.09</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>13.35</td>
+            <td>0</td>
+            <td>83.94</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>5.87</td>
+            <td>0</td>
+            <td>98.34</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>14.4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{26}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>16.09</td>
+            <td>0</td>
+            <td>87.48</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>9.35</td>
+            <td>0</td>
+            <td>98.07</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>10.59</td>
+            <td rowspan="2">0.02</td>
+            <td rowspan="2">0.01</td>
+            <td rowspan="2">0.14</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>16.09</td>
+            <td>0</td>
+            <td>87.48</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>0</td>
+            <td>9.35</td>
+            <td>0</td>
+            <td>98.07</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>10.59</td>
+        </tr>
+        <tr>
+            <td rowspan="2">\(In_{27}\)</td>
+            <td>min</td>
+            <td>0</td>
+            <td>11.73</td>
+            <td>0</td>
+            <td>86.32</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>0</td>
+            <td>9.05</td>
             <td>0</td>
             <td>98.42</td>
-            <td>1e-3</td>
-            <td>1e-3</td>
+            <td>0</td>
+            <td>0</td>
+            <td>-1e-9</td>
+            <td>12.1</td>
+            <td rowspan="2">0.00</td>
+            <td rowspan="2">0.00</td>
+            <td rowspan="2">0.03</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>0</td>
+            <td>11.73</td>
+            <td>0</td>
+            <td>86.32</td>
+            <td>0</td>
+            <td>0</td>
             <td>1e-9</td>
-            <td>17.95</td>
+            <td>0</td>
+            <td>9.05</td>
+            <td>0</td>
+            <td>98.42</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1e-9</td>
+            <td>12.1</td>
         </tr>
     </tbody>
 </table>
