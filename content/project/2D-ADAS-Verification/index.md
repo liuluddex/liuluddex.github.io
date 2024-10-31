@@ -1189,7 +1189,7 @@ Fig. 2 shows the reachable sets of two different initial state sets under two at
 
 #### Tool Error Comparisons
 
-Due to the falsification part, we use Python to implement a method based on deep reinforcement learning to solve feasible attack strategies, so we need to compare the error between the Python code implementation and flow*. We compared the errors between the two code solutions under 27 different initial state sets, including root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and mean square error (MSE). Tab. 3 shows 27 initial state sets and the corresponding errors between tools. 
+Due to the falsification part, we use Python to implement a method based on deep reinforcement learning to solve feasible attack strategies, so we need to compare the error between the Python code implementation and Flow*. We compared the errors between the two code solutions under 27 different initial state sets, including root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and mean square error (MSE). Tab. 3 shows 27 initial state sets and the corresponding errors between tools. 
 
 <table>
     <caption>Tab. 3. Initial State Sets of Tool Error Comparisons</caption>
