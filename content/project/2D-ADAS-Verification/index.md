@@ -1189,10 +1189,10 @@ In order to further study the impact of cyberattacks under this high-risk situat
 
 Fig. 2 shows the reachable sets of two different initial state sets under two attack strategies. Among them, every two rows form a group, corresponding to the reachable set of a certain attack strategy under a certain initial state set. It can be seen that when there is no cyberattack, the reachable sets do not intersect with the unsafe set. When the state quantity is disturbed by the cyberattack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
 
-{{< figure src="images/reachable_sets_1.svg" title="Fig. 2(a). Reachable Sets of $In1-dr$." >}}
-{{< figure src="images/reachable_sets_2.svg" title="Fig. 2(b). Reachable Sets of In1-vy1." >}}
-{{< figure src="images/reachable_sets_3.svg" title="Fig. 2(c). Reachable Sets of In2-dr." >}}
-{{< figure src="images/reachable_sets_4.svg" title="Fig. 2(d). Reachable Sets of In2-vy1." >}}
+{{< figure src="images/reachable_sets_1.svg" title="Fig. 2(a). Reachable Sets of $In_1-d_r$." >}}
+{{< figure src="images/reachable_sets_2.svg" title="Fig. 2(b). Reachable Sets of $In_1-v_{y_1}$." >}}
+{{< figure src="images/reachable_sets_3.svg" title="Fig. 2(c). Reachable Sets of $In_2-d_r$." >}}
+{{< figure src="images/reachable_sets_4.svg" title="Fig. 2(d). Reachable Sets of $In_2-v_{y_1}$." >}}
 
 [//]: # ({{< figure src="images/reachable_sets.svg" title="Fig. 2. Reachable Sets." >}})
 
