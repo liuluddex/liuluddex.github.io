@@ -1059,12 +1059,12 @@ Tab. 4 shows the six initial state sets used for application validation. These s
 
 Fig. 1 shows the reachable sets under six different state transition routes. The figures are listed from left to right, with each two rows in a group, referring to the reachable set under a certain initial state set. As can be seen from the figure, the functions of the four discrete modes are all normal. The ego vehicle can maintain a safe relative distance from the front vehicle and no collision will occur. In addition, the nonlinearity of the system can be observed, which illustrates the complexity of the system. It can also be found that there is an over-estimation problem in the reachable sets, and some areas suddenly expand. This also reflects the necessity of the subsequent falsification process. In addition, it is worth noting that when $In_4$ is used as the initial state set, the minimum value of the relative distance is close to 3, but is not less than 3. If a cyberattack occurs in this situation, causing the ego vehicle to brake more slowly, the two vehicles may collide.
 
-{{ <figure src="images/application_validation_1.svg" title="Fig. 1(a). Application Validation of In1."> }}
-{{ <figure src="images/application_validation_2.svg" title="Fig. 1(b). Application Validation of In2."> }}
-{{ <figure src="images/application_validation_3.svg" title="Fig. 1(c). Application Validation of In3."> }}
-{{ <figure src="images/application_validation_4.svg" title="Fig. 1(d). Application Validation of In4."> }}
-{{ <figure src="images/application_validation_5.svg" title="Fig. 1(e). Application Validation of In5."> }}
-{{ <figure src="images/application_validation_6.svg" title="Fig. 1(f). Application Validation of In6."> }}
+{{<figure src="images/application_validation_1.svg" title="Fig. 1(a). Application Validation of In1.">}}
+{{<figure src="images/application_validation_2.svg" title="Fig. 1(b). Application Validation of In2.">}}
+{{<figure src="images/application_validation_3.svg" title="Fig. 1(c). Application Validation of In3.">}}
+{{<figure src="images/application_validation_4.svg" title="Fig. 1(d). Application Validation of In4.">}}
+{{<figure src="images/application_validation_5.svg" title="Fig. 1(e). Application Validation of In5.">}}
+{{<figure src="images/application_validation_6.svg" title="Fig. 1(f). Application Validation of In6.">}}
 
 [//]: # ({{< figure src="images/application_validation.svg" title="Fig. 1. Application Validation." >}})
 
