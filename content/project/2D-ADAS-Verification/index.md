@@ -2370,8 +2370,8 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>530.781</td>
             <td>543.308</td>
             <td>99.68</td>
-            <td></td>
-            <td></td>
+            <td>93.75</td>
+            <td>93.71</td>
             <td></td>
         </tr>
         <tr>
