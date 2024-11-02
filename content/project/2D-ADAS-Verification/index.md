@@ -2333,8 +2333,22 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <th colspan="4">Minimum Cost</th>
             <th colspan="4">Successful Rate</th>
             <th colspan="4">Time Cost</th>
+            <th colspan="4">Memory Usage</th>
+            <th colspan="4">CPU Usage</th>
         </tr>
         <tr>
+            <th>\(In_1\) - \(d_r\)</th>
+            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_2\) - \(d_r\)</th>
+            <th>\(In_2\) - \(v_1\)</th>
+            <th>\(In_1\) - \(d_r\)</th>
+            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_2\) - \(d_r\)</th>
+            <th>\(In_2\) - \(v_1\)</th>
+            <th>\(In_1\) - \(d_r\)</th>
+            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_2\) - \(d_r\)</th>
+            <th>\(In_2\) - \(v_1\)</th>
             <th>\(In_1\) - \(d_r\)</th>
             <th>\(In_1\) - \(v_1\)</th>
             <th>\(In_2\) - \(d_r\)</th>
