@@ -2331,6 +2331,7 @@ We applied some traditional search algorithms as well as deep reinforcement lear
         <tr>
             <th rowspan="2">Algorithm</th>
             <th colspan="4">Minimum Cost</th>
+            <th colspan="4">Successful Rate</th>
             <th colspan="4">Time Cost</th>
             <th colspan="4">Memory Usage</th>
         </tr>
