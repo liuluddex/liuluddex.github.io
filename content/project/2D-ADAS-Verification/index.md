@@ -2347,6 +2347,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <th>\(In_1\) - \(v_1\)</th>
             <th>\(In_2\) - \(d_r\)</th>
             <th>\(In_2\) - \(v_1\)</th>
+            <th>\(In_1\) - \(d_r\)</th>
+            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_2\) - \(d_r\)</th>
+            <th>\(In_2\) - \(v_1\)</th>
         </tr>
     </thead>
     <tbody>
@@ -2356,6 +2360,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.682</td>
             <td>0.408</td>
             <td>0.680</td>
+            <td>66.172%</td>
+            <td>71.860%</td>
+            <td>70.540%</td>
+            <td>65.882%</td>
             <td>530.298</td>
             <td>530.367</td>
             <td>530.781</td>
@@ -2371,6 +2379,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.680</td>
             <td>0.410</td>
             <td>0.676</td>
+            <td>89.649%</td>
+            <td>87.963%</td>
+            <td>89.769%</td>
+            <td>89.192%</td>
             <td>116.361</td>
             <td>116.419</td>
             <td>115.903</td>
@@ -2382,6 +2394,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.675</td>
             <td>0.402</td>
             <td>0.666</td>
+            <td>4.512%</td>
+            <td>1.216%</td>
+            <td>4.182%</td>
+            <td>1.623%</td>
             <td>4573.060</td>
             <td>4499.111</td>
             <td>4675.637</td>
@@ -2393,6 +2409,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.667</td>
             <td>0.400</td>
             <td>0.665</td>
+            <td>13.947%</td>
+            <td>14.194%</td>
+            <td>12.938%</td>
+            <td>14.762%</td>
             <td>11748.529</td>
             <td>9949.106</td>
             <td>12013.184</td>
@@ -2404,6 +2424,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.678</td>
             <td>0.405</td>
             <td>0.682</td>
+            <td>1.456%</td>
+            <td>1.456%</td>
+            <td>2.427%</td>
+            <td>1.456%</td>
             <td>179.092</td>
             <td>175.254</td>
             <td>174.752</td>
@@ -2415,6 +2439,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.674</td>
             <td>0.404</td>
             <td>0.670</td>
+            <td>40.673%</td>
+            <td>6.216%</td>
+            <td>32.662%</td>
+            <td>7.294%</td>
             <td>494.224</td>
             <td>484.012</td>
             <td>643.709</td>
@@ -2426,6 +2454,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.671</td>
             <td>0.402</td>
             <td>0.669</td>
+            <td>11.111%</td>
+            <td>15.375%</td>
+            <td>36.190%</td>
+            <td>24.671%</td>
             <td>386.462</td>
             <td>389.381</td>
             <td>387.235</td>
@@ -2437,6 +2469,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.678</td>
             <td>0.407</td>
             <td>0.675</td>
+            <td>13.967%</td>
+            <td>14.843%</td>
+            <td>18.932%</td>
+            <td>16.536%</td>
             <td>412.093</td>
             <td>392.047</td>
             <td>397.103</td>
@@ -2448,6 +2484,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.672</td>
             <td>0.400</td>
             <td>0.671</td>
+            <td>27.311%</td>
+            <td>6.454%</td>
+            <td>28.444%</td>
+            <td>5.546%</td>
             <td>469.901</td>
             <td>488.809</td>
             <td>556.677</td>
@@ -2459,6 +2499,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>0.668</td>
             <td>0.401</td>
             <td>0.665</td>
+            <td>25.163%</td>
+            <td>23.197%</td>
+            <td>21.075%</td>
+            <td>27.693%</td>
             <td>371.192</td>
             <td>381.942</td>
             <td>375.038</td>
