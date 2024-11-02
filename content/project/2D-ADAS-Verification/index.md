@@ -2352,10 +2352,6 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <th>\(In_1\) - \(v_1\)</th>
             <th>\(In_2\) - \(d_r\)</th>
             <th>\(In_2\) - \(v_1\)</th>
-            <th>\(In_1\) - \(d_r\)</th>
-            <th>\(In_1\) - \(v_1\)</th>
-            <th>\(In_2\) - \(d_r\)</th>
-            <th>\(In_2\) - \(v_1\)</th>
         </tr>
     </thead>
     <tbody>
