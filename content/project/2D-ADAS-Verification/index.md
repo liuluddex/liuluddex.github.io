@@ -2378,6 +2378,14 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>530.367</td>
             <td>530.781</td>
             <td>543.308</td>
+            <td>99.68</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>12.66%</td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
             <td>SA</td>
