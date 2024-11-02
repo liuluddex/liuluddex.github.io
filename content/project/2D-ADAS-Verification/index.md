@@ -2333,13 +2333,8 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <th colspan="4">Minimum Cost</th>
             <th colspan="4">Successful Rate</th>
             <th colspan="4">Time Cost</th>
-            <th colspan="4">Memory Usage</th>
         </tr>
         <tr>
-            <th>\(In_1\) - \(d_r\)</th>
-            <th>\(In_1\) - \(v_1\)</th>
-            <th>\(In_2\) - \(d_r\)</th>
-            <th>\(In_2\) - \(v_1\)</th>
             <th>\(In_1\) - \(d_r\)</th>
             <th>\(In_1\) - \(v_1\)</th>
             <th>\(In_2\) - \(d_r\)</th>
@@ -2369,10 +2364,6 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>530.367</td>
             <td>530.781</td>
             <td>543.308</td>
-            <td>93.70</td>
-            <td>93.75</td>
-            <td>93.71</td>
-            <td>93.70</td>
         </tr>
         <tr>
             <td>SA</td>
