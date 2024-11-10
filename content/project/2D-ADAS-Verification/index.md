@@ -2465,10 +2465,10 @@ We applied some traditional search algorithms as well as deep reinforcement lear
             <td>14.843%</td>
             <td>18.932%</td>
             <td>16.536%</td>
-            <td>412.093</td>
-            <td>392.047</td>
-            <td>397.103</td>
-            <td>403.572</td>
+            <td>167.412</td>
+            <td>168.568</td>
+            <td>167.465</td>
+            <td>163.122</td>
         </tr>
         <tr>
             <td>DQN_Veri</td>
