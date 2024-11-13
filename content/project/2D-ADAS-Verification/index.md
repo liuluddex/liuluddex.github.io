@@ -67,7 +67,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   }
 
   .featured-image {
-      width: 100%;   /* 设置宽度为720px */
+      width: 70%;   /* 设置宽度为720px */
       height: auto;   /* 保持图片的纵横比 */
   }
 
