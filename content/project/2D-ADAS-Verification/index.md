@@ -67,7 +67,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   }
 
   .featured-image {
-      width: 70%;   /* 设置宽度为720px */
+      width: 60%;   /* 设置宽度为720px */
       height: auto;   /* 保持图片的纵横比 */
   }
 
@@ -110,6 +110,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
     height: auto;
   }
 </style>
+
+<br><br><br><br><br><br>
 
 - [Verification with Hybrid Automaton Reachability](#verification)
   - [Vehicle Parameters](#vehicle-parameters)
