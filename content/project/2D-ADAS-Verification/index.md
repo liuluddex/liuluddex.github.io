@@ -307,7 +307,7 @@ We study the relative motion between two vehicles and model it using a hybrid au
 
 There are a lot of symbolic indicators in the invariance, such as $L_{y_1}$ and $L_{y_2}$ are the positions of the two vehicles in the two-dimensional coordinate system, and $d_r$ is the relative distance. In the judgment of invariance, TTC is the key indicator, which refers to the remaining adjustable time to avoid a collision under the current conditions. The calculation of TTC is as follows:
 
-$$ TTC = \frac{d_r - d_0}{v_{y_1} - v_{y_2}} $$
+$$ TTC = \frac{d_r}{v_{y_1} - v_{y_2}} $$
 
 where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles. The larger the TTC, the safer the current situation is and the more time there is to control the speed. In contrast, if the TTC is smaller, the speed needs to be regulated drastically and quickly to avoid a collision.
 
