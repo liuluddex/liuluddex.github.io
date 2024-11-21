@@ -111,7 +111,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   }
 
   caption {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   figcaption {
