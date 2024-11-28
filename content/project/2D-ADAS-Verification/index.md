@@ -139,7 +139,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 
 #### Vehicle Parameters
 
-We use the Audi A8 as the subject of our study, with its key vehicle parameters listed in Tab. 1. For example, its weight is 1945 kg. These parameters are related to the motion of the vehicle and will be used in the ordinary differential equations (ODEs) that describe the vehicle's motion. For example, when a vehicle is turning, both longitudinal and lateral accelerations are related to the vehicle mass. In addition, the other five parameters are also related to the vehicle's steering movement and vary from vehicle to vehicle.
+In our experiments, vehicle parameters are summarized in Tab. 1. These parameters are corresponding to simulator CarSim, and can be well used in vehicular behavior analysis. They are related to the motion of the vehicle and will be used in the ordinary differential equations (ODEs) that describe the vehicle's motion. For example, when a vehicle is turning, both longitudinal and lateral accelerations are related to the vehicle mass. In addition, the other five parameters are also related to the vehicle's steering movement and vary from vehicle to vehicle.
 
 <table>
     <caption>Tab. 1. Parameters of Vehicles</caption>
@@ -194,11 +194,13 @@ $$ \dot{v_y}= v_{x} r + \frac{F_y}{m} $$
 $$ \dot{\theta}=r $$ 
 $$ \dot{r}= \frac{C_{r}l_{r}-C_{f}l_{f}}{I_{Z} v_{y}} v_{x}- \frac{l_{r}^2 C_{r}+l_{f}^2 C_{f}}{I_{Z} v_{y}} r + \frac{C_{f} l_{f}}{I_{Z}} \delta $$
 
-where the positive direction of the y-axis is the current direction of the vehicle head, and the positive direction of the x-axis is the direction rotated 90 degrees clockwise from the positive direction of the y-axis. For example, a larger mass will result in a larger $F_y$ when the same $\dot{v_y}$ is desired. But similarly, $\dot{v_x}$ is also related to $m$ and will indirectly affect $\dot{v_y}$. In addition, it can be seen that ODEs contain division terms and there are square and trigonometric function operations, showing complex nonlinearity. Therefore, we chose Flow*, a tool that can perform reachability analysis on nonlinear ODEs, to complete the subsequent experimental analysis. In addition, it can be found that $\delta$ is the key variable for controlling vehicle steering. Later, we will mainly set it to achieve the purpose of vehicle steering.
+where $v_x$ and $v_y$ represent lateral and longitudinal speeds, $L_{x}$ and $L_{y}$ denote the lateral and longitudinal positions, respectively, $\theta$ defines vehicle's heading angle, $r$ is the yaw rate at CoG (center of gravity) of the vehicle. $I_Z$ is the moment of inertia around the vertical axis. $F_y$ is the total tire longitudinal force, $F_{xf}$ and $F_{xr}$ are the lateral forces  exerted by the front and rear tires, respectively. $l_f$ and $l_r$ are the distances from CoG to the front and rear axles.
+
+[//]: # (where the positive direction of the y-axis is the current direction of the vehicle head, and the positive direction of the x-axis is the direction rotated 90 degrees clockwise from the positive direction of the y-axis. For example, a larger mass will result in a larger $F_y$ when the same $\dot{v_y}$ is desired. But similarly, $\dot{v_x}$ is also related to $m$ and will indirectly affect $\dot{v_y}$. In addition, it can be seen that ODEs contain division terms and there are square and trigonometric function operations, showing complex nonlinearity. Therefore, we chose Flow*, a tool that can perform reachability analysis on nonlinear ODEs, to complete the subsequent experimental analysis. In addition, it can be found that $\delta$ is the key variable for controlling vehicle steering. Later, we will mainly set it to achieve the purpose of vehicle steering.)
 
 #### Invariance of Discrete Modes
 
-We study the relative motion between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 clones $S_1 - S_6$, corresponding to different states of the two vehicles turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton. In fact, it is a fusion of the invariance of each mode and the invariance of the state. Invariance is a key point of hybrid automata, which defines whether a discrete mode should be maintained. If the current mode cannot be maintained, you need to consider transitioning to other modes through transition conditions.
+We study the dynamic behaviors between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 scenarios $S_1 - S_6$, corresponding to different scenarios of the two vehicles turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton. In fact, it is a fusion of the invariance of each mode and the invariance of the scenario. Invariance is critical for the hybrid automata, which defines whether a discrete mode should be maintained. If the current mode cannot be maintained, it needs to transit to other modes through transition conditions.
 
 <table>
     <caption>Tab. 2. Invariance of Discrete Modes</caption>
@@ -317,7 +319,7 @@ There are a lot of symbolic indicators in the invariance, such as $L_{y_1}$ and 
 
 $$ TTC = \frac{d_r}{v_{y_1} - v_{y_2}} $$
 
-where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles. The larger the TTC, the safer the current situation is and the more time there is to control the speed. In contrast, if the TTC is smaller, the speed needs to be regulated drastically and quickly to avoid a collision.
+where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles. The larger the TTC is, the safer the current situation will be. In contrast, if the TTC is smaller, the speed needs to be regulated drastically and quickly to avoid a collision.
 
 #### Transition Relation
 
