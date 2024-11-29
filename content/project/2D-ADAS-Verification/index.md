@@ -125,7 +125,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   - [Vehicle Parameters](#vehicle-parameters)
   - [Invariance of Discrete Modes](#invariance-of-discrete-modes)
   - [Transition Relation](#transition-relation)
-  - [Application Validation](#application-validation)
+  - [Normal Behavior Analysis](#normal-behavior-analysis)
   - [Reachable Sets with Cyberattacks](#reachable-sets-with-cyberattacks)
 - [Falsification with Deep Reinforcement Learning](#falsification)
   - [Tool Error Comparisons](#tool-error-comparisons)
@@ -773,12 +773,12 @@ Tab. 3 shows the transition relation between different discrete modes of the hyb
 
 So far, we have introduced and listed the core of hybrid automata in detail. Parameter values, invariance, and transition relations are crucial to hybrid automata. With these, we can build a hybrid automaton and conduct subsequent experimental analysis. The Flow* model under normal conditions is shown in [normal.model](https://liuluddex.github.io/uploads/2D-ADAS-Verification/normal.model). With Flow*, we can compute the reachable sets under a specified initial state set.
 
-#### Application Validation
+#### Normal Behavior Analysis
 
-Tab. 4 shows the six initial state sets used for application validation. These six initial state sets contain six different state transition routes. By setting the initial value of the state quantity, we can put the system in different modes at the beginning and control its mode transfer path to study whether the vehicle will collide in different scenarios. But in fact, only the transfer path $q_3$ -> $q_4$ is most likely to cause vehicle collision, which is due to the high relative speed and short braking time. The corresponding reachable sets are shown in Fig. 1.
+Tab. 4 shows the six initial state sets used for normal behavior analysis. These six initial state sets contain six different state transition routes. By setting the initial value of the state quantity, we can put the system in different modes at the beginning and control its mode transfer path to study whether the vehicle will collide in different scenarios. But in fact, only the transfer path $q_3$ -> $q_4$ is most likely to cause vehicle collision, which is due to the high relative speed and short braking time. The corresponding reachable sets are shown in Fig. 1.
 
 <table>
-    <caption>Tab. 4. Initial State Sets of Application Validation</caption>
+    <caption>Tab. 4. Initial State Sets of Normal Behavior Analysis</caption>
     <thead>
         <tr>
             <th>Set</th>
@@ -1060,21 +1060,19 @@ Tab. 4 shows the six initial state sets used for application validation. These s
     </tbody>  
 </table>
 
-Fig. 1 shows the reachable sets under six different state transition routes. The figures are listed from left to right, with each two rows in a group, referring to the reachable set under a certain initial state set. As can be seen from the figure, the functions of the four discrete modes are all normal. The ego vehicle can maintain a safe relative distance from the front vehicle and no collision will occur. In addition, the nonlinearity of the system can be observed, which illustrates the complexity of the system. It can also be found that there is an over-estimation problem in the reachable sets, and some areas suddenly expand. This also reflects the necessity of the subsequent falsification process. In addition, it is worth noting that when $In_4$ is used as the initial state set, the minimum value of the relative distance is close to 3, but is not less than 3. If a cyberattack occurs in this situation, causing the ego vehicle to brake more slowly, the two vehicles may collide.
+Fig. 1 shows the reachable sets under six different state transition routes. The figures are listed from left to right, with each two rows in a group, referring to the reachable set under a certain initial state set. As can be seen from these figures, the functions of the four discrete modes are all normal. The ego vehicle can maintain a safe relative distance from the front vehicle and no collision will occur. In addition, the nonlinearity of the system can be observed, which illustrates the complexity of the system. It can also be found that there is an over-estimation problem in the reachable sets, and some areas suddenly expand. This also reflects the necessity of the subsequent falsification process. In addition, it is worth noting that when $In_4$ is used as the initial state set, the minimum value of the relative distance is close to 3, but is not less than 3. If an attack occurs in this situation, causing the ego vehicle to brake more slowly, the two vehicles may collide.
 
-{{<figure src="images/application_validation_1.svg" title="Fig. 1(a). Application Validation of $In_1$.">}}
-{{<figure src="images/application_validation_2.svg" title="Fig. 1(b). Application Validation of $In_2$.">}}
-{{<figure src="images/application_validation_3.svg" title="Fig. 1(c). Application Validation of $In_3$.">}}
-{{<figure src="images/application_validation_4.svg" title="Fig. 1(d). Application Validation of $In_4$.">}}
-{{<figure src="images/application_validation_5.svg" title="Fig. 1(e). Application Validation of $In_5$.">}}
-{{<figure src="images/application_validation_6.svg" title="Fig. 1(f). Application Validation of $In_6$.">}}
-
-[//]: # ({{< figure src="images/application_validation.svg" title="Fig. 1. Application Validation." >}})
+{{<figure src="images/application_validation_1.svg" title="Fig. 1(a). Normal Behavior Analysis of $In_1$.">}}
+{{<figure src="images/application_validation_2.svg" title="Fig. 1(b). Normal Behavior Analysis of $In_2$.">}}
+{{<figure src="images/application_validation_3.svg" title="Fig. 1(c). Normal Behavior Analysis of $In_3$.">}}
+{{<figure src="images/application_validation_4.svg" title="Fig. 1(d). Normal Behavior Analysis of $In_4$.">}}
+{{<figure src="images/application_validation_5.svg" title="Fig. 1(e). Normal Behavior Analysis of $In_5$.">}}
+{{<figure src="images/application_validation_6.svg" title="Fig. 1(f). Normal Behavior Analysis of $In_6$.">}}
 
 
-#### Reachable Sets with Cyberattacks
+#### Reachable Sets with Attacks
 
-In order to further study the impact of cyberattacks under this high-risk situation, we selected two different sets of initial states. To create this scenario, the initial TTC needs to be less than 1.6 and close to 0.6. Tab. 5 shows two different initial state sets and the range of attack intensity per unit time under the two attack strategies.
+In order to further study the impact of attacks under this high-risk situation, we selected two different sets of initial states. To create this scenario, the initial TTC needs to be less than 1.6 and close to 0.6. Tab. 5 shows two different initial state sets and the range of attack intensity per unit time under the two attack strategies.
 
 <table>
     <caption>Tab. 5. Initial State Sets of Reachable Sets</caption>
@@ -1190,21 +1188,19 @@ In order to further study the impact of cyberattacks under this high-risk situat
     </tbody>
 </table>
 
-Fig. 2 shows the reachable sets of two different initial state sets under two attack strategies. Among them, every two rows form a group, corresponding to the reachable set of a certain attack strategy under a certain initial state set. It can be seen that when there is no cyberattack, the reachable sets do not intersect with the unsafe set. When the state quantity is disturbed by the cyberattack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
+Fig. 2 shows the reachable sets of two different initial state sets under two attack strategies. Among them, every two rows form a group, corresponding to the reachable set of a certain attack strategy under a certain initial state set. It can be seen that when there is no attack, the reachable sets do not intersect with the unsafe set. When the state quantity is disturbed by the attack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
 
 {{< figure src="images/reachable_sets_1.svg" title="Fig. 2(a). Reachable Sets of $In_1-d_r$." >}}
 {{< figure src="images/reachable_sets_2.svg" title="Fig. 2(b). Reachable Sets of $In_1-v_{y_1}$." >}}
 {{< figure src="images/reachable_sets_3.svg" title="Fig. 2(c). Reachable Sets of $In_2-d_r$." >}}
 {{< figure src="images/reachable_sets_4.svg" title="Fig. 2(d). Reachable Sets of $In_2-v_{y_1}$." >}}
 
-[//]: # ({{< figure src="images/reachable_sets.svg" title="Fig. 2. Reachable Sets." >}})
-
 
 ### Falsification with Deep Reinforcement Learning
 
 #### Tool Error Comparisons
 
-Due to the falsification part, we use Python to implement a method based on deep reinforcement learning to solve feasible attack strategies, so we need to compare the error between the Python code implementation and Flow*. We compared the errors between the two code solutions under 27 different initial state sets, including root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and mean square error (MSE). Tab. 3 shows 27 initial state sets and the corresponding errors between tools. 
+Due to the falsification part, we use Python to implement a method based on deep reinforcement learning to find feasible attack paths, so we need to compare the error between the Python code implementation and Flow*. We compared the errors between the two code solutions under 27 different initial state sets, including root mean squared error (RMSE), mean absolute error (MAE), mean absolute percentage error (MAPE), and mean square error (MSE). Tab. 3 shows 27 initial state sets and the corresponding errors between tools. 
 
 <table>
     <caption>Tab. 3. Initial State Sets of Tool Error Comparisons</caption>
