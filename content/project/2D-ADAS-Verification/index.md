@@ -129,7 +129,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   - [Reachable Sets with Cyberattacks](#reachable-sets-with-cyberattacks)
 - [Falsification with Deep Reinforcement Learning](#falsification)
   - [Tool Error Comparisons](#tool-error-comparisons)
-  - [Performance Comparison of Attack Strategy Search Algorithms](#performance-comparison-of-attack-strategy-search-algorithms)
+  - [Performance Comparison of Attack Path Search Algorithms](#performance-comparison-of-attack-path-search-algorithms)
   - [Training of Deep Reinforcement Learning Models](#training-of-deep-reinforcement-learning-models)
   - [Analysis of Energy Consumption](#analysis-of-energy-consumption)
 
@@ -2316,16 +2316,16 @@ Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be 
 
 {{< figure src="images/tool_errors.svg" title="Fig. 3. Tool Errors." >}}
 
-In more detail, Fig. 4 shows the variation of relative distance over time for 27 initial state sets. It can be seen that the results obtained by the two tools are highly consistent. It can be found that all images are very similar, but their descending slopes and values are different. In some of these scenarios, the minimum relative distance is very close to 3, which shows its riskiness. Therefore, it is necessary to verify and analyze its functional safety under the threat of cyberattacks.
+In more detail, Fig. 4 shows the variation of relative distance over time for 27 initial state sets. It can be seen that the results obtained by the two tools are highly consistent. It can be found that all images are very similar, but their descending slopes and values are different. In some of these scenarios, the minimum relative distance is very close to 3, which shows its riskiness. Therefore, it is necessary to verify and analyze its functional safety under the threat of attacks.
 
 {{< figure src="images/tool_errors_comparison.svg" title="Fig. 4. Tool Error Tests." >}}
 
-#### Performance Comparison of Attack Strategy Search Algorithms
+#### Performance Comparison of Attack Path Search Algorithms
 
-We applied some traditional search algorithms as well as deep reinforcement learning algorithms to search for feasible attack strategies. Among them, we have set limits on the maximum attack intensity per unit time and the total attack cost. Tab. 4 shows the performance comparison of attack strategy search algorithms. 
+We applied some traditional search algorithms as well as deep reinforcement learning algorithms to search for feasible attack paths. Among them, we have set limits on the maximum attack intensity per unit time and the total attack cost. Tab. 4 shows the performance comparison of attack path search algorithms. 
 
 <table>
-    <caption>Tab. 4. Performance Comparison of Attack Strategy Search Algorithms</caption>
+    <caption>Tab. 4. Performance Comparison of Attack Path Search Algorithms</caption>
     <thead>
         <tr>
             <th rowspan="2">Algorithm</th>
@@ -2335,17 +2335,17 @@ We applied some traditional search algorithms as well as deep reinforcement lear
         </tr>
         <tr>
             <th>\(In_1\) - \(d_r\)</th>
-            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_1\) - \(v_{y_1}\)</th>
             <th>\(In_2\) - \(d_r\)</th>
-            <th>\(In_2\) - \(v_1\)</th>
+            <th>\(In_2\) - \(v_{y_1}\)</th>
             <th>\(In_1\) - \(d_r\)</th>
-            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_1\) - \(v_{y_1}\)</th>
             <th>\(In_2\) - \(d_r\)</th>
-            <th>\(In_2\) - \(v_1\)</th>
+            <th>\(In_2\) - \(v_{y_1}\)</th>
             <th>\(In_1\) - \(d_r\)</th>
-            <th>\(In_1\) - \(v_1\)</th>
+            <th>\(In_1\) - \(v_{y_1}\)</th>
             <th>\(In_2\) - \(d_r\)</th>
-            <th>\(In_2\) - \(v_1\)</th>
+            <th>\(In_2\) - \(v_{y_1}\)</th>
         </tr>
     </thead>
     <tbody>
