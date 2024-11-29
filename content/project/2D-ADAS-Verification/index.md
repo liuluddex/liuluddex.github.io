@@ -198,7 +198,7 @@ where $v_x$ and $v_y$ represent lateral and longitudinal speeds, $L_{x}$ and $L_
 
 #### Invariance of Discrete Modes
 
-We study the dynamic behaviors between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 scenarios $S_1 - S_6$, corresponding to different situations of the two vehicles turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton. In fact, it is a fusion of the invariance of each mode and the invariance of the scenario. Invariance is critical for the hybrid automata, which defines whether a discrete mode should be maintained. If the current mode cannot be maintained, it needs to transit to other modes through transition conditions.
+We study the dynamic behaviors between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 scenarios $S_1 - S_6$, corresponding to different situations of the two vehicles turning. Tab. 2 illustrates the invariance of the discrete modes in the hybrid automaton. This invariance represents a combination of the mode-specific invariance and the scenario-based invariance. Invariance plays a crucial role in hybrid automata, as it determines whether a discrete mode can be sustained. If the current mode cannot be sustained, the system must transition to another mode based on the defined transition conditions.
 
 <table>
     <caption>Tab. 2. Invariance of Discrete Modes</caption>
