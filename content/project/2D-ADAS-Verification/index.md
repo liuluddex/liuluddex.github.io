@@ -196,8 +196,6 @@ $$ \dot{r}= \frac{C_{r}l_{r}-C_{f}l_{f}}{I_{Z} v_{y}} v_{x}- \frac{l_{r}^2 C_{r}
 
 where $v_x$ and $v_y$ represent lateral and longitudinal speeds, $L_{x}$ and $L_{y}$ denote the lateral and longitudinal positions, respectively, $\theta$ defines vehicle's heading angle, $r$ is the yaw rate at CoG (center of gravity) of the vehicle. $I_Z$ is the moment of inertia around the vertical axis. $F_y$ is the total tire longitudinal force, $F_{xf}$ and $F_{xr}$ are the lateral forces  exerted by the front and rear tires, respectively. $l_f$ and $l_r$ are the distances from CoG to the front and rear axles.
 
-[//]: # (where the positive direction of the y-axis is the current direction of the vehicle head, and the positive direction of the x-axis is the direction rotated 90 degrees clockwise from the positive direction of the y-axis. For example, a larger mass will result in a larger $F_y$ when the same $\dot{v_y}$ is desired. But similarly, $\dot{v_x}$ is also related to $m$ and will indirectly affect $\dot{v_y}$. In addition, it can be seen that ODEs contain division terms and there are square and trigonometric function operations, showing complex nonlinearity. Therefore, we chose Flow*, a tool that can perform reachability analysis on nonlinear ODEs, to complete the subsequent experimental analysis. In addition, it can be found that $\delta$ is the key variable for controlling vehicle steering. Later, we will mainly set it to achieve the purpose of vehicle steering.)
-
 #### Invariance of Discrete Modes
 
 We study the dynamic behaviors between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 scenarios $S_1 - S_6$, corresponding to different scenarios of the two vehicles turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton. In fact, it is a fusion of the invariance of each mode and the invariance of the scenario. Invariance is critical for the hybrid automata, which defines whether a discrete mode should be maintained. If the current mode cannot be maintained, it needs to transit to other modes through transition conditions.
@@ -207,7 +205,7 @@ We study the dynamic behaviors between two vehicles and model it using a hybrid 
     <thead>
         <tr>
             <th>Mode</th>
-            <th>State</th>
+            <th>Scenario</th>
             <th>Invariance</th>
         </tr>
     </thead>
@@ -317,9 +315,9 @@ We study the dynamic behaviors between two vehicles and model it using a hybrid 
 
 There are a lot of symbolic indicators in the invariance, such as $L_{y_1}$ and $L_{y_2}$ are the positions of the two vehicles in the two-dimensional coordinate system, and $d_r$ is the relative distance. In the judgment of invariance, TTC is the key indicator, which refers to the remaining adjustable time to avoid a collision under the current conditions. The calculation of TTC is as follows:
 
-$$ TTC = \frac{d_r}{v_{y_1} - v_{y_2}} $$
+$$ TTC = -\frac{d_r}{v_{y_2} - v_{y_1}} $$
 
-where $d_0$ is the minimum safe distance, $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles. The larger the TTC is, the safer the current situation will be. In contrast, if the TTC is smaller, the speed needs to be regulated drastically and quickly to avoid a collision.
+where $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles. The larger the TTC is, the safer the current situation will be. In contrast, if the TTC is smaller, the speed needs to be regulated drastically and quickly to avoid a collision.
 
 #### Transition Relation
 
