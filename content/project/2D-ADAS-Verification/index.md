@@ -315,22 +315,22 @@ We study the dynamic behaviors between two vehicles and model it using a hybrid 
 
 There are a lot of symbolic indicators in the invariance, such as $L_{y_1}$ and $L_{y_2}$ are the positions of the two vehicles in the two-dimensional coordinate system, and $d_r$ is the relative distance. In the judgment of invariance, TTC is the key indicator, which refers to the remaining adjustable time to avoid a collision under the current conditions. The calculation of TTC is as follows:
 
-$$ TTC = -\frac{d_r}{v_{y_2} - v_{y_1}} $$
+$$ TTC = \frac{-d_r}{v_{y_2} - v_{y_1}} $$
 
 where $v_{y_1}$ and $v_{y_2}$ are the longitudinal speeds of the two vehicles. The larger the TTC is, the safer the current situation will be. In contrast, if the TTC is smaller, the speed needs to be regulated drastically and quickly to avoid a collision.
 
 #### Transition Relation
 
-Tab. 3 shows the transition relation between different discrete modes of the hybrid automaton. Some are mode switches, others are state switches, and their corresponding conditions and resets are shown. Since mode clones exist, it is necessary to specify both the source mode and state and the target mode and state. The core of the transition relation lies in condition and reset, one is the condition of transition, and the other is to reset certain state quantities during the transfer. Here, we study the relative motion of two vehicles on a single lane in a 90-degree turn scenario. Both vehicles have three different steering states, which together give a total of six different states. The switching of states is related to the reset of $\delta$, which is crucial for steering. During state transitions, we reset $\delta$ and $r$. Similarly, during mode transitions, we reset $q$.
+Tab. 3 shows the transition relation between different discrete modes of the hybrid automaton. Some are mode switches, others are scenario switches, and their corresponding conditions and resets are shown. It is necessary to specify both the source mode and scenario and the target mode and scenario. The core of the transition relation lies in condition and reset, one is the condition of transition, and the other is to reset certain state quantities during the transfer. Here, we study the dynamic behaviors of two vehicles on a single lane in a 90-degree turn scenario. Both vehicles have three different steering scenarios, which together give a total of six different scenarios. The switching of scenarios is related to the reset of $\delta$, which is crucial for steering. During state transitions, we reset $\delta$ and $r$. Similarly, during mode transitions, we reset $q$.
 
 <table>
     <caption>Tab. 3. Transition Relation</caption>
     <thead>
         <tr>
             <th>Source Mode</th>
-            <th>Source State</th>
+            <th>Source Scenario</th>
             <th>Target Mode</th>
-            <th>Target State</th>
+            <th>Target Scenario</th>
             <th>Condition</th>
             <th>Reset</th>
         </tr>
@@ -771,7 +771,7 @@ Tab. 3 shows the transition relation between different discrete modes of the hyb
     </tbody>
 </table>
 
-So far, we have introduced and listed the core of hybrid automata in detail. Parameter values, invariance, and transition relations are crucial to hybrid automata. With these, we can build a hybrid automaton and conduct subsequent experimental analysis. The Flow* model under normal conditions is shown in [normal.model](https://liuluddex.github.io/uploads/2D-ADAS-Verification/normal.model). With Flow*, we can solve the reachable sets under a specified initial state set.
+So far, we have introduced and listed the core of hybrid automata in detail. Parameter values, invariance, and transition relations are crucial to hybrid automata. With these, we can build a hybrid automaton and conduct subsequent experimental analysis. The Flow* model under normal conditions is shown in [normal.model](https://liuluddex.github.io/uploads/2D-ADAS-Verification/normal.model). With Flow*, we can compute the reachable sets under a specified initial state set.
 
 #### Application Validation
 
