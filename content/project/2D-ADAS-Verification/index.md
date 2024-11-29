@@ -139,7 +139,7 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
 
 #### Vehicle Parameters
 
-In our experiments, vehicle parameters are summarized in Tab. 1. These parameters are corresponding to simulator CarSim, and can be well used in vehicular behavior analysis. They are related to the motion of the vehicle and will be used in the ordinary differential equations (ODEs) that describe the vehicle's motion. For example, when a vehicle is turning, both longitudinal and lateral accelerations are related to the vehicle mass. In addition, the other five parameters are also related to the vehicle's steering movement and vary from vehicle to vehicle.
+In our experiments, vehicle parameters are summarized in Tab. 1. These parameters are corresponding to simulator CarSim, and can be well used in vehicular behavior analysis. They are related to the motion of the vehicle and will be used in the ordinary differential equations (ODEs) that describe the vehicle's motion. For example, when a vehicle is turning, both longitudinal and lateral accelerations are related to the vehicle quality. In addition, the other five parameters are also related to the vehicle's steering movement and vary from vehicle to vehicle.
 
 <table>
     <caption>Tab. 1. Parameters of Vehicles</caption>
@@ -198,7 +198,7 @@ where $v_x$ and $v_y$ represent lateral and longitudinal speeds, $L_{x}$ and $L_
 
 #### Invariance of Discrete Modes
 
-We study the dynamic behaviors between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 scenarios $S_1 - S_6$, corresponding to different scenarios of the two vehicles turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton. In fact, it is a fusion of the invariance of each mode and the invariance of the scenario. Invariance is critical for the hybrid automata, which defines whether a discrete mode should be maintained. If the current mode cannot be maintained, it needs to transit to other modes through transition conditions.
+We study the dynamic behaviors between two vehicles and model it using a hybrid automaton. The hybrid automaton contains a total of 4 discrete modes, namely $q_1$ (CC), $q_2$ (ACC), $q_3$ (AEB), and $q_4$ (STOP). Each discrete mode has 6 scenarios $S_1 - S_6$, corresponding to different situations of the two vehicles turning. Tab. 2 shows the invariance of the discrete modes of the hybrid automaton. In fact, it is a fusion of the invariance of each mode and the invariance of the scenario. Invariance is critical for the hybrid automata, which defines whether a discrete mode should be maintained. If the current mode cannot be maintained, it needs to transit to other modes through transition conditions.
 
 <table>
     <caption>Tab. 2. Invariance of Discrete Modes</caption>
@@ -313,7 +313,7 @@ We study the dynamic behaviors between two vehicles and model it using a hybrid 
     </tbody>
 </table>
 
-There are a lot of symbolic indicators in the invariance, such as $L_{y_1}$ and $L_{y_2}$ are the positions of the two vehicles in the two-dimensional coordinate system, and $d_r$ is the relative distance. In the judgment of invariance, TTC is the key indicator, which refers to the remaining adjustable time to avoid a collision under the current conditions. The calculation of TTC is as follows:
+There are a lot of symbolic metrics in the invariance, such as $L_{y_1}$ and $L_{y_2}$ are the positions of the two vehicles in the two-dimensional coordinate system, and $d_r$ is the relative distance. In the judgment of invariance, TTC is the key metric, which refers to the remaining adjustable time to avoid a collision under the current conditions. The calculation of TTC is as follows:
 
 $$ TTC = \frac{-d_r}{v_{y_2} - v_{y_1}} $$
 
@@ -2312,7 +2312,7 @@ Due to the falsification part, we use Python to implement a method based on deep
     </tbody>
 </table>
 
-Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range. It shows that the subsequent falsification step can be supported by a high-precision hybrid automaton, thus maintaining the consistency of the two parts. In addition, it is found that a larger error exists when the minimum relative distance is small. This is because during emergency braking (including $q_3$ and $q_4$), the system accumulates a large amount of errors due to a large number of nonlinear operations. However, the error is still within an acceptable range and is at a relatively small value.
+Fig. 3 shows the errors under 27 initial state sets more intuitively. It can be seen that the two tools have a high degree of similarity and the errors are in a small range. It shows that the subsequent falsification step can be supported by a high-precision hybrid automaton, thus maintaining the consistency of the two parts. In addition, larger errors are observed when the minimum relative distance is small. During emergency braking (including $q_3$ and $q_4$), the system accumulates significant errors due to the large number of nonlinear operations involved. However, the errors remain within an acceptable range and are relatively small in magnitude.
 
 {{< figure src="images/tool_errors.svg" title="Fig. 3. Tool Errors." >}}
 
