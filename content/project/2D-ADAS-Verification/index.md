@@ -1188,12 +1188,9 @@ In order to further study the impact of attacks under this high-risk situation, 
     </tbody>
 </table>
 
-Fig. 2 shows the reachable sets of two different initial state sets under two attack strategies. Among them, every two rows form a group, corresponding to the reachable set of a certain attack strategy under a certain initial state set. It can be seen that when there is no attack, the reachable sets do not intersect with the unsafe set. When the state quantity is disturbed by the attack, the reachable sets intersect with the unsafe set. However, it is still unknown whether this is due to conservative estimates in reachability analysis. Therefore, further falsification is needed.
+Fig. 2 shows the reachable sets of under $A_1$ with two attack targets. Each row shows a state variable: longitudinal speed, longitudinal position, and relative distance. The left column corresponds to the $A_1$-$d_r$, and the right column to $A_1$-$v_{y_1}$. Both cases lead to notable divergence in reachable sets, especially in $d_r$, revealing increased risk of safety violations.
 
-{{< figure src="images/reachable_sets_1.svg" title="Fig. 2(a). Reachable Sets of $In_1-d_r$." >}}
-{{< figure src="images/reachable_sets_2.svg" title="Fig. 2(b). Reachable Sets of $In_1-v_{y_1}$." >}}
-{{< figure src="images/reachable_sets_3.svg" title="Fig. 2(c). Reachable Sets of $In_2-d_r$." >}}
-{{< figure src="images/reachable_sets_4.svg" title="Fig. 2(d). Reachable Sets of $In_2-v_{y_1}$." >}}
+{{< figure src="images/reachable_sets_A1_0806_v1.pdf" title="Fig. 2. Reachable Sets of $A_1$." >}}
 
 
 ### Falsification with Deep Reinforcement Learning
