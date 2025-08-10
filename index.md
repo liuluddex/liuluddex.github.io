@@ -119,6 +119,8 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   }
 </style>
 
+![示例图片](content/project/2D-ADAS-Verification/featured.png)
+
 <br><br><br><br>
 
 - [Verification with Hybrid Automaton Reachability](#verification)
