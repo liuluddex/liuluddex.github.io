@@ -1191,7 +1191,7 @@ In order to further study the impact of attacks under this high-risk situation, 
 Fig. 2 shows the reachable sets of under $A_1$ with two attack targets. Each row shows a state variable: longitudinal speed, longitudinal position, and relative distance. The left column corresponds to the $A_1$-$d_r$, and the right column to $A_1$-$v_{y_1}$. Both cases lead to notable divergence in reachable sets, especially in $d_r$, revealing increased risk of safety violations.
 
 <figure>
-  <img src="images/reachable_sets_A1_0806_v1.pdf" alt="Fig. 2. Reachable Sets of A1.">
+  <img src="content/project/2D-ADAS-Verification/images/reachable_sets_A1_0806_v1.pdf" alt="Fig. 2. Reachable Sets of A1.">
   <figcaption>Fig. 2. Reachable Sets of $A_1$.</figcaption>
 </figure>
 
