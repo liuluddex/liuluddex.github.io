@@ -1072,14 +1072,14 @@ Fig. 1 shows the reachable sets under six different state transition routes. The
 
 #### Reachable Sets with Attacks
 
-In order to further study the impact of attacks under this high-risk situation, we selected two different scenarios of $In_4$. To create this scenario, the initial TTC needs to be less than 1.6 and close to 0.6. Tab. 5 shows two different initial state sets and the range of attack intensity per unit time under the two attack strategies.
+In order to further study the impact of attacks under this high-risk situation, we selected two different scenarios of $In_4$. To create this scenario, the initial TTC needs to be less than 1.6 and close to 0.6. Tab. 5 shows two different scenario settings and the range of attack intensity per unit time under the two attack strategies.
 
 <table>
     <caption>Tab. 5. Initial State Sets of Reachable Sets</caption>
     <thead>
         <tr>
-            <th>Set</th>
-            <th>Route</th>
+            <th>Scenario</th>
+            <th>Transition</th>
             <th>Bound</th>
             <th>\(v_{x_1}\)</th>
             <th>\(v_{y_1}\)</th>
