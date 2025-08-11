@@ -295,436 +295,436 @@ Tab. 3 shows the transition relation between different discrete modes of the hyb
     </thead>
     <tbody>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_2\)</td>
-            <td>\(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1\)</td>
-            <td>\(\delta_2' := 0.07, r_2' := 0\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_2$)</td>
+            <td>$(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1$)</td>
+            <td>$(\delta_2' := 0.07, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_2\)</td>
-            <td>\(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1\)</td>
-            <td>\(\delta_2' := 0.07, r_2' := 0\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_2$)</td>
+            <td>$(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1$)</td>
+            <td>$(\delta_2' := 0.07, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_2\)</td>
-            <td>\(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1\)</td>
-            <td>\(\delta_2' := 0.07, r_2' := 0\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_2$)</td>
+            <td>$(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1$)</td>
+            <td>$(\delta_2' := 0.07, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_2\)</td>
-            <td>\(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1\)</td>
-            <td>\(\delta_2' := 0.07, r_2' := 0\)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_2$)</td>
+            <td>$(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1$)</td>
+            <td>$(\delta_2' := 0.07, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_3\)</td>
-            <td>\(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_2' := 0, r_2' := 0\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_3$)</td>
+            <td>$(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_2' := 0, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_3\)</td>
-            <td>\(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_2' := 0, r_2' := 0\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_3$)</td>
+            <td>$(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_2' := 0, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_3\)</td>
-            <td>\(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_2' := 0, r_2' := 0\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_3$)</td>
+            <td>$(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_2' := 0, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_3\)</td>
-            <td>\(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_2' := 0, r_2' := 0\)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_3$)</td>
+            <td>$(L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_2' := 0, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_4\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_4$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0.07, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_4\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_4$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0.07, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_4\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_4$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0.07, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_4\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_4$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0.07, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_5\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_5$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0.07, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_5\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_5$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0.07, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_5\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_5$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0.07, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_5\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0.07, r_1' := 0\)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_5$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0.07, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_5\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_2' := 0, r_2' := 0\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_5$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_2' := 0, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_5\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_2' := 0, r_2' := 0\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_5$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_2' := 0, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_5\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_2' := 0, r_2' := 0\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_5$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_2' := 0, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_5\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_2' := 0, r_2' := 0\)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_5$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_2' := 0, r_2' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_6\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0, r_1' := 0\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_6$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_6\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0, r_1' := 0\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_6$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_6\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0, r_1' := 0\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_6$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_6\)</td>
-            <td>\(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
-            <td>\(\delta_1' := 0, r_1' := 0\)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_6$)</td>
+            <td>$(L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
+            <td>$(\delta_1' := 0, r_1' := 0$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_1\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_1$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_2\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_2$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_3\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_3$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_4\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_4$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_5\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_5$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_6\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_6\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_6$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_6$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_1\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_1$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_2\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_2$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_3\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_3$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_4\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_4$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_5\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_5$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_1\) (CC)</td>
-            <td>\(S_6\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_6\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_1$) (CC)</td>
+            <td>$(S_6$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_6$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 \cdot (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_1\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_1$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_2\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_2$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_3\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_3$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_4\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_4$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_5\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_5$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_6\)</td>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_6\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 3\)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_6$)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_6$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 3$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_1\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_1$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_2\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_2$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_3\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_3$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_4\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_4$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_5\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_5$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_6\)</td>
-            <td>\(q_2\) (ACC)</td>
-            <td>\(S_6\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 2\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_6$)</td>
+            <td>$(q_2$) (ACC)</td>
+            <td>$(S_6$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -d_r - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 2$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_1\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_1\)</td>
-            <td>\(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 4\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_1$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_1$)</td>
+            <td>$(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 4$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_2\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_2\)</td>
-            <td>\(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 4\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_2$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_2$)</td>
+            <td>$(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 4$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_3\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_3\)</td>
-            <td>\(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 4\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_3$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_3$)</td>
+            <td>$(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 4$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_4\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_4\)</td>
-            <td>\(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 4\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_4$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_4$)</td>
+            <td>$(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 4$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_5\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_5\)</td>
-            <td>\(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 4\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_5$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_5$)</td>
+            <td>$(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 4$)</td>
         </tr>
         <tr>
-            <td>\(q_3\) (AEB)</td>
-            <td>\(S_6\)</td>
-            <td>\(q_4\) (STOP)</td>
-            <td>\(S_6\)</td>
-            <td>\(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3\)</td>
-            <td>\(q' := 4\)</td>
+            <td>$(q_3$) (AEB)</td>
+            <td>$(S_6$)</td>
+            <td>$(q_4$) (STOP)</td>
+            <td>$(S_6$)</td>
+            <td>$(v_{y_1} \geq 0 \& -d_r - 0.6 * (v_{y_2} - v_{y_1}) \geq 0 \& d_r \geq 3$)</td>
+            <td>$(q' := 4$)</td>
         </tr>
     </tbody>
 </table>
