@@ -114,11 +114,11 @@ In our experiments, vehicle parameters are summarized in Tab. 1. These parameter
         <tr>
             <td>Symbol</td>
             <td>m</td>
-            <td>\(C_f\)</td>
-            <td>\(C_r\)</td>
-            <td>\(l_f\)</td>
-            <td>\(l_r\)</td>
-            <td>\(I_z\)</td>
+            <td>$(C_f$)</td>
+            <td>$(C_r$)</td>
+            <td>$(l_f$)</td>
+            <td>$(l_r$)</td>
+            <td>$(I_z$)</td>
         </tr>
         <tr>
             <td>Unit</td>
