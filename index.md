@@ -175,104 +175,104 @@ We study the dynamic behaviors between two vehicles and model it using a hybrid 
     </thead>
     <tbody>
         <tr>
-            <td rowspan="6">\(q_1\) (CC)</td>
-            <td>\(S_1\)</td>
+            <td rowspan="6">$(q_1$) (CC)</td>
+            <td>$(S_1$)</td>
             <td>$(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0$)</td>
         </tr>
         <tr>
-            <td>\(S_2\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>$(S_2$)</td>
+            <td>$(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_3\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_3$)</td>
+            <td>$(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_4\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>$(S_4$)</td>
+            <td>$(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_5\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_5$)</td>
+            <td>$(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_6\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_6$)</td>
+            <td>$(d_r \geq 75 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td rowspan="6">\(q_2\) (ACC)</td>
-            <td>\(S_1\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0\)</td>
+            <td rowspan="6">$(q_2$) (ACC)</td>
+            <td>$(S_1$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0$)</td>
         </tr>
         <tr>
-            <td>\(S_2\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>$(S_2$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_3\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_3$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_4\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>$(S_4$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_5\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_5$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_6\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_6$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td rowspan="6">\(q_3\) (AEB)</td>
-            <td>\(S_1\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0\)</td>
+            <td rowspan="6">$(q_3$) (AEB)</td>
+            <td>$(S_1$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0$)</td>
         </tr>
         <tr>
-            <td>\(S_2\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>$(S_2$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_3\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_3$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_4\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>$(S_4$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_5\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_5$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_6\)</td>
-            <td>\(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_6$)</td>
+            <td>$(v_{y_2} - v_{y_1} \leq 0 \& -(d_r - 3) - 1.6 * (v_{y_2} - v_{y_1}) \geq 0 \& -(d_r - 3) - 0.6 * (v_{y_2} - v_{y_1}) \leq 0 \& d_r \geq 3 \& d_r \leq d_0 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td rowspan="6">\(q_4\) (STOP)</td>
-            <td>\(S_1\)</td>
-            <td>\(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0\)</td>
+            <td rowspan="6">$(q_4$) (STOP)</td>
+            <td>$(S_1$)</td>
+            <td>$(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0$)</td>
         </tr>
         <tr>
-            <td>\(S_2\)</td>
-            <td>\(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>$(S_2$)</td>
+            <td>$(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \leq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_3\)</td>
-            <td>\(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_3$)</td>
+            <td>$(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \leq d_1 \& L_{y_2} \geq d_1 \& \theta_1 = 0 \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_4\)</td>
-            <td>\(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}\)</td>
+            <td>$(S_4$)</td>
+            <td>$(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \leq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_5\)</td>
-            <td>\(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_5$)</td>
+            <td>$(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \leq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
         <tr>
-            <td>\(S_6\)</td>
-            <td>\(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}\)</td>
+            <td>$(S_6$)</td>
+            <td>$(v_{y_1} \geq 1 \& d_r \geq 3 \& L_{y_1} \geq d_1 \& L_{y_2} \geq d_1 \& \theta_1 \geq \frac{\pi}{2} \& \theta_2 \geq \frac{\pi}{2}$)</td>
         </tr>
     </tbody>
 </table>
