@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Enhanced Verification of Safety and Security for Advanced Driver Assistance Systems
+title: Lu Liu
 
 # Name pronunciation (optional)
 #name_pronunciation: Lu Liu
