@@ -9,10 +9,8 @@
   document.addEventListener('DOMContentLoaded', function() {
     renderMathInElement(document.body, {
       delimiters: [
-        // 行内公式：\\(...\\)
-        {left: "\\\\(", right: "\\\\)", display: false},
-        // 块级公式：\\[...\\]
-        {left: "\\\\[", right: "\\\\]", display: true}
+        {left: '$', right: '$', display: false},  // 行内公式：$...$
+        {left: '$$', right: '$$', display: true}  // 块级公式：$$...$$
       ]
     });
   });
