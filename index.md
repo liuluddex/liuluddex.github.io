@@ -1,4 +1,11 @@
 ---
+title: "目标页面标题"  # 可能被主题复用
+meta_title: "跳转页显示的标题"  # 强制设置浏览器标签标题
+redirectTo: "/project/2d-adas-verification/"
+---
+
+
+---
 title: "Enhanced Verification and Falsification for ADAS Safety and Security Based on Reachability Analysis and Deep Reinforcement Learning"
 summary: "Enhanced Verification and Falsification for ADAS Safety and Security Based on Reachability Analysis and Deep Reinforcement Learning"
 tags:
