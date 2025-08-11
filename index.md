@@ -177,7 +177,7 @@ We study the dynamic behaviors between two vehicles and model it using a hybrid 
         <tr>
             <td rowspan="6">\(q_1\) (CC)</td>
             <td>\(S_1\)</td>
-            <td>\(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0\)</td>
+            <td>$(d_r \geq 75 \& L_{y_1} \leq d_1 \& L_{y_2} \leq d_1 \& \theta_1 = 0 \& \theta_2 = 0$)</td>
         </tr>
         <tr>
             <td>\(S_2\)</td>
