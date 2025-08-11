@@ -1,6 +1,6 @@
 ---
-title: "目标页面标题"  # 可能被主题复用
-meta_title: "跳转页显示的标题"  # 强制设置浏览器标签标题
+title: "Enhanced Verification of Safety and Security for Advanced Driver Assistance Systems"  # 可能被主题复用
+meta_title: "Enhanced Verification of Safety and Security for Advanced Driver Assistance Systems"  # 强制设置浏览器标签标题
 redirectTo: "/project/2d-adas-verification/"
 ---
 
