@@ -1,3 +1,21 @@
+<!-- 1. 引入KaTeX必要的样式和脚本 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+<!-- 2. 触发公式渲染的脚本 -->
+<script>
+  // 页面加载完成后自动渲染所有公式
+  document.addEventListener('DOMContentLoaded', function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$', right: '$', display: false},  // 行内公式：$...$
+        {left: '$$', right: '$$', display: true}  // 块级公式：$$...$$
+      ]
+    });
+  });
+</script>
+
 # Enhanced Verification of Safety and Security for Advanced Driver Assistance Systems
 
 <style>
