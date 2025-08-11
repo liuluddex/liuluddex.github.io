@@ -1149,21 +1149,21 @@ Due to the falsification part, we use Python to implement a method based on deep
         <tr>
             <th>Set</th>
             <th>Bound</th>
-            <th>\(v_{x_1}\)</th>
-            <th>\(v_{y_1}\)</th>
-            <th>\(L_{x_1}\)</th>
-            <th>\(L_{y_1}\)</th>
-            <th>\(\theta_1\)</th>
-            <th>\(r_1\)</th>
-            <th>\(\delta_1\)</th>
-            <th>\(v_{x_2}\)</th>
-            <th>\(v_{y_2}\)</th>
-            <th>\(L_{x_2}\)</th>
-            <th>\(L_{y_2}\)</th>
-            <th>\(\theta_2\)</th>
-            <th>\(r_2\)</th>
-            <th>\(\delta_2\)</th>
-            <th>\(d_r\)</th>
+            <th>$(v_{x_1}$)</th>
+            <th>$(v_{y_1}$)</th>
+            <th>$(L_{x_1}$)</th>
+            <th>$(L_{y_1}$)</th>
+            <th>$(\theta_1$)</th>
+            <th>$(r_1$)</th>
+            <th>$(\delta_1$)</th>
+            <th>$(v_{x_2}$)</th>
+            <th>$(v_{y_2}$)</th>
+            <th>$(L_{x_2}$)</th>
+            <th>$(L_{y_2}$)</th>
+            <th>$(\theta_2$)</th>
+            <th>$(r_2$)</th>
+            <th>$(\delta_2$)</th>
+            <th>$(d_r$)</th>
             <th>RMSE</th>
             <th>MAE</th>
             <th>MAPE</th>
@@ -1171,7 +1171,7 @@ Due to the falsification part, we use Python to implement a method based on deep
     </thead>
     <tbody>
         <tr>
-            <td rowspan="2">\(In_1\)</td> 
+            <td rowspan="2">$(In_1$)</td> 
             <td>min</td>
             <td>0.00</td>
             <td>16.36</td>
@@ -1211,7 +1211,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>10.59</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_2\)</td> 
+            <td rowspan="2">$(In_2$)</td> 
             <td>min</td>
             <td>0.00</td>
             <td>14.68</td>
@@ -1251,7 +1251,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>14.37</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_3\)</td> 
+            <td rowspan="2">$(In_3$)</td> 
             <td>min</td>
             <td>0.00</td>
             <td>11.29</td>
@@ -1291,7 +1291,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>11.82</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_4\)</td>
+            <td rowspan="2">$(In_4$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>19.82</td>
@@ -1331,7 +1331,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>11.19</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_5\)</td>
+            <td rowspan="2">$(In_5$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>14.89</td>
@@ -1371,7 +1371,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>17.54</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_6\)</td>
+            <td rowspan="2">$(In_6$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>11.88</td>
@@ -1411,7 +1411,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>16.29</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_7\)</td>
+            <td rowspan="2">$(In_7$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>18.11</td>
@@ -1451,7 +1451,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>15.42</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_8\)</td>
+            <td rowspan="2">$(In_8$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>18.57</td>
@@ -1491,7 +1491,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>17.63</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_9\)</td>
+            <td rowspan="2">$(In_9$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>17.16</td>
@@ -1531,7 +1531,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>18.14</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{10}\)</td>
+            <td rowspan="2">$(In_{10}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>19.1</td>
@@ -1571,7 +1571,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>11.49</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{11}\)</td>
+            <td rowspan="2">$(In_{11}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>15.1</td>
@@ -1611,7 +1611,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>18.52</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{12}\)</td>
+            <td rowspan="2">$(In_{12}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>11.41</td>
@@ -1651,7 +1651,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>15.34</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{13}\)</td>
+            <td rowspan="2">$(In_{13}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>15.07</td>
@@ -1691,7 +1691,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>19.69</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{14}\)</td>
+            <td rowspan="2">$(In_{14}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>18.86</td>
@@ -1731,7 +1731,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>13.25</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{15}\)</td>
+            <td rowspan="2">$(In_{15}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>11.93</td>
@@ -1771,7 +1771,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>16.91</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{16}\)</td>
+            <td rowspan="2">$(In_{16}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>17.32</td>
@@ -1811,7 +1811,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>14.27</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{17}\)</td>
+            <td rowspan="2">$(In_{17}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>16.89</td>
@@ -1851,7 +1851,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>19.73</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{18}\)</td>
+            <td rowspan="2">$(In_{18}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>17.03</td>
@@ -1891,7 +1891,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>13.25</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{19}\)</td>
+            <td rowspan="2">$(In_{19}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>13.44</td>
@@ -1931,7 +1931,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>16.67</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{20}\)</td>
+            <td rowspan="2">$(In_{20}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>17.46</td>
@@ -1971,7 +1971,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>12.11</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{21}\)</td>
+            <td rowspan="2">$(In_{21}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>16.16</td>
@@ -2011,7 +2011,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>14.73</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{22}\)</td>
+            <td rowspan="2">$(In_{22}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>15.89</td>
@@ -2051,7 +2051,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>11.33</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{23}\)</td>
+            <td rowspan="2">$(In_{23}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>11.74</td>
@@ -2091,7 +2091,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>10.81</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{24}\)</td>
+            <td rowspan="2">$(In_{24}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>16.45</td>
@@ -2131,7 +2131,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>12.56</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{25}\)</td>
+            <td rowspan="2">$(In_{25}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>13.35</td>
@@ -2171,7 +2171,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>14.4</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{26}\)</td>
+            <td rowspan="2">$(In_{26}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>16.09</td>
@@ -2211,7 +2211,7 @@ Due to the falsification part, we use Python to implement a method based on deep
             <td>10.59</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_{27}\)</td>
+            <td rowspan="2">$(In_{27}$)</td>
             <td>min</td>
             <td>0.00</td>
             <td>11.73</td>
