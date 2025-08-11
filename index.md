@@ -742,29 +742,29 @@ Tab. 4 shows the six initial state sets used for normal behavior analysis. These
             <th>Set</th>
             <th>Route</th>
             <th>Bound</th>
-            <th>\(v_{x_1}\)</th>
-            <th>\(v_{y_1}\)</th>
-            <th>\(L_{x_1}\)</th>
-            <th>\(L_{y_1}\)</th>
-            <th>\(\theta_1\)</th>
-            <th>\(r_1\)</th>
-            <th>\(\delta_1\)</th>
-            <th>\(v_{x_2}\)</th>
-            <th>\(v_{y_2}\)</th>
-            <th>\(L_{x_2}\)</th>
-            <th>\(L_{y_2}\)</th>
-            <th>\(\theta_2\)</th>
-            <th>\(r_2\)</th>
-            <th>\(\delta_2\)</th>
-            <th>\(t\)</th>
-            <th>\(d_r\)</th>
-            <th>\(q\)</th>
+            <th>$(v_{x_1}$)</th>
+            <th>$(v_{y_1}$)</th>
+            <th>$(L_{x_1}$)</th>
+            <th>$(L_{y_1}$)</th>
+            <th>$(\theta_1$)</th>
+            <th>$(r_1$)</th>
+            <th>$(\delta_1$)</th>
+            <th>$(v_{x_2}$)</th>
+            <th>$(v_{y_2}$)</th>
+            <th>$(L_{x_2}$)</th>
+            <th>$(L_{y_2}$)</th>
+            <th>$(\theta_2$)</th>
+            <th>$(r_2$)</th>
+            <th>$(\delta_2$)</th>
+            <th>$(t$)</th>
+            <th>$(d_r$)</th>
+            <th>$(q$)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan="2">\(In_1\)</td>
-            <td rowspan="2">\(q_1\)</td>            
+            <td rowspan="2">$(In_1$)</td>
+            <td rowspan="2">$(q_1$)</td>            
             <td>min</td>
             <td>0.00</td>
             <td>17.00</td>
@@ -805,8 +805,8 @@ Tab. 4 shows the six initial state sets used for normal behavior analysis. These
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_2\)</td>
-            <td rowspan="2">\(q_2\)</td>            
+            <td rowspan="2">$(In_2$)</td>
+            <td rowspan="2">$(q_2$)</td>            
             <td>min</td>
             <td>0.00</td>
             <td>17.00</td>
@@ -847,8 +847,8 @@ Tab. 4 shows the six initial state sets used for normal behavior analysis. These
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_3\)</td>
-            <td rowspan="2">\(q_1\) -> \(q_2\)</td>            
+            <td rowspan="2">$(In_3$)</td>
+            <td rowspan="2">$(q_1$) -> $(q_2$)</td>            
             <td>min</td>
             <td>0.00</td>
             <td>17.00</td>
@@ -889,8 +889,8 @@ Tab. 4 shows the six initial state sets used for normal behavior analysis. These
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_4\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td rowspan="2">$(In_4$)</td>
+            <td rowspan="2">$(q_3$) -> $(q_4$)</td>            
             <td>min</td>
             <td>0.00</td>
             <td>19.99</td>
@@ -931,8 +931,8 @@ Tab. 4 shows the six initial state sets used for normal behavior analysis. These
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_5\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_2\)</td>            
+            <td rowspan="2">$(In_5$)</td>
+            <td rowspan="2">$(q_3$) -> $(q_2$)</td>            
             <td>min</td>
             <td>0.00</td>
             <td>15.09</td>
@@ -973,8 +973,8 @@ Tab. 4 shows the six initial state sets used for normal behavior analysis. These
             <td>1</td>
         </tr>
         <tr>
-            <td rowspan="2">\(In_6\)</td>
-            <td>\(q_3\) -> \(q_2\) -> \(q_3\)</td>            
+            <td rowspan="2">$(In_6$)</td>
+            <td>$(q_3$) -> $(q_2$) -> $(q_3$)</td>            
             <td>min</td>
             <td>0.00</td>
             <td>17.00</td>
@@ -995,7 +995,7 @@ Tab. 4 shows the six initial state sets used for normal behavior analysis. These
             <td>1</td>
         </tr>
         <tr>
-            <td>\(q_3\) -> \(q_2\)</td>
+            <td>$(q_3$) -> $(q_2$)</td>
             <td>max</td>
             <td>0.00</td>
             <td>17.01</td>
@@ -1029,29 +1029,29 @@ In order to further study the impact of attacks under this high-risk situation, 
             <th>Scenario</th>
             <th>Transition</th>
             <th>Bound</th>
-            <th>\(v_{x_1}\)</th>
-            <th>\(v_{y_1}\)</th>
-            <th>\(L_{x_1}\)</th>
-            <th>\(L_{y_1}\)</th>
-            <th>\(\theta_1\)</th>
-            <th>\(r_1\)</th>
-            <th>\(\delta_1\)</th>
-            <th>\(v_{x_2}\)</th>
-            <th>\(v_{y_2}\)</th>
-            <th>\(L_{x_2}\)</th>
-            <th>\(L_{y_2}\)</th>
-            <th>\(\theta_2\)</th>
-            <th>\(r_2\)</th>
-            <th>\(\delta_2\)</th>
-            <th>\(d_r\)</th>
-            <th>\(\omega_{d_r}\)</th>
-            <th>\(\omega_{v_{y_1}}\)</th>
+            <th>$(v_{x_1}$)</th>
+            <th>$(v_{y_1}$)</th>
+            <th>$(L_{x_1}$)</th>
+            <th>$(L_{y_1}$)</th>
+            <th>$(\theta_1$)</th>
+            <th>$(r_1$)</th>
+            <th>$(\delta_1$)</th>
+            <th>$(v_{x_2}$)</th>
+            <th>$(v_{y_2}$)</th>
+            <th>$(L_{x_2}$)</th>
+            <th>$(L_{y_2}$)</th>
+            <th>$(\theta_2$)</th>
+            <th>$(r_2$)</th>
+            <th>$(\delta_2$)</th>
+            <th>$(d_r$)</th>
+            <th>$(\omega_{d_r}$)</th>
+            <th>$(\omega_{v_{y_1}}$)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan="2">\(A_1\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td rowspan="2">$(A_1$)</td>
+            <td rowspan="2">$(q_3$) -> $(q_4$)</td>            
             <td>min</td>
             <td>0.00</td>
             <td>19.50</td>
@@ -1092,8 +1092,8 @@ In order to further study the impact of attacks under this high-risk situation, 
             <td>0.00</td>
         </tr>
         <tr>
-            <td rowspan="2">\(A_2\)</td>
-            <td rowspan="2">\(q_3\) -> \(q_4\)</td>            
+            <td rowspan="2">$(A_2$)</td>
+            <td rowspan="2">$(q_3$) -> $(q_4$)</td>            
             <td>min</td>
             <td>-0.01</td>
             <td>17.50</td>
