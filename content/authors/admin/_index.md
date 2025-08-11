@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-Lu Liu is a doctor of control science and engineering at Huazhong University of Science and Technology. Her research interests include formal analysis and reinforcement learning.
+xxx is a doctor of control science and engineering at Huazhong University of Science and Technology. Her research interests include formal analysis and reinforcement learning.
 {style="text-align: justify;"}
