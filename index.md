@@ -128,12 +128,11 @@ url_code: 'https://github.com/liuluddex/2D-ADAS-Verification'
   - [Invariance of Discrete Modes](#invariance-of-discrete-modes)
   - [Transition Relation](#transition-relation)
   - [Normal Behavior Analysis](#normal-behavior-analysis)
-  - [Reachable Sets with Cyberattacks](#reachable-sets-with-cyberattacks)
+  - [Reachable Sets with Attacks](#reachable-sets-with-attacks)
 - [Falsification with Deep Reinforcement Learning](#falsification)
   - [Tool Error Comparisons](#tool-error-comparisons)
-  - [Performance Comparison of Attack Path Search Algorithms](#performance-comparison-of-attack-path-search-algorithms)
-  - [Training of Deep Reinforcement Learning Models](#training-of-deep-reinforcement-learning-models)
-  - [Analysis of Energy Consumption](#analysis-of-energy-consumption)
+  - [Evaluation on Flow*](#evaluation-on-flow*)
+  - [Evaluation on CARLA/Scenic](#evaluation-on-CARLA/Scenic)
 
 <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -1192,10 +1191,7 @@ In order to further study the impact of attacks under this high-risk situation, 
 
 Fig. 2 shows the reachable sets of under $A_1$ with two attack targets. Each row shows a state variable: longitudinal speed, longitudinal position, and relative distance. The left column corresponds to the $A_1$-$d_r$, and the right column to $A_1$-$v_{y_1}$. Both cases lead to notable divergence in reachable sets, especially in $d_r$, revealing increased risk of safety violations.
 
-<figure>
-  <img src="content/project/2D-ADAS-Verification/images/reachable_sets_A1_0806_v1.pdf" alt="Fig. 2. Reachable Sets of A1.">
-  <figcaption>Fig. 2. Reachable Sets of $A_1$.</figcaption>
-</figure>
+![示例图片](content/project/2D-ADAS-Verification/images/reachable_sets_A1_0806_v1.pdf)
 
 
 ### Falsification with Deep Reinforcement Learning
@@ -2322,198 +2318,11 @@ In more detail, Fig. 4 shows the variation of relative distance over time for 27
 
 {{< figure src="images/tool_errors_comparison.svg" title="Fig. 4. Tool Error Tests." >}}
 
-#### Performance Comparison of Attack Path Search Algorithms
+#### Evaluation on Flow*
 
 We applied some traditional search algorithms as well as deep reinforcement learning algorithms to search for feasible attack paths. Among them, we have set limits on the maximum attack intensity per unit time and the total attack cost. Tab. 4 shows the performance comparison of attack path search algorithms. 
 
-<table>
-    <caption>Tab. 4. Performance Comparison of Attack Path Search Algorithms</caption>
-    <thead>
-        <tr>
-            <th rowspan="2">Algorithm</th>
-            <th colspan="4">Minimum Cost</th>
-            <th colspan="4">Successful Rate</th>
-            <th colspan="4">Time Cost</th>
-        </tr>
-        <tr>
-            <th>\(In_1\) - \(d_r\)</th>
-            <th>\(In_1\) - \(v_{y_1}\)</th>
-            <th>\(In_2\) - \(d_r\)</th>
-            <th>\(In_2\) - \(v_{y_1}\)</th>
-            <th>\(In_1\) - \(d_r\)</th>
-            <th>\(In_1\) - \(v_{y_1}\)</th>
-            <th>\(In_2\) - \(d_r\)</th>
-            <th>\(In_2\) - \(v_{y_1}\)</th>
-            <th>\(In_1\) - \(d_r\)</th>
-            <th>\(In_1\) - \(v_{y_1}\)</th>
-            <th>\(In_2\) - \(d_r\)</th>
-            <th>\(In_2\) - \(v_{y_1}\)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>CE</td>
-            <td>0.409</td>
-            <td>0.682</td>
-            <td>0.408</td>
-            <td>0.680</td>
-            <td>66.172%</td>
-            <td>71.860%</td>
-            <td>70.540%</td>
-            <td>65.882%</td>
-            <td>530.298</td>
-            <td>530.367</td>
-            <td>530.781</td>
-            <td>543.308</td>
-        </tr>
-        <tr>
-            <td>SA</td>
-            <td>0.412</td>
-            <td>0.680</td>
-            <td>0.410</td>
-            <td>0.676</td>
-            <td>89.649%</td>
-            <td>87.963%</td>
-            <td>89.769%</td>
-            <td>89.192%</td>
-            <td>116.361</td>
-            <td>116.419</td>
-            <td>115.903</td>
-            <td>115.419</td>
-        </tr>
-        <tr>
-            <td>WC</td>
-            <td>0.402</td>
-            <td>0.675</td>
-            <td>0.402</td>
-            <td>0.666</td>
-            <td>4.512%</td>
-            <td>1.216%</td>
-            <td>4.182%</td>
-            <td>1.623%</td>
-            <td>4573.060</td>
-            <td>4499.111</td>
-            <td>4675.637</td>
-            <td>4628.965</td>
-        </tr>
-        <tr>
-            <td>DP</td>
-            <td>0.400</td>
-            <td>0.667</td>
-            <td>0.400</td>
-            <td>0.665</td>
-            <td>13.947%</td>
-            <td>14.194%</td>
-            <td>12.938%</td>
-            <td>14.762%</td>
-            <td>11748.529</td>
-            <td>9949.106</td>
-            <td>12013.184</td>
-            <td>10234.273</td>
-        </tr>
-        <tr>
-            <td>A2C</td>
-            <td>0.408</td>
-            <td>0.678</td>
-            <td>0.405</td>
-            <td>0.682</td>
-            <td>1.456%</td>
-            <td>1.456%</td>
-            <td>2.427%</td>
-            <td>1.456%</td>
-            <td>179.092</td>
-            <td>175.254</td>
-            <td>174.752</td>
-            <td>185.398</td>
-        </tr>
-        <tr>
-            <td>DQN</td>
-            <td>0.406</td>
-            <td>0.674</td>
-            <td>0.404</td>
-            <td>0.670</td>
-            <td>40.673%</td>
-            <td>6.216%</td>
-            <td>32.662%</td>
-            <td>7.294%</td>
-            <td>494.224</td>
-            <td>484.012</td>
-            <td>643.709</td>
-            <td>513.895</td>
-        </tr>
-        <tr>
-            <td>PPO</td>
-            <td>0.403</td>
-            <td>0.671</td>
-            <td>0.402</td>
-            <td>0.669</td>
-            <td>11.111%</td>
-            <td>15.375%</td>
-            <td>36.190%</td>
-            <td>24.671%</td>
-            <td>386.462</td>
-            <td>389.381</td>
-            <td>387.235</td>
-            <td>385.952</td>
-        </tr>
-        <tr>
-            <td>A2C_Veri</td>
-            <td>0.406</td>
-            <td>0.678</td>
-            <td>0.407</td>
-            <td>0.675</td>
-            <td>13.967%</td>
-            <td>14.843%</td>
-            <td>18.932%</td>
-            <td>16.536%</td>
-            <td>167.412</td>
-            <td>168.568</td>
-            <td>167.465</td>
-            <td>163.122</td>
-        </tr>
-        <tr>
-            <td>DQN_Veri</td>
-            <td>0.402</td>
-            <td>0.672</td>
-            <td>0.400</td>
-            <td>0.671</td>
-            <td>27.311%</td>
-            <td>6.454%</td>
-            <td>28.444%</td>
-            <td>5.546%</td>
-            <td>469.901</td>
-            <td>488.809</td>
-            <td>556.677</td>
-            <td>558.064</td>
-        </tr>
-        <tr>
-            <td>PPO_Veri</td>
-            <td>0.400</td>
-            <td>0.668</td>
-            <td>0.401</td>
-            <td>0.665</td>
-            <td>25.163%</td>
-            <td>23.197%</td>
-            <td>21.075%</td>
-            <td>27.693%</td>
-            <td>371.192</td>
-            <td>381.942</td>
-            <td>375.038</td>
-            <td>369.173</td>
-        </tr>
-    </tbody>
-</table>
 
-It can be seen that DP can achieve the minimum attack cost, but it is very time-consuming. In comparison, PPO achieves an attack cost very close to DP, but takes much less time. This illustrates the superiority of deep reinforcement learning.
 
-#### Training of Deep Reinforcement Learning Models
+#### Evaluation on CARLA/Scenic
 
-We recorded all the deep reinforcement learning training processes, as shown in Fig. 5. Since smaller attack costs cannot cause the system to be in an unsafe state, the change in reward is not stable (the reward for failed exploration is smaller).
-
-{{< figure src="images/drl_model_training.svg" title="Fig. 5. DRL Models Training Comparison." >}}
-
-#### Analysis of Energy Consumption
-
-We compare the energy consumption of different algorithms, including running time, memory usage and CPU usage, as shown in Fig. 6. It can be found that deep reinforcement learning, especially PPO, has the highest efficiency and can quickly find low-cost feasible attack paths. In addition, its memory and CPU usage are relatively low, showing the advantages of falsification based on deep reinforcement learning.
-
-{{< figure src="images/energy_consumption.svg" title="Fig. 6. Energy Consumption Comparison." >}}

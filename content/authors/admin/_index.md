@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Lu Liu
+title: Enhanced Verification of Safety and Security for Advanced Driver Assistance Systems
 
 # Name pronunciation (optional)
 #name_pronunciation: Lu Liu
 
 # Full name (for SEO)
-first_name: Lu
-last_name: Liu
+first_name: Enhanced Verification of Safety and Security for Advanced Driver Assistance Systems
+last_name: 
 
 # Status emoji
 status:
